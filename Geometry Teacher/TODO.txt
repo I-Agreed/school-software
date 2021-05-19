@@ -1,3 +1,4 @@
 make animation box image list able to be set
 make it able to animate
 add image list as a property
+update validated text box to have a max length, max number of specific chars, etc

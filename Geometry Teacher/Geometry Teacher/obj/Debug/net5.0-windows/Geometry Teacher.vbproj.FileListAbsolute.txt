@@ -1,0 +1,19 @@
+L:\repos\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.exe
+L:\repos\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.deps.json
+L:\repos\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.runtimeconfig.json
+L:\repos\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.runtimeconfig.dev.json
+L:\repos\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.dll
+L:\repos\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\ref\Geometry Teacher.dll
+L:\repos\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.pdb
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Form1.resources
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.LearnShapeForm.resources
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbproj.GenerateResource.cache
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.GeneratedMSBuildEditorConfig.editorconfig
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.AssemblyInfoInputs.cache
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.AssemblyInfo.vb
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbproj.CoreCompileInputs.cache
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.dll
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\ref\Geometry Teacher.dll
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.pdb
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.genruntimeconfig.cache
+L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbprojAssemblyReference.cache

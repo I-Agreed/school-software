@@ -17,3 +17,23 @@ L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\ref\Geometry
 L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.pdb
 L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.genruntimeconfig.cache
 L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbprojAssemblyReference.cache
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.exe
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.deps.json
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.runtimeconfig.json
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.runtimeconfig.dev.json
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.dll
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\ref\Geometry Teacher.dll
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.pdb
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbprojAssemblyReference.cache
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.AnimationBox.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Form1.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.LearnShapeForm.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbproj.GenerateResource.cache
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.GeneratedMSBuildEditorConfig.editorconfig
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.AssemblyInfoInputs.cache
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.AssemblyInfo.vb
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbproj.CoreCompileInputs.cache
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.dll
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\ref\Geometry Teacher.dll
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.pdb
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.genruntimeconfig.cache

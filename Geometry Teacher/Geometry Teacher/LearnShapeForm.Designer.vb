@@ -27,6 +27,7 @@ Partial Class LearnShapeForm
         Me.formulaDisplay = New System.Windows.Forms.Label()
         Me.shapeTitle = New System.Windows.Forms.Label()
         Me.ValidatedTextBox1 = New Geometry_Teacher.ValidatedTextBox()
+        Me.AnimationBox1 = New Geometry_Teacher.AnimationBox()
         CType(Me.formulaImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -74,11 +75,23 @@ Partial Class LearnShapeForm
         Me.ValidatedTextBox1.Size = New System.Drawing.Size(100, 23)
         Me.ValidatedTextBox1.TabIndex = 4
         '
+        'AnimationBox1
+        '
+        Me.AnimationBox1.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.AnimationBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.AnimationBox1.FrameRate = 10
+        Me.AnimationBox1.Images = Nothing
+        Me.AnimationBox1.Location = New System.Drawing.Point(97, 172)
+        Me.AnimationBox1.Name = "AnimationBox1"
+        Me.AnimationBox1.Size = New System.Drawing.Size(150, 150)
+        Me.AnimationBox1.TabIndex = 5
+        '
         'LearnShapeForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.AnimationBox1)
         Me.Controls.Add(Me.ValidatedTextBox1)
         Me.Controls.Add(Me.shapeTitle)
         Me.Controls.Add(Me.formulaDisplay)
@@ -97,4 +110,5 @@ Partial Class LearnShapeForm
     Friend WithEvents formulaDisplay As Label
     Friend WithEvents shapeTitle As Label
     Friend WithEvents ValidatedTextBox1 As ValidatedTextBox
+    Friend WithEvents AnimationBox1 As AnimationBox
 End Class

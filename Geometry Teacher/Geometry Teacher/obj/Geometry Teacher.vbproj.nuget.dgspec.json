@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "L:\\repos\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj": {}
+    "\\\\SR8137CF01-FS02\\StudentUsers\\2022\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj": {}
   },
   "projects": {
-    "L:\\repos\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj": {
+    "\\\\SR8137CF01-FS02\\StudentUsers\\2022\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\repos\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj",
+        "projectUniqueName": "\\\\SR8137CF01-FS02\\StudentUsers\\2022\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj",
         "projectName": "Geometry Teacher",
-        "projectPath": "L:\\repos\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj",
+        "projectPath": "\\\\SR8137CF01-FS02\\StudentUsers\\2022\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj",
         "packagesPath": "C:\\Users\\444019361\\.nuget\\packages\\",
-        "outputPath": "L:\\repos\\Geometry Teacher\\Geometry Teacher\\obj\\",
+        "outputPath": "\\\\SR8137CF01-FS02\\StudentUsers\\2022\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -37,3 +37,25 @@ L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Tea
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\ref\Geometry Teacher.dll
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.pdb
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.genruntimeconfig.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.AnimationBox.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.LearnShapeForm.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbproj.GenerateResource.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.AssemblyInfoInputs.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.AssemblyInfo.vb
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbproj.CoreCompileInputs.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.dll
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\ref\Geometry Teacher.dll
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.pdb
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.exe
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.deps.json
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.runtimeconfig.json
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.runtimeconfig.dev.json
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.dll
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\ref\Geometry Teacher.dll
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.pdb
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.genruntimeconfig.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbprojAssemblyReference.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Root.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.ShapeSelectionMenu.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.ShapeSelectorButton.resources

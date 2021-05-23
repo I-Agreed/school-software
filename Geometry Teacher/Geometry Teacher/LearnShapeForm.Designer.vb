@@ -22,12 +22,15 @@ Partial Class LearnShapeForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LearnShapeForm))
         Me.formulaImage = New System.Windows.Forms.PictureBox()
         Me.formulaTitle = New System.Windows.Forms.Label()
         Me.formulaDisplay = New System.Windows.Forms.Label()
         Me.shapeTitle = New System.Windows.Forms.Label()
         Me.ValidatedTextBox1 = New Geometry_Teacher.ValidatedTextBox()
         Me.AnimationBox1 = New Geometry_Teacher.AnimationBox()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.formulaImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -80,11 +83,21 @@ Partial Class LearnShapeForm
         Me.AnimationBox1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.AnimationBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.AnimationBox1.FrameRate = 10
-        Me.AnimationBox1.Images = Nothing
-        Me.AnimationBox1.Location = New System.Drawing.Point(97, 172)
+        Me.AnimationBox1.Location = New System.Drawing.Point(94, 211)
+        Me.AnimationBox1.LoopAnimation = True
         Me.AnimationBox1.Name = "AnimationBox1"
+        Me.AnimationBox1.Paused = False
         Me.AnimationBox1.Size = New System.Drawing.Size(150, 150)
         Me.AnimationBox1.TabIndex = 5
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "bird3.jpg")
+        Me.ImageList1.Images.SetKeyName(1, "burning ship.png")
+        Me.ImageList1.Images.SetKeyName(2, "bepis man.jpg")
         '
         'LearnShapeForm
         '
@@ -111,4 +124,5 @@ Partial Class LearnShapeForm
     Friend WithEvents shapeTitle As Label
     Friend WithEvents ValidatedTextBox1 As ValidatedTextBox
     Friend WithEvents AnimationBox1 As AnimationBox
+    Friend WithEvents ImageList1 As ImageList
 End Class

@@ -8,7 +8,7 @@
 
         ' Add any initialization after the InitializeComponent() call.
 
-        learnShape = ShapeData.get_shape(shape)
+        learnShape = Root.Shapes.getShape(shape)
     End Sub
     Private Sub LearnShapeForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         shapeTitle.Text = learnShape.name
@@ -20,6 +20,8 @@
             formulaTitle.Text = "Area formula:"
             formulaDisplay.Text = learnShape.formula
         End If
+
+        AnimationBox1.loadImages(ImageList1)
     End Sub
 
     Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs)

@@ -1,8 +1,8 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class AnimationBox
-    Inherits System.Windows.Forms.UserControl
+Partial Class ShapeSelectionMenu
+    Inherits System.Windows.Forms.Form
 
-    'UserControl overrides dispose to clean up the component list.
+    'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
@@ -22,24 +22,27 @@ Partial Class AnimationBox
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Me.FrameTick = New System.Windows.Forms.Timer(Me.components)
+        Me.SelectorButtonsPanel = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
-        'FrameTick
+        'SelectorButtonsPanel
         '
-        Me.FrameTick.Enabled = True
+        Me.SelectorButtonsPanel.Location = New System.Drawing.Point(105, 75)
+        Me.SelectorButtonsPanel.Name = "SelectorButtonsPanel"
+        Me.SelectorButtonsPanel.Size = New System.Drawing.Size(578, 282)
+        Me.SelectorButtonsPanel.TabIndex = 0
         '
-        'AnimationBox
+        'ShapeSelectionMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Name = "AnimationBox"
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.SelectorButtonsPanel)
+        Me.Name = "ShapeSelectionMenu"
+        Me.Text = "ShapeSelectionMenu"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents FrameTick As Timer
+    Friend WithEvents SelectorButtonsPanel As Panel
 End Class

@@ -1,10 +1,15 @@
 ﻿Public Class ValidatedTextBox
     Property AllowedText As String = ""
+
+    Event ValidatedTextChanged()
+    Event InvalidTextEntered()
+
     Protected Overrides Sub OnPaint(ByVal e As System.Windows.Forms.PaintEventArgs)
         MyBase.OnPaint(e)
 
         'Add your custom paint code here
     End Sub
+
     Private Sub ValidatedTextBox_TextChanged(sender As Object, e As EventArgs) Handles MyClass.TextChanged
         If Not Me.DesignMode Then
             Dim text As String
@@ -22,6 +27,9 @@
             If text <> MyBase.Text Then
                 MyBase.Text = text
                 MyBase.Select(selection, 0)
+                RaiseEvent InvalidTextEntered()
+            Else
+                RaiseEvent ValidatedTextChanged()
             End If
         End If
     End Sub

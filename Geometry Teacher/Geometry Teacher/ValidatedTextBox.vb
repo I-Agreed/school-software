@@ -1,8 +1,9 @@
 ﻿Public Class ValidatedTextBox
     Property AllowedText As String = ""
+    Property whitelist As Boolean = True
 
-    Event ValidatedTextChanged()
-    Event InvalidTextEntered()
+    Event ValidatedTextChanged(ByVal sender As Object, ByVal e As EventArgs)
+    Event InvalidTextEntered(ByVal sender As Object, ByVal e As EventArgs)
 
     Protected Overrides Sub OnPaint(ByVal e As System.Windows.Forms.PaintEventArgs)
         MyBase.OnPaint(e)
@@ -19,17 +20,28 @@
             For i As Integer = 0 To Len(MyBase.Text) - 1
                 Dim letter As String
                 letter = MyBase.Text.Chars(i)
-                If AllowedText.Contains(letter) = False Then
-                    text = text.Replace(letter, String.Empty)
+                If whitelist Then
+                    If AllowedText.Contains(letter) = False Then
+                        text = text.Replace(letter, String.Empty)
+                    End If
+                Else
+                    If AllowedText.Contains(letter) = True Then
+                        text = text.Replace(letter, String.Empty)
+                    End If
                 End If
+
             Next
             selection -= Len(MyBase.Text) - Len(text)
             If text <> MyBase.Text Then
                 MyBase.Text = text
-                MyBase.Select(selection, 0)
-                RaiseEvent InvalidTextEntered()
+                Try
+                    MyBase.Select(selection, 0)
+                Catch a As ArgumentOutOfRangeException
+
+                End Try
+                RaiseEvent InvalidTextEntered(Me, New EventArgs())
             Else
-                RaiseEvent ValidatedTextChanged()
+                RaiseEvent ValidatedTextChanged(Me, New EventArgs())
             End If
         End If
     End Sub

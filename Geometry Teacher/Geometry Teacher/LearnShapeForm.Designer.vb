@@ -28,9 +28,10 @@ Partial Class LearnShapeForm
         Me.formulaTitle = New System.Windows.Forms.Label()
         Me.formulaDisplay = New System.Windows.Forms.Label()
         Me.shapeTitle = New System.Windows.Forms.Label()
-        Me.ValidatedTextBox1 = New Geometry_Teacher.ValidatedTextBox()
         Me.AnimationBox1 = New Geometry_Teacher.AnimationBox()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.resultLabel = New System.Windows.Forms.Label()
+        Me.inputPanel = New System.Windows.Forms.Panel()
         CType(Me.formulaImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,14 +71,6 @@ Partial Class LearnShapeForm
         Me.shapeTitle.TabIndex = 3
         Me.shapeTitle.Text = "Shape Title"
         '
-        'ValidatedTextBox1
-        '
-        Me.ValidatedTextBox1.AllowedText = "ehghdh"
-        Me.ValidatedTextBox1.Location = New System.Drawing.Point(350, 338)
-        Me.ValidatedTextBox1.Name = "ValidatedTextBox1"
-        Me.ValidatedTextBox1.Size = New System.Drawing.Size(100, 23)
-        Me.ValidatedTextBox1.TabIndex = 4
-        '
         'AnimationBox1
         '
         Me.AnimationBox1.BackColor = System.Drawing.SystemColors.ControlLightLight
@@ -99,13 +92,30 @@ Partial Class LearnShapeForm
         Me.ImageList1.Images.SetKeyName(1, "burning ship.png")
         Me.ImageList1.Images.SetKeyName(2, "bepis man.jpg")
         '
+        'resultLabel
+        '
+        Me.resultLabel.AutoSize = True
+        Me.resultLabel.Location = New System.Drawing.Point(541, 380)
+        Me.resultLabel.Name = "resultLabel"
+        Me.resultLabel.Size = New System.Drawing.Size(64, 15)
+        Me.resultLabel.TabIndex = 6
+        Me.resultLabel.Text = "resultLabel"
+        '
+        'inputPanel
+        '
+        Me.inputPanel.Location = New System.Drawing.Point(454, 261)
+        Me.inputPanel.Name = "inputPanel"
+        Me.inputPanel.Size = New System.Drawing.Size(200, 100)
+        Me.inputPanel.TabIndex = 7
+        '
         'LearnShapeForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.inputPanel)
+        Me.Controls.Add(Me.resultLabel)
         Me.Controls.Add(Me.AnimationBox1)
-        Me.Controls.Add(Me.ValidatedTextBox1)
         Me.Controls.Add(Me.shapeTitle)
         Me.Controls.Add(Me.formulaDisplay)
         Me.Controls.Add(Me.formulaTitle)
@@ -122,7 +132,8 @@ Partial Class LearnShapeForm
     Friend WithEvents formulaTitle As Label
     Friend WithEvents formulaDisplay As Label
     Friend WithEvents shapeTitle As Label
-    Friend WithEvents ValidatedTextBox1 As ValidatedTextBox
     Friend WithEvents AnimationBox1 As AnimationBox
     Friend WithEvents ImageList1 As ImageList
+    Friend WithEvents resultLabel As Label
+    Friend WithEvents inputPanel As Panel
 End Class

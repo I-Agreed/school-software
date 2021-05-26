@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj": {}
+    "C:\\Users\\Brend\\OneDrive\\Desktop\\school\\2021\\software\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj": {
+    "C:\\Users\\Brend\\OneDrive\\Desktop\\school\\2021\\software\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj",
+        "projectUniqueName": "C:\\Users\\Brend\\OneDrive\\Desktop\\school\\2021\\software\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj",
         "projectName": "Geometry Teacher",
-        "projectPath": "C:\\Users\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj",
-        "packagesPath": "C:\\Users\\444019361\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\444019361\\Desktop\\school-software\\Geometry Teacher\\Geometry Teacher\\obj\\",
+        "projectPath": "C:\\Users\\Brend\\OneDrive\\Desktop\\school\\2021\\software\\school-software\\Geometry Teacher\\Geometry Teacher\\Geometry Teacher.vbproj",
+        "packagesPath": "C:\\Users\\Brend\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brend\\OneDrive\\Desktop\\school\\2021\\software\\school-software\\Geometry Teacher\\Geometry Teacher\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\444019361\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Brend\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"
@@ -61,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

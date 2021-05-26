@@ -20,8 +20,8 @@
         Return 0
     End Function
 
-    Public Function calculate(args As Integer())
-        formula_func.Invoke(args)
+    Public Function calculate(args As Integer()) As Integer
+        Return formula_func.Invoke(args)
     End Function
 End Class
 

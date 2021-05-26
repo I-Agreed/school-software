@@ -97,9 +97,9 @@ Partial Class LearnShapeForm
         Me.resultLabel.AutoSize = True
         Me.resultLabel.Location = New System.Drawing.Point(541, 380)
         Me.resultLabel.Name = "resultLabel"
-        Me.resultLabel.Size = New System.Drawing.Size(64, 15)
+        Me.resultLabel.Size = New System.Drawing.Size(13, 15)
         Me.resultLabel.TabIndex = 6
-        Me.resultLabel.Text = "resultLabel"
+        Me.resultLabel.Text = "0"
         '
         'inputPanel
         '

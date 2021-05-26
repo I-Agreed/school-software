@@ -1,16 +1,11 @@
 ﻿Public Class ShapeData
-    Public shapes As New List(Of String)({"Square", "Rectangle"})
-    Public Square = New Shape("Square", "2D", "length * length", {"length"}, Function(x As Integer()) x(0) * x(0))
-    Public Rectangle = New Shape("Rectangle", "2D", "length * height", {"length", "height"}, Function(x As Integer()) x(1) * x(0))
+    Public shapes As New List(Of String)({"Square", "Rectangle", "Triangle"})
+    Public Property Square = New Shape("Square", "2D", "Length * Length", {"length"}, (Function(x As Integer()) x(0) * x(0)))
+    Public Property Rectangle = New Shape("Rectangle", "2D", "Length * Height", {"length", "height"}, (Function(x As Integer()) x(1) * x(0)))
+    Public Property Triangle = New Shape("Triangle", "2D", "1/2 * Base * Height", {"base", "height"}, (Function(x As Integer()) x(1) * x(0) * 0.5))
 
     Public Function getShape(s As String) As Shape
-        Select Case s.ToLower()
-            Case "square"
-                Return Square
-            Case "rectangle"
-                Return Rectangle
-        End Select
-        Return Nothing
+        Return CallByName(Me, s, CallType.Get)
     End Function
 
     Public Function getShapes2D() As List(Of String)

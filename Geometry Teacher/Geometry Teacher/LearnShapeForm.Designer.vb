@@ -31,6 +31,7 @@ Partial Class LearnShapeForm
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.resultLabel = New System.Windows.Forms.Label()
         Me.inputPanel = New System.Windows.Forms.Panel()
+        Me.BackButton1 = New Geometry_Teacher.BackButton()
         CType(Me.formulaImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -101,10 +102,20 @@ Partial Class LearnShapeForm
         Me.inputPanel.Size = New System.Drawing.Size(286, 167)
         Me.inputPanel.TabIndex = 7
         '
+        'BackButton1
+        '
+        Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BackButton1.Location = New System.Drawing.Point(91, 648)
+        Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
+        Me.BackButton1.Name = "BackButton1"
+        Me.BackButton1.Size = New System.Drawing.Size(50, 50)
+        Me.BackButton1.TabIndex = 8
+        '
         'LearnShapeForm
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.ClientSize = New System.Drawing.Size(1143, 750)
+        Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.inputPanel)
         Me.Controls.Add(Me.resultLabel)
         Me.Controls.Add(Me.shapeTitle)
@@ -127,4 +138,5 @@ Partial Class LearnShapeForm
     Friend WithEvents ImageList1 As ImageList
     Friend WithEvents resultLabel As Label
     Friend WithEvents inputPanel As Panel
+    Friend WithEvents BackButton1 As BackButton
 End Class

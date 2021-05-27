@@ -24,10 +24,12 @@ Partial Class Root
     Private Sub InitializeComponent()
         Me.open3DButton = New System.Windows.Forms.Button()
         Me.open2DButton = New System.Windows.Forms.Button()
+        Me.testButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'open3DButton
         '
+        Me.open3DButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.open3DButton.Location = New System.Drawing.Point(471, 350)
         Me.open3DButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.open3DButton.Name = "open3DButton"
@@ -38,6 +40,7 @@ Partial Class Root
         '
         'open2DButton
         '
+        Me.open2DButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.open2DButton.Location = New System.Drawing.Point(431, 505)
         Me.open2DButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.open2DButton.Name = "open2DButton"
@@ -46,10 +49,21 @@ Partial Class Root
         Me.open2DButton.Text = "2D"
         Me.open2DButton.UseVisualStyleBackColor = True
         '
+        'testButton
+        '
+        Me.testButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.testButton.Location = New System.Drawing.Point(710, 132)
+        Me.testButton.Name = "testButton"
+        Me.testButton.Size = New System.Drawing.Size(112, 34)
+        Me.testButton.TabIndex = 2
+        Me.testButton.Text = "tests"
+        Me.testButton.UseVisualStyleBackColor = True
+        '
         'Root
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.ClientSize = New System.Drawing.Size(1143, 750)
+        Me.Controls.Add(Me.testButton)
         Me.Controls.Add(Me.open2DButton)
         Me.Controls.Add(Me.open3DButton)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
@@ -61,4 +75,5 @@ Partial Class Root
 
     Friend WithEvents open3DButton As Button
     Friend WithEvents open2DButton As Button
+    Friend WithEvents testButton As Button
 End Class

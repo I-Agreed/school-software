@@ -14,10 +14,9 @@
         formula_func = ff
     End Sub
 
-    Public Function open()
+    Public Function getForm() As Form
         Dim f = New LearnShapeForm(Me.name)
-        f.Show()
-        Return 0
+        Return f
     End Function
 
     Public Function calculate(args As Integer()) As Integer

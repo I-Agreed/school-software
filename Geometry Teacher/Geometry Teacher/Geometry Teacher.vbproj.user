@@ -7,6 +7,9 @@
     <Compile Update="AnimationBox.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="BackButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Root.vb">
       <SubType>Form</SubType>
     </Compile>

@@ -23,6 +23,7 @@ Partial Class ShapeSelectionMenu
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.SelectorButtonsPanel = New System.Windows.Forms.Panel()
+        Me.BackButton1 = New Geometry_Teacher.BackButton()
         Me.SuspendLayout()
         '
         'SelectorButtonsPanel
@@ -34,10 +35,20 @@ Partial Class ShapeSelectionMenu
         Me.SelectorButtonsPanel.Size = New System.Drawing.Size(826, 623)
         Me.SelectorButtonsPanel.TabIndex = 0
         '
+        'BackButton1
+        '
+        Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BackButton1.Location = New System.Drawing.Point(17, 691)
+        Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
+        Me.BackButton1.Name = "BackButton1"
+        Me.BackButton1.Size = New System.Drawing.Size(50, 50)
+        Me.BackButton1.TabIndex = 1
+        '
         'ShapeSelectionMenu
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.ClientSize = New System.Drawing.Size(1143, 750)
+        Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.SelectorButtonsPanel)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "ShapeSelectionMenu"
@@ -47,4 +58,5 @@ Partial Class ShapeSelectionMenu
     End Sub
 
     Friend WithEvents SelectorButtonsPanel As Panel
+    Friend WithEvents BackButton1 As BackButton
 End Class

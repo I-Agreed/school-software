@@ -82,3 +82,5 @@ C:\Users\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj
 C:\Users\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.pdb
 C:\Users\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.genruntimeconfig.cache
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestForm.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestOpenForm.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.BackButton.resources

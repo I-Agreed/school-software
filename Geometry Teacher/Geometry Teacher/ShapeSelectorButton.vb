@@ -33,6 +33,6 @@
     End Sub
 
     Function open()
-        shape.open()
+        Root.openForm(Me.ParentForm, shape.getForm())
     End Function
 End Class

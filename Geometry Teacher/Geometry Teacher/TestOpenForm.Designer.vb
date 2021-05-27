@@ -22,60 +22,83 @@ Partial Class TestOpenForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.select2D = New System.Windows.Forms.RadioButton()
+        Me.select3D = New System.Windows.Forms.RadioButton()
+        Me.selectBoth = New System.Windows.Forms.RadioButton()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.BackButton1 = New Geometry_Teacher.BackButton()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'RadioButton1
+        'select2D
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(154, 309)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(146, 29)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "RadioButton1"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.select2D.AutoSize = True
+        Me.select2D.Location = New System.Drawing.Point(3, 3)
+        Me.select2D.Name = "select2D"
+        Me.select2D.Size = New System.Drawing.Size(120, 29)
+        Me.select2D.TabIndex = 0
+        Me.select2D.TabStop = True
+        Me.select2D.Text = "2D shapes"
+        Me.select2D.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'select3D
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(321, 309)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(146, 29)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "RadioButton2"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.select3D.AutoSize = True
+        Me.select3D.Location = New System.Drawing.Point(129, 3)
+        Me.select3D.Name = "select3D"
+        Me.select3D.Size = New System.Drawing.Size(120, 29)
+        Me.select3D.TabIndex = 1
+        Me.select3D.TabStop = True
+        Me.select3D.Text = "3D shapes"
+        Me.select3D.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'selectBoth
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(473, 309)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(146, 29)
-        Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "RadioButton3"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.selectBoth.AutoSize = True
+        Me.selectBoth.Location = New System.Drawing.Point(255, 3)
+        Me.selectBoth.Name = "selectBoth"
+        Me.selectBoth.Size = New System.Drawing.Size(117, 29)
+        Me.selectBoth.TabIndex = 2
+        Me.selectBoth.TabStop = True
+        Me.selectBoth.Text = "All shapes"
+        Me.selectBoth.UseVisualStyleBackColor = True
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.select3D)
+        Me.Panel1.Controls.Add(Me.selectBoth)
+        Me.Panel1.Controls.Add(Me.select2D)
+        Me.Panel1.Location = New System.Drawing.Point(458, 455)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(372, 32)
+        Me.Panel1.TabIndex = 3
+        '
+        'BackButton1
+        '
+        Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BackButton1.Location = New System.Drawing.Point(72, 559)
+        Me.BackButton1.Name = "BackButton1"
+        Me.BackButton1.Size = New System.Drawing.Size(50, 50)
+        Me.BackButton1.TabIndex = 4
         '
         'TestOpenForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1143, 750)
-        Me.Controls.Add(Me.RadioButton3)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
+        Me.Controls.Add(Me.BackButton1)
+        Me.Controls.Add(Me.Panel1)
         Me.Name = "TestOpenForm"
         Me.Text = "TestOpenForm"
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
+    Friend WithEvents select2D As RadioButton
+    Friend WithEvents select3D As RadioButton
+    Friend WithEvents selectBoth As RadioButton
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents BackButton1 As BackButton
 End Class

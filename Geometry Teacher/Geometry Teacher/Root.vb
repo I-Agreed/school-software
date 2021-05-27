@@ -8,6 +8,11 @@
         menu.Show()
     End Function
 
+    Function openTest(type As String)
+        Dim test As New TestOpenForm(type)
+        test.Show()
+    End Function
+
     Private Sub open3DButton_Click(sender As Object, e As EventArgs) Handles open3DButton.Click
         openSelection("3D")
     End Sub

@@ -19,14 +19,16 @@
                 shapes = Root.Shapes.getShapes2D()
             Case "3D"
                 shapes = Root.Shapes.getShapes3D()
+            Case Else
+                shapes = New List(Of String)
         End Select
         For Each s As String In shapes
             Dim button As New ShapeSelectorButton(s)
-            selectorButtons.Add(button)
             With button
                 .Location = New Point(.Width * (selectorButtons.Count Mod buttonColumns), .Height * (selectorButtons.Count \ buttonColumns))
                 .Visible = True
             End With
+            selectorButtons.Add(button)
             SelectorButtonsPanel.Controls.Add(button)
         Next
     End Sub

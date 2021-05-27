@@ -28,29 +28,31 @@ Partial Class Root
         '
         'open3DButton
         '
-        Me.open3DButton.Location = New System.Drawing.Point(330, 210)
+        Me.open3DButton.Location = New System.Drawing.Point(471, 350)
+        Me.open3DButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.open3DButton.Name = "open3DButton"
-        Me.open3DButton.Size = New System.Drawing.Size(75, 23)
+        Me.open3DButton.Size = New System.Drawing.Size(107, 38)
         Me.open3DButton.TabIndex = 0
         Me.open3DButton.Text = "3D"
         Me.open3DButton.UseVisualStyleBackColor = True
         '
         'open2DButton
         '
-        Me.open2DButton.Location = New System.Drawing.Point(302, 303)
+        Me.open2DButton.Location = New System.Drawing.Point(431, 505)
+        Me.open2DButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.open2DButton.Name = "open2DButton"
-        Me.open2DButton.Size = New System.Drawing.Size(75, 23)
+        Me.open2DButton.Size = New System.Drawing.Size(107, 38)
         Me.open2DButton.TabIndex = 1
         Me.open2DButton.Text = "2D"
         Me.open2DButton.UseVisualStyleBackColor = True
         '
         'Root
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.ClientSize = New System.Drawing.Size(1143, 750)
         Me.Controls.Add(Me.open2DButton)
         Me.Controls.Add(Me.open3DButton)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Root"
         Me.Text = "Form1"
         Me.ResumeLayout(False)

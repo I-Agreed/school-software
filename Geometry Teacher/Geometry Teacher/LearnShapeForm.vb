@@ -3,6 +3,7 @@
     Dim learnShape As Shape
     Public inputLabels As New List(Of Label)
     Public inputBoxes As New List(Of ValidatedTextBox)
+    Public inputUnits As New List(Of Label)
     Public Sub New(shape As String)
 
         ' This call is required by the designer.
@@ -27,9 +28,9 @@
         For i As Integer = 0 To learnShape.params.Count - 1
             Dim l = New Label
             With l
-                .Location = New Point(0, 20 * i)
+                .Location = New Point(0, 40 * i)
                 .AutoSize = False
-                .Width = 50
+                .Size = New Size(70, 25)
                 .Text = learnShape.params(i) + ":"
                 .TextAlign = ContentAlignment.MiddleRight
             End With
@@ -38,7 +39,8 @@
 
             Dim b = New ValidatedTextBox
             With b
-                .Location = New Point(50, 26 * i)
+                .Location = New Point(70, 40 * i)
+                .Size = New Size(30, 25)
                 .AllowedText = "1234567890"
                 .Text = "0"
                 .MaxLength = 2
@@ -46,13 +48,24 @@
             Me.inputPanel.Controls.Add(b)
             inputBoxes.Add(b)
             AddHandler b.ValidatedTextChanged, AddressOf inputUpdate
+
+            Dim l2 = New Label
+            With l2
+                .Location = New Point(100, 40 * i)
+                .AutoSize = False
+                .Size = New Size(40, 25)
+                .Text = "cm"
+                .TextAlign = ContentAlignment.MiddleLeft
+            End With
+            Me.inputPanel.Controls.Add(l2)
+            inputLabels.Add(l2)
         Next
 
-        AnimationBox1.loadImages(ImageList1)
+        resultLabel.Text = "0 " + Root.Shapes.getUnit(learnShape.type)
     End Sub
 
     Private Sub inputUpdate()
-        resultLabel.Text = learnShape.calculate(getArgs())
+        resultLabel.Text = learnShape.calculate(getArgs()).ToString() + " " + Root.Shapes.getUnit(learnShape.type)
     End Sub
 
     Function getArgs() As Integer()

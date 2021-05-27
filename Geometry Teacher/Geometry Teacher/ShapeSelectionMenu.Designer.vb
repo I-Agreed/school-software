@@ -27,17 +27,19 @@ Partial Class ShapeSelectionMenu
         '
         'SelectorButtonsPanel
         '
-        Me.SelectorButtonsPanel.Location = New System.Drawing.Point(105, 75)
+        Me.SelectorButtonsPanel.BackColor = System.Drawing.SystemColors.Control
+        Me.SelectorButtonsPanel.Location = New System.Drawing.Point(17, 20)
+        Me.SelectorButtonsPanel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.SelectorButtonsPanel.Name = "SelectorButtonsPanel"
-        Me.SelectorButtonsPanel.Size = New System.Drawing.Size(578, 282)
+        Me.SelectorButtonsPanel.Size = New System.Drawing.Size(826, 623)
         Me.SelectorButtonsPanel.TabIndex = 0
         '
         'ShapeSelectionMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.ClientSize = New System.Drawing.Size(1143, 750)
         Me.Controls.Add(Me.SelectorButtonsPanel)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "ShapeSelectionMenu"
         Me.Text = "ShapeSelectionMenu"
         Me.ResumeLayout(False)

@@ -9,6 +9,12 @@
     Public Property Cube = New Shape("Cube", "3D", "Length * Length * Length", {"length"}, (Function(x As Integer()) x(0) * x(0) * x(0)))
     Public Property RectangularPrism = New Shape("Rectangular Prism", "3D", "Length * Width * Height", {"length", "width", "height"}, (Function(x As Integer()) x(0) * x(1) * x(2)))
 
+    Default Public ReadOnly Property Item(ByVal name As String) As Shape
+        Get
+            Return getShape(name)
+        End Get
+    End Property
+
     Public Function getShape(s As String) As Shape
         Return CallByName(Me, s.Replace(" ", ""), CallType.Get)
     End Function

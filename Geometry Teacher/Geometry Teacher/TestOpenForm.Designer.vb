@@ -27,6 +27,9 @@ Partial Class TestOpenForm
         Me.selectBoth = New System.Windows.Forms.RadioButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.BackButton1 = New Geometry_Teacher.BackButton()
+        Me.selectCalculator = New System.Windows.Forms.CheckBox()
+        Me.selectHints = New System.Windows.Forms.CheckBox()
+        Me.selectMultipleChoice = New System.Windows.Forms.CheckBox()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -77,15 +80,49 @@ Partial Class TestOpenForm
         '
         Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BackButton1.Location = New System.Drawing.Point(72, 559)
+        Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
         Me.BackButton1.Name = "BackButton1"
         Me.BackButton1.Size = New System.Drawing.Size(50, 50)
         Me.BackButton1.TabIndex = 4
+        '
+        'selectCalculator
+        '
+        Me.selectCalculator.AutoSize = True
+        Me.selectCalculator.Location = New System.Drawing.Point(713, 176)
+        Me.selectCalculator.Name = "selectCalculator"
+        Me.selectCalculator.Size = New System.Drawing.Size(173, 29)
+        Me.selectCalculator.TabIndex = 5
+        Me.selectCalculator.Text = "Enable Calculator"
+        Me.selectCalculator.UseVisualStyleBackColor = True
+        '
+        'selectHints
+        '
+        Me.selectHints.AutoSize = True
+        Me.selectHints.Location = New System.Drawing.Point(634, 239)
+        Me.selectHints.Name = "selectHints"
+        Me.selectHints.Size = New System.Drawing.Size(128, 29)
+        Me.selectHints.TabIndex = 6
+        Me.selectHints.Text = "Show Hints"
+        Me.selectHints.UseVisualStyleBackColor = True
+        '
+        'selectMultipleChoice
+        '
+        Me.selectMultipleChoice.AutoSize = True
+        Me.selectMultipleChoice.Location = New System.Drawing.Point(634, 287)
+        Me.selectMultipleChoice.Name = "selectMultipleChoice"
+        Me.selectMultipleChoice.Size = New System.Drawing.Size(160, 29)
+        Me.selectMultipleChoice.TabIndex = 7
+        Me.selectMultipleChoice.Text = "Multiple Choice"
+        Me.selectMultipleChoice.UseVisualStyleBackColor = True
         '
         'TestOpenForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1143, 750)
+        Me.Controls.Add(Me.selectMultipleChoice)
+        Me.Controls.Add(Me.selectHints)
+        Me.Controls.Add(Me.selectCalculator)
         Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "TestOpenForm"
@@ -93,6 +130,7 @@ Partial Class TestOpenForm
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -101,4 +139,7 @@ Partial Class TestOpenForm
     Friend WithEvents selectBoth As RadioButton
     Friend WithEvents Panel1 As Panel
     Friend WithEvents BackButton1 As BackButton
+    Friend WithEvents selectCalculator As CheckBox
+    Friend WithEvents selectHints As CheckBox
+    Friend WithEvents selectMultipleChoice As CheckBox
 End Class

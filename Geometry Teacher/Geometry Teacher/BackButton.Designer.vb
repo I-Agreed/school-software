@@ -22,32 +22,32 @@ Partial Class BackButton
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.backIcon = New System.Windows.Forms.PictureBox()
+        CType(Me.backIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox1
+        'backIcon
         '
-        Me.PictureBox1.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.backIcon.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.backIcon.Location = New System.Drawing.Point(0, 0)
+        Me.backIcon.Margin = New System.Windows.Forms.Padding(0)
+        Me.backIcon.Name = "backIcon"
+        Me.backIcon.Size = New System.Drawing.Size(50, 50)
+        Me.backIcon.TabIndex = 0
+        Me.backIcon.TabStop = False
         '
         'BackButton
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Controls.Add(Me.PictureBox1)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.Controls.Add(Me.backIcon)
         Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "BackButton"
         Me.Size = New System.Drawing.Size(50, 50)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.backIcon, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents backIcon As PictureBox
 End Class

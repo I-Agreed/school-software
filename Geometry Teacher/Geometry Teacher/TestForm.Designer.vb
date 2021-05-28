@@ -26,9 +26,10 @@ Partial Class TestForm
         '
         'TestForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.ClientSize = New System.Drawing.Size(1143, 750)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "TestForm"
         Me.Text = "TestForm"
         Me.ResumeLayout(False)

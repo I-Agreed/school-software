@@ -29,16 +29,16 @@ Partial Class ShapeSelectionMenu
         'SelectorButtonsPanel
         '
         Me.SelectorButtonsPanel.BackColor = System.Drawing.SystemColors.Control
-        Me.SelectorButtonsPanel.Location = New System.Drawing.Point(17, 20)
+        Me.SelectorButtonsPanel.Location = New System.Drawing.Point(13, 14)
         Me.SelectorButtonsPanel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.SelectorButtonsPanel.Name = "SelectorButtonsPanel"
-        Me.SelectorButtonsPanel.Size = New System.Drawing.Size(826, 623)
+        Me.SelectorButtonsPanel.Size = New System.Drawing.Size(774, 375)
         Me.SelectorButtonsPanel.TabIndex = 0
         '
         'BackButton1
         '
         Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BackButton1.Location = New System.Drawing.Point(17, 691)
+        Me.BackButton1.Location = New System.Drawing.Point(61, 391)
         Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
         Me.BackButton1.Name = "BackButton1"
         Me.BackButton1.Size = New System.Drawing.Size(50, 50)
@@ -47,7 +47,7 @@ Partial Class ShapeSelectionMenu
         'ShapeSelectionMenu
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.ClientSize = New System.Drawing.Size(1143, 750)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.SelectorButtonsPanel)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)

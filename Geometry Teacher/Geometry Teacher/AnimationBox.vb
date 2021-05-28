@@ -5,6 +5,7 @@
     Private Property Images = New List(Of Image)
 
     Private imageIndex As Integer = 0
+    Event animationEnd(ByVal sender As Object, ByVal e As EventArgs)
 
     Private Sub AnimationBox_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If Not Me.DesignMode Then
@@ -50,6 +51,7 @@
                     imageIndex = 0
                     setBackground(imageIndex)
                 End If
+                RaiseEvent animationEnd(Me, New EventArgs())
             Else
                 setBackground(imageIndex)
             End If

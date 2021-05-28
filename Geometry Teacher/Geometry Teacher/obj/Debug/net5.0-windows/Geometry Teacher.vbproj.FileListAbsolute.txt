@@ -26,7 +26,6 @@ L:\repos\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Tea
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\bin\Debug\net5.0-windows\Geometry Teacher.pdb
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbprojAssemblyReference.cache
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.AnimationBox.resources
-\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Form1.resources
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.LearnShapeForm.resources
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.vbproj.GenerateResource.cache
 \\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.GeneratedMSBuildEditorConfig.editorconfig
@@ -85,3 +84,10 @@ C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Te
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestOpenForm.resources
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.BackButton.resources
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.MainMenu.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.BackButton.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.MainMenu.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Root.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.ShapeSelectionMenu.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.ShapeSelectorButton.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestForm.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestOpenForm.resources

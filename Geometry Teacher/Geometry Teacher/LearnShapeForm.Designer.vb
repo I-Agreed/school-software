@@ -50,7 +50,7 @@ Partial Class LearnShapeForm
         Me.formulaTitle.Location = New System.Drawing.Point(649, 400)
         Me.formulaTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formulaTitle.Name = "formulaTitle"
-        Me.formulaTitle.Size = New System.Drawing.Size(110, 25)
+        Me.formulaTitle.Size = New System.Drawing.Size(74, 15)
         Me.formulaTitle.TabIndex = 1
         Me.formulaTitle.Text = "formulaTitle:"
         '
@@ -61,7 +61,7 @@ Partial Class LearnShapeForm
         Me.formulaDisplay.Location = New System.Drawing.Point(810, 400)
         Me.formulaDisplay.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formulaDisplay.Name = "formulaDisplay"
-        Me.formulaDisplay.Size = New System.Drawing.Size(74, 25)
+        Me.formulaDisplay.Size = New System.Drawing.Size(49, 15)
         Me.formulaDisplay.TabIndex = 2
         Me.formulaDisplay.Text = "formula"
         '
@@ -71,7 +71,7 @@ Partial Class LearnShapeForm
         Me.shapeTitle.Location = New System.Drawing.Point(404, 98)
         Me.shapeTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.shapeTitle.Name = "shapeTitle"
-        Me.shapeTitle.Size = New System.Drawing.Size(98, 25)
+        Me.shapeTitle.Size = New System.Drawing.Size(64, 15)
         Me.shapeTitle.TabIndex = 3
         Me.shapeTitle.Text = "Shape Title"
         '
@@ -90,7 +90,7 @@ Partial Class LearnShapeForm
         Me.resultLabel.Location = New System.Drawing.Point(773, 633)
         Me.resultLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.resultLabel.Name = "resultLabel"
-        Me.resultLabel.Size = New System.Drawing.Size(22, 25)
+        Me.resultLabel.Size = New System.Drawing.Size(13, 15)
         Me.resultLabel.TabIndex = 6
         Me.resultLabel.Text = "0"
         '
@@ -113,7 +113,8 @@ Partial Class LearnShapeForm
         '
         'LearnShapeForm
         '
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(1143, 750)
         Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.inputPanel)

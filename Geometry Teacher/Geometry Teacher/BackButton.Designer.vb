@@ -46,7 +46,9 @@ Partial Class BackButton
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.BackColor = System.Drawing.Color.Transparent
         Me.Controls.Add(Me.backIcon)
+        Me.DoubleBuffered = True
         Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "BackButton"
         Me.Size = New System.Drawing.Size(50, 50)

@@ -27,6 +27,7 @@ Partial Class TestReviewItem
         Me.Title = New System.Windows.Forms.Label()
         Me.correctIcon = New System.Windows.Forms.PictureBox()
         Me.icons = New System.Windows.Forms.ImageList(Me.components)
+        Me.reviewItemHelp = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.correctIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -39,6 +40,7 @@ Partial Class TestReviewItem
         Me.Title.TabIndex = 0
         Me.Title.Text = "Question 10:"
         Me.Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.reviewItemHelp.SetToolTip(Me.Title, "Click to show question")
         '
         'correctIcon
         '
@@ -51,6 +53,7 @@ Partial Class TestReviewItem
         Me.correctIcon.Size = New System.Drawing.Size(27, 27)
         Me.correctIcon.TabIndex = 1
         Me.correctIcon.TabStop = False
+        Me.reviewItemHelp.SetToolTip(Me.correctIcon, "Click to show question")
         '
         'icons
         '
@@ -70,6 +73,7 @@ Partial Class TestReviewItem
         Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "TestReviewItem"
         Me.Size = New System.Drawing.Size(154, 30)
+        Me.reviewItemHelp.SetToolTip(Me, "Click to show question")
         CType(Me.correctIcon, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -78,4 +82,5 @@ Partial Class TestReviewItem
     Friend WithEvents Title As Label
     Friend WithEvents correctIcon As PictureBox
     Friend WithEvents icons As ImageList
+    Friend WithEvents reviewItemHelp As ToolTip
 End Class

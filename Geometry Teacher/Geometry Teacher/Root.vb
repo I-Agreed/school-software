@@ -42,4 +42,12 @@
     Sub hideCalc()
         calc.Hide()
     End Sub
+
+    Sub dont(ByVal sender As Object, e As FormClosedEventArgs) Handles MyBase.Closed
+        Dim result = MsgBox("Are you sure you want to exit?", vbYesNo + vbCritical)
+        If result = vbYes Then
+        Else
+            e.cancel = True
+        End If
+    End Sub
 End Class

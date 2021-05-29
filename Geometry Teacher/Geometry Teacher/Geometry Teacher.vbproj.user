@@ -16,6 +16,9 @@
     <Compile Update="CalculatorButton.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="ExitButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>

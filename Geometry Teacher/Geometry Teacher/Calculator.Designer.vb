@@ -68,6 +68,7 @@ Partial Class Calculator
         'plusButton
         '
         Me.plusButton.BackColor = System.Drawing.Color.DarkGray
+        Me.plusButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.plusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.plusButton.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.plusButton.Location = New System.Drawing.Point(192, 73)
@@ -81,6 +82,7 @@ Partial Class Calculator
         'minusButton
         '
         Me.minusButton.BackColor = System.Drawing.Color.DarkGray
+        Me.minusButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.minusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.minusButton.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.minusButton.Location = New System.Drawing.Point(192, 129)
@@ -94,6 +96,7 @@ Partial Class Calculator
         'divideButton
         '
         Me.divideButton.BackColor = System.Drawing.Color.DarkGray
+        Me.divideButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.divideButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.divideButton.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.divideButton.Location = New System.Drawing.Point(192, 241)
@@ -107,6 +110,7 @@ Partial Class Calculator
         'multiplyButton
         '
         Me.multiplyButton.BackColor = System.Drawing.Color.DarkGray
+        Me.multiplyButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.multiplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.multiplyButton.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.multiplyButton.Location = New System.Drawing.Point(192, 185)
@@ -120,6 +124,7 @@ Partial Class Calculator
         'equalsButton
         '
         Me.equalsButton.BackColor = System.Drawing.Color.MediumSeaGreen
+        Me.equalsButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.equalsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.equalsButton.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.equalsButton.Location = New System.Drawing.Point(192, 297)
@@ -133,6 +138,7 @@ Partial Class Calculator
         'button0
         '
         Me.button0.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button0.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button0.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button0.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button0.Location = New System.Drawing.Point(12, 297)
@@ -146,6 +152,7 @@ Partial Class Calculator
         'button1
         '
         Me.button1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button1.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button1.Location = New System.Drawing.Point(12, 129)
@@ -159,6 +166,7 @@ Partial Class Calculator
         'button2
         '
         Me.button2.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button2.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button2.Location = New System.Drawing.Point(68, 129)
@@ -172,6 +180,7 @@ Partial Class Calculator
         'button3
         '
         Me.button3.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button3.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button3.Location = New System.Drawing.Point(124, 129)
@@ -185,6 +194,7 @@ Partial Class Calculator
         'button4
         '
         Me.button4.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button4.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button4.Location = New System.Drawing.Point(12, 184)
@@ -198,6 +208,7 @@ Partial Class Calculator
         'button5
         '
         Me.button5.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button5.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button5.Location = New System.Drawing.Point(68, 185)
@@ -211,6 +222,7 @@ Partial Class Calculator
         'button6
         '
         Me.button6.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button6.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button6.Location = New System.Drawing.Point(124, 185)
@@ -224,6 +236,7 @@ Partial Class Calculator
         'button7
         '
         Me.button7.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button7.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button7.Location = New System.Drawing.Point(12, 241)
@@ -237,6 +250,7 @@ Partial Class Calculator
         'button8
         '
         Me.button8.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button8.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button8.Location = New System.Drawing.Point(68, 241)
@@ -250,6 +264,7 @@ Partial Class Calculator
         'button9
         '
         Me.button9.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.button9.Cursor = System.Windows.Forms.Cursors.Hand
         Me.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.button9.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.button9.Location = New System.Drawing.Point(124, 241)
@@ -263,6 +278,7 @@ Partial Class Calculator
         'clearButton
         '
         Me.clearButton.BackColor = System.Drawing.Color.DarkOrange
+        Me.clearButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.clearButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.clearButton.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.clearButton.Location = New System.Drawing.Point(124, 73)
@@ -276,6 +292,7 @@ Partial Class Calculator
         'delButton
         '
         Me.delButton.BackColor = System.Drawing.Color.DarkOrange
+        Me.delButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.delButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.delButton.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.delButton.Location = New System.Drawing.Point(68, 297)
@@ -289,6 +306,7 @@ Partial Class Calculator
         'ACButton
         '
         Me.ACButton.BackColor = System.Drawing.Color.DarkOrange
+        Me.ACButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ACButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ACButton.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.ACButton.Location = New System.Drawing.Point(12, 73)

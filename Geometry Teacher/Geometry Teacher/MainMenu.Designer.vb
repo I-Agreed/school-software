@@ -22,9 +22,11 @@ Partial Class MainMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
         Me.testButton = New System.Windows.Forms.Button()
         Me.open2DButton = New System.Windows.Forms.Button()
         Me.open3DButton = New System.Windows.Forms.Button()
+        Me.ExitButton1 = New Geometry_Teacher.ExitButton()
         Me.SuspendLayout()
         '
         'testButton
@@ -58,11 +60,22 @@ Partial Class MainMenu
         Me.open3DButton.Text = "3D"
         Me.open3DButton.UseVisualStyleBackColor = True
         '
+        'ExitButton1
+        '
+        Me.ExitButton1.BackColor = System.Drawing.Color.Transparent
+        Me.ExitButton1.BackgroundImage = CType(resources.GetObject("ExitButton1.BackgroundImage"), System.Drawing.Image)
+        Me.ExitButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.ExitButton1.Location = New System.Drawing.Point(12, 388)
+        Me.ExitButton1.Name = "ExitButton1"
+        Me.ExitButton1.Size = New System.Drawing.Size(50, 50)
+        Me.ExitButton1.TabIndex = 6
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ExitButton1)
         Me.Controls.Add(Me.testButton)
         Me.Controls.Add(Me.open2DButton)
         Me.Controls.Add(Me.open3DButton)
@@ -76,4 +89,5 @@ Partial Class MainMenu
     Friend WithEvents testButton As Button
     Friend WithEvents open2DButton As Button
     Friend WithEvents open3DButton As Button
+    Friend WithEvents ExitButton1 As ExitButton
 End Class

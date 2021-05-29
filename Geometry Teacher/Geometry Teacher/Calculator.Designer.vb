@@ -49,7 +49,7 @@ Partial Class Calculator
         Me.mainDisplay.AllowedText = "1234567890"
         Me.mainDisplay.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.mainDisplay.Location = New System.Drawing.Point(12, 22)
-        Me.mainDisplay.MaxLength = 12
+        Me.mainDisplay.MaxLength = 9
         Me.mainDisplay.Name = "mainDisplay"
         Me.mainDisplay.Size = New System.Drawing.Size(230, 45)
         Me.mainDisplay.TabIndex = 0

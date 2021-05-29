@@ -125,7 +125,7 @@
 
     Private Sub equalsButton_Click(sender As Object, e As EventArgs) Handles equalsButton.Click
         Dim result = op(getValue(), prev)
-        If result > 999999999999 Or result < 0 Then
+        If result > 999999999 Or result < 0 Then
             prevDisplay.Text = "ERROR"
             mainDisplay.Text = ""
         Else

@@ -22,6 +22,8 @@ Partial Class QuestionControl
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(QuestionControl))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.answerInput = New Geometry_Teacher.ValidatedTextBox()
         Me.formulaTitle = New System.Windows.Forms.Label()
@@ -33,6 +35,7 @@ Partial Class QuestionControl
         Me.correctAnswer = New System.Windows.Forms.Label()
         Me.argValuePanel = New System.Windows.Forms.Panel()
         Me.correctFormula = New System.Windows.Forms.Label()
+        Me.icons = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.markIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -102,9 +105,10 @@ Partial Class QuestionControl
         '
         'markIcon
         '
-        Me.markIcon.Location = New System.Drawing.Point(206, 252)
+        Me.markIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.markIcon.Location = New System.Drawing.Point(210, 252)
         Me.markIcon.Name = "markIcon"
-        Me.markIcon.Size = New System.Drawing.Size(36, 36)
+        Me.markIcon.Size = New System.Drawing.Size(48, 48)
         Me.markIcon.TabIndex = 13
         Me.markIcon.TabStop = False
         '
@@ -113,7 +117,7 @@ Partial Class QuestionControl
         Me.correctAnswer.AutoSize = True
         Me.correctAnswer.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.correctAnswer.ForeColor = System.Drawing.Color.Red
-        Me.correctAnswer.Location = New System.Drawing.Point(248, 267)
+        Me.correctAnswer.Location = New System.Drawing.Point(264, 276)
         Me.correctAnswer.Name = "correctAnswer"
         Me.correctAnswer.Size = New System.Drawing.Size(90, 15)
         Me.correctAnswer.TabIndex = 14
@@ -131,11 +135,19 @@ Partial Class QuestionControl
         Me.correctFormula.AutoSize = True
         Me.correctFormula.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.correctFormula.ForeColor = System.Drawing.Color.Red
-        Me.correctFormula.Location = New System.Drawing.Point(248, 252)
+        Me.correctFormula.Location = New System.Drawing.Point(264, 261)
         Me.correctFormula.Name = "correctFormula"
         Me.correctFormula.Size = New System.Drawing.Size(54, 15)
         Me.correctFormula.TabIndex = 16
         Me.correctFormula.Text = "a = b + c"
+        '
+        'icons
+        '
+        Me.icons.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
+        Me.icons.ImageStream = CType(resources.GetObject("icons.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.icons.TransparentColor = System.Drawing.Color.Transparent
+        Me.icons.Images.SetKeyName(0, "cross.png")
+        Me.icons.Images.SetKeyName(1, "check.png")
         '
         'QuestionControl
         '
@@ -173,4 +185,5 @@ Partial Class QuestionControl
     Friend WithEvents correctAnswer As Label
     Friend WithEvents argValuePanel As Panel
     Friend WithEvents correctFormula As Label
+    Friend WithEvents icons As ImageList
 End Class

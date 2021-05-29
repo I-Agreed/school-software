@@ -2,8 +2,10 @@
     Public Shapes As New ShapeData()
     Public random As Random = New Random()
     Public calc As Calculator = New Calculator()
+    Public calcLocked = False
     Private Sub Root_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         openForm(Me, New MainMenu())
+        calc.TopMost = True
     End Sub
 
     Function openForm(parent As Form, child As Form, Optional bindExit As Boolean = False)
@@ -14,12 +16,14 @@
         child.FormBorderStyle = FormBorderStyle.None
         Me.Controls.Add(child)
         child.Show()
+        Me.Text = child.Text
         If parent IsNot Me Then
             parent.Hide()
         End If
         AddHandler child.FormClosed, Sub()
                                          If Not bindExit Then
                                              parent.Show()
+                                             Me.Text = parent.Text
                                              child.Hide()
                                          Else
                                              parent.Close()
@@ -30,8 +34,9 @@
     End Function
 
     Sub showCalc()
-        calc.Show()
-        calc.TopMost = True
+        If Not calcLocked Then
+            calc.Show()
+        End If
     End Sub
 
     Sub hideCalc()

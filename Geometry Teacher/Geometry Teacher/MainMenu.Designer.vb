@@ -31,7 +31,7 @@ Partial Class MainMenu
         '
         Me.testButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.testButton.Location = New System.Drawing.Point(458, 102)
-        Me.testButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.testButton.Margin = New System.Windows.Forms.Padding(2)
         Me.testButton.Name = "testButton"
         Me.testButton.Size = New System.Drawing.Size(78, 20)
         Me.testButton.TabIndex = 5
@@ -60,13 +60,13 @@ Partial Class MainMenu
         '
         'MainMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.testButton)
         Me.Controls.Add(Me.open2DButton)
         Me.Controls.Add(Me.open3DButton)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MainMenu"
         Me.Text = "MainMenu"
         Me.ResumeLayout(False)

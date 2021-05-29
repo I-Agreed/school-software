@@ -22,19 +22,25 @@ Partial Class BackButton
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(BackButton))
         Me.backIcon = New System.Windows.Forms.PictureBox()
+        Me.backButtonHelp = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.backIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'backIcon
         '
-        Me.backIcon.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.backIcon.BackColor = System.Drawing.Color.Transparent
+        Me.backIcon.BackgroundImage = CType(resources.GetObject("backIcon.BackgroundImage"), System.Drawing.Image)
+        Me.backIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.backIcon.Location = New System.Drawing.Point(0, 0)
         Me.backIcon.Margin = New System.Windows.Forms.Padding(0)
         Me.backIcon.Name = "backIcon"
         Me.backIcon.Size = New System.Drawing.Size(50, 50)
         Me.backIcon.TabIndex = 0
         Me.backIcon.TabStop = False
+        Me.backButtonHelp.SetToolTip(Me.backIcon, "Go Back")
         '
         'BackButton
         '
@@ -50,4 +56,5 @@ Partial Class BackButton
     End Sub
 
     Friend WithEvents backIcon As PictureBox
+    Friend WithEvents backButtonHelp As ToolTip
 End Class

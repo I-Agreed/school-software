@@ -78,10 +78,10 @@
             answerInput.Enabled = False
             If answerInput.Text = answer.ToString Then
                 correct = True
-                ' set icon here
+                markIcon.BackgroundImage = icons.Images(1)
             Else
                 correctFormula.Show()
-                ' set icon here
+                markIcon.BackgroundImage = icons.Images(0)
             End If
             markIcon.Show()
             correctAnswer.Show()

@@ -30,6 +30,13 @@
         has2D = D2
         hasHints = hints
         hasCalculator = calculator
+
+        If Not hasCalculator Then
+            Root.calcLocked = True
+            Root.hideCalc()
+            Root.toggleCalc.Hide()
+        End If
+
         isMultipleChoice = multipleChoice
         simplifiedNumbers = sn
         If simplifiedNumbers Then
@@ -95,5 +102,10 @@
 
     Private Sub nextButton_Click(sender As Object, e As EventArgs) Handles nextButton.Click
         nextQuestion()
+    End Sub
+
+    Public Sub close() Handles MyBase.Closed
+        Root.calcLocked = False
+        Root.toggleCalc.Show()
     End Sub
 End Class

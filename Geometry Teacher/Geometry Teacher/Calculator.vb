@@ -134,4 +134,13 @@
             mainDisplay.Text = result
         End If
     End Sub
+
+    Private Sub dont(ByVal sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        e.Cancel = True
+        Hide()
+    End Sub
+
+    Private Sub Calculator_VisibleChanged(sender As Object, e As EventArgs) Handles MyBase.VisibleChanged
+        Root.toggleCalc.correctIcon()
+    End Sub
 End Class

@@ -95,3 +95,5 @@ C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Te
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestReviewForm.resources
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestReviewItem.resources
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Calculator.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.CalculatorButton.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Resources.resources

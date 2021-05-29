@@ -1,6 +1,7 @@
 ﻿Public Class Root
     Public Shapes As New ShapeData()
     Public random As Random = New Random()
+    Public calc As Calculator = New Calculator()
     Private Sub Root_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         openForm(Me, New MainMenu())
     End Sub
@@ -27,4 +28,13 @@
                                          End If
                                      End Sub
     End Function
+
+    Sub showCalc()
+        calc.Show()
+        calc.TopMost = True
+    End Sub
+
+    Sub hideCalc()
+        calc.Hide()
+    End Sub
 End Class

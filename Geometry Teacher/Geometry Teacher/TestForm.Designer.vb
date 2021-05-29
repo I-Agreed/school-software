@@ -63,7 +63,7 @@ Partial Class TestForm
         Me.Controls.Add(Me.nextButton)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "TestForm"
-        Me.Text = "TestForm"
+        Me.Text = "Test"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -18,7 +18,7 @@
         For i As Integer = 0 To questions.Count() - 1
             Dim d As New TestReviewItem(i + 1, questions(i).correct, Me)
             questionsPanel.Controls.Add(d)
-            d.Location = New Point(-1, i * 29 - 1)
+            d.Location = New Point(0, i * 30)
             questionDisplays.Add(d)
         Next
 

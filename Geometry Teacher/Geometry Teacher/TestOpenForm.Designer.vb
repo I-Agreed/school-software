@@ -145,7 +145,7 @@ Partial Class TestOpenForm
         Me.Controls.Add(Me.Panel1)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "TestOpenForm"
-        Me.Text = "TestOpenForm"
+        Me.Text = "Test Settings"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)

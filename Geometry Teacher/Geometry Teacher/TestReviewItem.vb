@@ -21,7 +21,11 @@
 
     Private Sub TestReviewItem_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Title.Text = "Question " + number.ToString + ":"
-        'set icon
+        If correct Then
+            correctIcon.BackgroundImage = icons.Images(0)
+        Else
+            correctIcon.BackgroundImage = icons.Images(1)
+        End If
     End Sub
 
     Private Sub TestReviewItem_Click(sender As Object, e As EventArgs) Handles MyBase.Click
@@ -57,5 +61,10 @@
         If Not selected Then
             BackColor = defaultColor
         End If
+    End Sub
+
+    Private Sub TestReviewItem_Paint(sender As Object, e As PaintEventArgs) Handles MyBase.Paint
+        Dim g = e.Graphics
+        g.DrawLine(New Pen(Brushes.Black), New Point(0, 29), New Point(153, 29))
     End Sub
 End Class

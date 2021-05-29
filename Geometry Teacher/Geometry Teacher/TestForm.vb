@@ -93,7 +93,7 @@
             If questions(questionNumber).mark() Then
                 score += 1
             End If
-        ElseIf questionNumber <> questions.count() - 1 Then
+        ElseIf questionNumber <> questions.Count() - 1 Then
             showQuestion(questionNumber + 1)
         Else
             endTest()

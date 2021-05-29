@@ -43,15 +43,15 @@ Partial Class TestReviewForm
         'questionsPanel
         '
         Me.questionsPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.questionsPanel.Location = New System.Drawing.Point(12, 72)
+        Me.questionsPanel.Location = New System.Drawing.Point(12, 83)
         Me.questionsPanel.Name = "questionsPanel"
-        Me.questionsPanel.Size = New System.Drawing.Size(148, 289)
+        Me.questionsPanel.Size = New System.Drawing.Size(152, 300)
         Me.questionsPanel.TabIndex = 1
         '
         'questionDisplayPanel
         '
         Me.questionDisplayPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.questionDisplayPanel.Location = New System.Drawing.Point(185, 72)
+        Me.questionDisplayPanel.Location = New System.Drawing.Point(185, 83)
         Me.questionDisplayPanel.Name = "questionDisplayPanel"
         Me.questionDisplayPanel.Size = New System.Drawing.Size(586, 358)
         Me.questionDisplayPanel.TabIndex = 2
@@ -69,7 +69,7 @@ Partial Class TestReviewForm
         'BackButton1
         '
         Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BackButton1.Location = New System.Drawing.Point(12, 380)
+        Me.BackButton1.Location = New System.Drawing.Point(12, 391)
         Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
         Me.BackButton1.Name = "BackButton1"
         Me.BackButton1.Size = New System.Drawing.Size(50, 50)
@@ -86,7 +86,7 @@ Partial Class TestReviewForm
         Me.Controls.Add(Me.questionsPanel)
         Me.Controls.Add(Me.scoreDisplay)
         Me.Name = "TestReviewForm"
-        Me.Text = "TestReviewForm"
+        Me.Text = "Test Results"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

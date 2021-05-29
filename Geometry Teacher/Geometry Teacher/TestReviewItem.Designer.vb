@@ -22,8 +22,11 @@ Partial Class TestReviewItem
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TestReviewItem))
         Me.Title = New System.Windows.Forms.Label()
         Me.correctIcon = New System.Windows.Forms.PictureBox()
+        Me.icons = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.correctIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -40,24 +43,33 @@ Partial Class TestReviewItem
         'correctIcon
         '
         Me.correctIcon.BackColor = System.Drawing.Color.Transparent
-        Me.correctIcon.Location = New System.Drawing.Point(120, 2)
+        Me.correctIcon.BackgroundImage = CType(resources.GetObject("correctIcon.BackgroundImage"), System.Drawing.Image)
+        Me.correctIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.correctIcon.Location = New System.Drawing.Point(120, 1)
         Me.correctIcon.Margin = New System.Windows.Forms.Padding(0)
         Me.correctIcon.Name = "correctIcon"
-        Me.correctIcon.Size = New System.Drawing.Size(26, 26)
+        Me.correctIcon.Size = New System.Drawing.Size(27, 27)
         Me.correctIcon.TabIndex = 1
         Me.correctIcon.TabStop = False
+        '
+        'icons
+        '
+        Me.icons.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
+        Me.icons.ImageStream = CType(resources.GetObject("icons.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.icons.TransparentColor = System.Drawing.Color.Transparent
+        Me.icons.Images.SetKeyName(0, "check.png")
+        Me.icons.Images.SetKeyName(1, "cross.png")
         '
         'TestReviewItem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Controls.Add(Me.correctIcon)
         Me.Controls.Add(Me.Title)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "TestReviewItem"
-        Me.Size = New System.Drawing.Size(148, 30)
+        Me.Size = New System.Drawing.Size(154, 30)
         CType(Me.correctIcon, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -65,4 +77,5 @@ Partial Class TestReviewItem
 
     Friend WithEvents Title As Label
     Friend WithEvents correctIcon As PictureBox
+    Friend WithEvents icons As ImageList
 End Class

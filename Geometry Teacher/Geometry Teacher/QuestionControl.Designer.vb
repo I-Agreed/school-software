@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class QuestionControl
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,10 +20,8 @@ Partial Class QuestionControl
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(QuestionControl))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.answerInput = New Geometry_Teacher.ValidatedTextBox()
         Me.formulaTitle = New System.Windows.Forms.Label()
@@ -35,7 +33,6 @@ Partial Class QuestionControl
         Me.correctAnswer = New System.Windows.Forms.Label()
         Me.argValuePanel = New System.Windows.Forms.Panel()
         Me.correctFormula = New System.Windows.Forms.Label()
-        Me.icons = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.markIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -141,14 +138,6 @@ Partial Class QuestionControl
         Me.correctFormula.TabIndex = 16
         Me.correctFormula.Text = "a = b + c"
         '
-        'icons
-        '
-        Me.icons.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
-        Me.icons.ImageStream = CType(resources.GetObject("icons.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.icons.TransparentColor = System.Drawing.Color.Transparent
-        Me.icons.Images.SetKeyName(0, "cross.png")
-        Me.icons.Images.SetKeyName(1, "check.png")
-        '
         'QuestionControl
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
@@ -185,5 +174,4 @@ Partial Class QuestionControl
     Friend WithEvents correctAnswer As Label
     Friend WithEvents argValuePanel As Panel
     Friend WithEvents correctFormula As Label
-    Friend WithEvents icons As ImageList
 End Class

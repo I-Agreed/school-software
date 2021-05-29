@@ -22,9 +22,9 @@
     Private Sub TestReviewItem_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Title.Text = "Question " + number.ToString + ":"
         If correct Then
-            correctIcon.BackgroundImage = icons.Images(0)
+            correctIcon.BackgroundImage = Root.imgs.checkIcon
         Else
-            correctIcon.BackgroundImage = icons.Images(1)
+            correctIcon.BackgroundImage = Root.imgs.crossIcon
         End If
     End Sub
 

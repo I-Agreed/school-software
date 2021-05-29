@@ -15,11 +15,11 @@
 
     Public Sub correctIcon()
         If Root.calc.Visible Then
-            icon.BackgroundImage = Images.Images(1)
+            icon.BackgroundImage = Root.imgs.closeCalculatorIcon
             CalculatorHelp.SetToolTip(icon, Nothing)
             tooltip = "Close Calculator"
         Else
-            icon.BackgroundImage = Images.Images(0)
+            icon.BackgroundImage = Root.imgs.calculatorIcon
             CalculatorHelp.SetToolTip(icon, Nothing)
             tooltip = "Open Calculator"
         End If

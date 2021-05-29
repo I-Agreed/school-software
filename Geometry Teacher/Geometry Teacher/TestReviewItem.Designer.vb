@@ -26,7 +26,6 @@ Partial Class TestReviewItem
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TestReviewItem))
         Me.Title = New System.Windows.Forms.Label()
         Me.correctIcon = New System.Windows.Forms.PictureBox()
-        Me.icons = New System.Windows.Forms.ImageList(Me.components)
         Me.reviewItemHelp = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.correctIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -55,14 +54,6 @@ Partial Class TestReviewItem
         Me.correctIcon.TabStop = False
         Me.reviewItemHelp.SetToolTip(Me.correctIcon, "Click to show question")
         '
-        'icons
-        '
-        Me.icons.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
-        Me.icons.ImageStream = CType(resources.GetObject("icons.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.icons.TransparentColor = System.Drawing.Color.Transparent
-        Me.icons.Images.SetKeyName(0, "check.png")
-        Me.icons.Images.SetKeyName(1, "cross.png")
-        '
         'TestReviewItem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
@@ -81,6 +72,5 @@ Partial Class TestReviewItem
 
     Friend WithEvents Title As Label
     Friend WithEvents correctIcon As PictureBox
-    Friend WithEvents icons As ImageList
     Friend WithEvents reviewItemHelp As ToolTip
 End Class

@@ -3,6 +3,8 @@
     Public random As Random = New Random()
     Public calc As Calculator = New Calculator()
     Public calcLocked = False
+    Public imgs As ImageStruct = New ImageStruct()
+
     Private Sub Root_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         openForm(Me, New MainMenu())
         calc.TopMost = True
@@ -43,11 +45,11 @@
         calc.Hide()
     End Sub
 
-    Sub dont(ByVal sender As Object, e As FormClosedEventArgs) Handles MyBase.Closed
-        Dim result = MsgBox("Are you sure you want to exit?", vbYesNo + vbCritical)
+    Sub dont(ByVal sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Dim result = MsgBox("Are you sure you want to exit?", vbYesNo, "Are you sure?")
         If result = vbYes Then
         Else
-            e.cancel = True
+            e.Cancel = True
         End If
     End Sub
 End Class

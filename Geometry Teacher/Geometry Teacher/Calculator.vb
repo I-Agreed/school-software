@@ -1,5 +1,20 @@
 ﻿Public Class Calculator
-    Property prev As Integer
+    Property prev As Integer = 0
+    Public add As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) x + y
+    Public subtract As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) y - x
+    Public multiply As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) x * y
+    Public divide As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) y / x
+    Public empty As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) 0
+    Property op As Func(Of Integer, Integer, Integer)
+
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+        op = empty
+    End Sub
 
     Private Sub Calculator_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         mainDisplay.TextAlign = HorizontalAlignment.Right
@@ -8,12 +23,15 @@
     Function getValue() As Integer
         Try
             Return CInt(mainDisplay.Text)
-        Catch ex As FormatException
+        Catch ex As InvalidCastException
             Return 0
         End Try
     End Function
 
     Sub bumpUp(s As String)
+        If prevDisplay.Text <> "" Then
+            equalsButton_Click(New Object, New EventArgs)
+        End If
         If mainDisplay.Text <> "" Then
             prevDisplay.Text = mainDisplay.Text + " " + s
         Else
@@ -40,7 +58,7 @@
     End Sub
 
     Sub typeNumber(n As String)
-        If mainDisplay.Text < mainDisplay.MaxLength Then
+        If mainDisplay.Text.Length < mainDisplay.MaxLength Then
             mainDisplay.Text += n
         End If
     End Sub
@@ -83,5 +101,37 @@
 
     Private Sub button0_Click(sender As Object, e As EventArgs) Handles button0.Click
         typeNumber("0")
+    End Sub
+
+    Private Sub plusButton_Click(sender As Object, e As EventArgs) Handles plusButton.Click
+        op = add
+        bumpUp("+")
+    End Sub
+
+    Private Sub minusButton_Click(sender As Object, e As EventArgs) Handles minusButton.Click
+        op = subtract
+        bumpUp("-")
+    End Sub
+
+    Private Sub multiplyButton_Click(sender As Object, e As EventArgs) Handles multiplyButton.Click
+        op = multiply
+        bumpUp("×")
+    End Sub
+
+    Private Sub divideButton_Click(sender As Object, e As EventArgs) Handles divideButton.Click
+        op = divide
+        bumpUp("÷")
+    End Sub
+
+    Private Sub equalsButton_Click(sender As Object, e As EventArgs) Handles equalsButton.Click
+        Dim result = op(getValue(), prev)
+        If result > 999999999999 Or result < 0 Then
+            prevDisplay.Text = "ERROR"
+            mainDisplay.Text = ""
+        Else
+
+            prevDisplay.Text = ""
+            mainDisplay.Text = result
+        End If
     End Sub
 End Class

@@ -63,7 +63,6 @@ Partial Class Calculator
         Me.prevDisplay.Name = "prevDisplay"
         Me.prevDisplay.Size = New System.Drawing.Size(230, 13)
         Me.prevDisplay.TabIndex = 1
-        Me.prevDisplay.Text = "Label1"
         Me.prevDisplay.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'plusButton

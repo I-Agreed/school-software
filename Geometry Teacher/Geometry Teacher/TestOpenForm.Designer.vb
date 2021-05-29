@@ -30,6 +30,7 @@ Partial Class TestOpenForm
         Me.selectCalculator = New System.Windows.Forms.CheckBox()
         Me.selectHints = New System.Windows.Forms.CheckBox()
         Me.selectMultipleChoice = New System.Windows.Forms.CheckBox()
+        Me.startButton = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -122,11 +123,21 @@ Partial Class TestOpenForm
         Me.selectMultipleChoice.Text = "Multiple Choice"
         Me.selectMultipleChoice.UseVisualStyleBackColor = True
         '
+        'startButton
+        '
+        Me.startButton.Location = New System.Drawing.Point(499, 394)
+        Me.startButton.Name = "startButton"
+        Me.startButton.Size = New System.Drawing.Size(75, 23)
+        Me.startButton.TabIndex = 8
+        Me.startButton.Text = "Start!"
+        Me.startButton.UseVisualStyleBackColor = True
+        '
         'TestOpenForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.startButton)
         Me.Controls.Add(Me.selectMultipleChoice)
         Me.Controls.Add(Me.selectHints)
         Me.Controls.Add(Me.selectCalculator)
@@ -150,4 +161,5 @@ Partial Class TestOpenForm
     Friend WithEvents selectCalculator As CheckBox
     Friend WithEvents selectHints As CheckBox
     Friend WithEvents selectMultipleChoice As CheckBox
+    Friend WithEvents startButton As Button
 End Class

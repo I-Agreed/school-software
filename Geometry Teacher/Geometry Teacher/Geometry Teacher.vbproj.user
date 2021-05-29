@@ -13,6 +13,9 @@
     <Compile Update="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="QuestionControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Root.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -30,6 +33,12 @@
     </Compile>
     <Compile Update="TestOpenForm.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TestReviewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TestReviewItem.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="ValidatedTextBox.vb">
       <SubType>Component</SubType>

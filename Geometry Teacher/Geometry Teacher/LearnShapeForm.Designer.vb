@@ -47,7 +47,7 @@ Partial Class LearnShapeForm
         'formulaTitle
         '
         Me.formulaTitle.AutoSize = True
-        Me.formulaTitle.Location = New System.Drawing.Point(649, 400)
+        Me.formulaTitle.Location = New System.Drawing.Point(404, 278)
         Me.formulaTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formulaTitle.Name = "formulaTitle"
         Me.formulaTitle.Size = New System.Drawing.Size(74, 15)
@@ -58,7 +58,7 @@ Partial Class LearnShapeForm
         '
         Me.formulaDisplay.AutoSize = True
         Me.formulaDisplay.BackColor = System.Drawing.SystemColors.Control
-        Me.formulaDisplay.Location = New System.Drawing.Point(810, 400)
+        Me.formulaDisplay.Location = New System.Drawing.Point(504, 278)
         Me.formulaDisplay.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formulaDisplay.Name = "formulaDisplay"
         Me.formulaDisplay.Size = New System.Drawing.Size(49, 15)
@@ -87,7 +87,7 @@ Partial Class LearnShapeForm
         'resultLabel
         '
         Me.resultLabel.AutoSize = True
-        Me.resultLabel.Location = New System.Drawing.Point(773, 633)
+        Me.resultLabel.Location = New System.Drawing.Point(404, 408)
         Me.resultLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.resultLabel.Name = "resultLabel"
         Me.resultLabel.Size = New System.Drawing.Size(13, 15)
@@ -96,16 +96,16 @@ Partial Class LearnShapeForm
         '
         'inputPanel
         '
-        Me.inputPanel.Location = New System.Drawing.Point(649, 435)
+        Me.inputPanel.Location = New System.Drawing.Point(404, 298)
         Me.inputPanel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.inputPanel.Name = "inputPanel"
-        Me.inputPanel.Size = New System.Drawing.Size(286, 167)
+        Me.inputPanel.Size = New System.Drawing.Size(210, 105)
         Me.inputPanel.TabIndex = 7
         '
         'BackButton1
         '
         Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BackButton1.Location = New System.Drawing.Point(91, 648)
+        Me.BackButton1.Location = New System.Drawing.Point(106, 353)
         Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
         Me.BackButton1.Name = "BackButton1"
         Me.BackButton1.Size = New System.Drawing.Size(50, 50)
@@ -115,7 +115,7 @@ Partial Class LearnShapeForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.ClientSize = New System.Drawing.Size(1143, 750)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.inputPanel)
         Me.Controls.Add(Me.resultLabel)

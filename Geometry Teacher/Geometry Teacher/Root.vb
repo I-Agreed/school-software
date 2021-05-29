@@ -1,10 +1,11 @@
 ﻿Public Class Root
     Public Shapes As New ShapeData()
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Public random As Random = New Random()
+    Private Sub Root_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         openForm(Me, New MainMenu())
     End Sub
 
-    Function openForm(parent As Form, child As Form)
+    Function openForm(parent As Form, child As Form, Optional bindExit As Boolean = False)
         child.StartPosition = FormStartPosition.Manual
         child.Location = New Point(0, 0)
 
@@ -16,8 +17,14 @@
             parent.Hide()
         End If
         AddHandler child.FormClosed, Sub()
-                                         parent.Show()
-                                         child.Hide()
+                                         If Not bindExit Then
+                                             parent.Show()
+                                             child.Hide()
+                                         Else
+                                             parent.Close()
+                                             parent.Hide()
+                                             child.Hide()
+                                         End If
                                      End Sub
     End Function
 End Class

@@ -4,6 +4,15 @@
     Public Property formula As String
     Public Property params As String()
     Public Property formula_func As Func(Of Integer(), Integer)
+    Public ReadOnly Property value As String
+        Get
+            If type = "3D" Then
+                Return "Volume"
+            Else
+                Return "Area"
+            End If
+        End Get
+    End Property
 
     Private Child As Shape
     Public Sub New(n As String, t As String, f As String, p As String(), ff As Func(Of Integer(), Integer))

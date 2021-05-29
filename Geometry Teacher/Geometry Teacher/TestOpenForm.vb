@@ -8,7 +8,7 @@
         ' Add any initialization after the InitializeComponent() call.
     End Sub
 
-    Function openTest()
+    Sub openTest()
         Dim D2 As Boolean
         Dim D3 As Boolean
         Dim hints As Boolean
@@ -28,7 +28,11 @@
         calculator = selectCalculator.Checked()
         multipleChoice = selectMultipleChoice.Checked()
 
-        Dim test As New TestForm(D3, D2, hints, calculator, multipleChoice)
+        Dim test As New TestForm(D3, D2, hints, calculator, multipleChoice, True)
         Root.openForm(Me, test)
-    End Function
+    End Sub
+
+    Private Sub startButton_Click(sender As Object, e As EventArgs) Handles startButton.Click
+        openTest()
+    End Sub
 End Class

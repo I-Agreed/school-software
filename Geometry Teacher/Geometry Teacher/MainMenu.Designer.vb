@@ -30,9 +30,10 @@ Partial Class MainMenu
         'testButton
         '
         Me.testButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.testButton.Location = New System.Drawing.Point(655, 170)
+        Me.testButton.Location = New System.Drawing.Point(458, 102)
+        Me.testButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.testButton.Name = "testButton"
-        Me.testButton.Size = New System.Drawing.Size(112, 34)
+        Me.testButton.Size = New System.Drawing.Size(78, 20)
         Me.testButton.TabIndex = 5
         Me.testButton.Text = "tests"
         Me.testButton.UseVisualStyleBackColor = True
@@ -40,10 +41,9 @@ Partial Class MainMenu
         'open2DButton
         '
         Me.open2DButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.open2DButton.Location = New System.Drawing.Point(376, 543)
-        Me.open2DButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.open2DButton.Location = New System.Drawing.Point(263, 326)
         Me.open2DButton.Name = "open2DButton"
-        Me.open2DButton.Size = New System.Drawing.Size(107, 38)
+        Me.open2DButton.Size = New System.Drawing.Size(75, 23)
         Me.open2DButton.TabIndex = 4
         Me.open2DButton.Text = "2D"
         Me.open2DButton.UseVisualStyleBackColor = True
@@ -51,22 +51,22 @@ Partial Class MainMenu
         'open3DButton
         '
         Me.open3DButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.open3DButton.Location = New System.Drawing.Point(416, 388)
-        Me.open3DButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.open3DButton.Location = New System.Drawing.Point(291, 233)
         Me.open3DButton.Name = "open3DButton"
-        Me.open3DButton.Size = New System.Drawing.Size(107, 38)
+        Me.open3DButton.Size = New System.Drawing.Size(75, 23)
         Me.open3DButton.TabIndex = 3
         Me.open3DButton.Text = "3D"
         Me.open3DButton.UseVisualStyleBackColor = True
         '
         'MainMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1143, 750)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.testButton)
         Me.Controls.Add(Me.open2DButton)
         Me.Controls.Add(Me.open3DButton)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "MainMenu"
         Me.Text = "MainMenu"
         Me.ResumeLayout(False)

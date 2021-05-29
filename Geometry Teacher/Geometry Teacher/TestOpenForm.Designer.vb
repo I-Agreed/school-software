@@ -87,7 +87,7 @@ Partial Class TestOpenForm
         Me.BackButton1.Location = New System.Drawing.Point(50, 335)
         Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
         Me.BackButton1.Name = "BackButton1"
-        Me.BackButton1.Size = New System.Drawing.Size(35, 30)
+        Me.BackButton1.Size = New System.Drawing.Size(50, 50)
         Me.BackButton1.TabIndex = 4
         '
         'selectCalculator

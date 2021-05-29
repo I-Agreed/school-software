@@ -21,4 +21,9 @@
     Private Sub testButton_Click(sender As Object, e As EventArgs) Handles testButton.Click
         openTest()
     End Sub
+
+    Private Sub MainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim c As New Calculator()
+        c.Show()
+    End Sub
 End Class

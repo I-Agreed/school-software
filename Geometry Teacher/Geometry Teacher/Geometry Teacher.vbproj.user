@@ -10,6 +10,9 @@
     <Compile Update="BackButton.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>

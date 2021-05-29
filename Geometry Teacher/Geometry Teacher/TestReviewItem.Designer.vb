@@ -29,20 +29,21 @@ Partial Class TestReviewItem
         '
         'Title
         '
-        Me.Title.AutoSize = True
         Me.Title.Font = New System.Drawing.Font("Segoe UI", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Title.Location = New System.Drawing.Point(0, 0)
+        Me.Title.Location = New System.Drawing.Point(0, -1)
         Me.Title.Name = "Title"
-        Me.Title.Size = New System.Drawing.Size(103, 25)
+        Me.Title.Size = New System.Drawing.Size(115, 30)
         Me.Title.TabIndex = 0
-        Me.Title.Text = "Question 1:"
+        Me.Title.Text = "Question 10:"
+        Me.Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'correctIcon
         '
-        Me.correctIcon.Location = New System.Drawing.Point(109, 0)
+        Me.correctIcon.BackColor = System.Drawing.Color.Transparent
+        Me.correctIcon.Location = New System.Drawing.Point(120, 2)
         Me.correctIcon.Margin = New System.Windows.Forms.Padding(0)
         Me.correctIcon.Name = "correctIcon"
-        Me.correctIcon.Size = New System.Drawing.Size(25, 25)
+        Me.correctIcon.Size = New System.Drawing.Size(26, 26)
         Me.correctIcon.TabIndex = 1
         Me.correctIcon.TabStop = False
         '
@@ -50,13 +51,15 @@ Partial Class TestReviewItem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Controls.Add(Me.correctIcon)
         Me.Controls.Add(Me.Title)
+        Me.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "TestReviewItem"
-        Me.Size = New System.Drawing.Size(134, 25)
+        Me.Size = New System.Drawing.Size(148, 30)
         CType(Me.correctIcon, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 

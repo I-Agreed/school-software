@@ -1030,4 +1030,21 @@
         3/3/A00i1oWB94sAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="infoBox.Text" xml:space="preserve">
+    <value>Pi is a mathematical constant that is very closely related to circles. Pi is the english spelling of the greek letter π, which is also used to represent the same number.
+
+But to understand Pi, we first have to look at the different parts of a circle.</value>
+  </data>
+  <data name="infobox2infobox2.Text" xml:space="preserve">
+    <value>The Circumference is the distance around the circle.
+
+The Diameter is the distance across the circle, going through the centre.
+
+The Radius is the distance from the centre to the edge, equal to half the diameter.</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>If we take a circle of diameter 1 and roll it accross a number line, after one full rotation the circle would have travelled Pi units. This is because Pi is the ratio of the Circumference to the Diameter.
+Pi is an infinitely long decimal number, so for simplicity we will use 3 because it is the closest integer.
+</value>
+  </data>
 </root>

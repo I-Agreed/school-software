@@ -28,4 +28,12 @@
     Function open()
         Root.openForm(Me.ParentForm, shape.getForm())
     End Function
+
+    Private Sub ShapePicture_Click(sender As Object, e As EventArgs) Handles ShapePicture.Click
+        open()
+    End Sub
+
+    Private Sub ShapeLabel_Click(sender As Object, e As EventArgs) Handles ShapeLabel.Click
+        open()
+    End Sub
 End Class

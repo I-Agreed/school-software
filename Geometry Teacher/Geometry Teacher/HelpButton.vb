@@ -9,10 +9,6 @@
         InitializeComponent()
 
         ' Add any initialization after the InitializeComponent() call.
-        If Not Me.DesignMode Then
-            helpForms("D") = New HelpDimension()
-            helpForms("P") = New HelpPi()
-        End If
     End Sub
 
     Private Sub HelpButton_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -22,8 +18,11 @@
     End Sub
 
     Private Sub HelpButton_Click(sender As Object, e As EventArgs) Handles MyBase.Click
-        If helpForms.ContainsKey(helpPage) Then
-            Root.openForm(Me.ParentForm, helpForms(helpPage))
-        End If
+        Select Case helpPage
+            Case "P"
+                Root.openForm(Me.ParentForm, New HelpPi())
+            Case "D"
+                Root.openForm(Me.ParentForm, New HelpDimension())
+        End Select
     End Sub
 End Class

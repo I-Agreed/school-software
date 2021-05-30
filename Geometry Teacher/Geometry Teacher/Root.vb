@@ -21,10 +21,11 @@
         Me.Text = child.Text
         If parent IsNot Me Then
             parent.Hide()
+            AddHandler child.TextChanged, Sub()
+                                              Me.Text = child.Text
+                                          End Sub
         End If
-        AddHandler child.TextChanged, Sub()
-                                          Me.Text = child.Text
-                                      End Sub
+
 
         AddHandler child.FormClosed, Sub()
                                          If Not bindExit Then

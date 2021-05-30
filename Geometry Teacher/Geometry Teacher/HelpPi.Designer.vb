@@ -29,6 +29,8 @@ Partial Class HelpPi
         Me.piImage = New System.Windows.Forms.PictureBox()
         Me.infoBox = New System.Windows.Forms.Label()
         Me.BackButton1 = New Geometry_Teacher.BackButton()
+        Me.infobox2infobox2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.circleDiagram, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.circleDiagramLabels, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.piImage, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -38,7 +40,7 @@ Partial Class HelpPi
         '
         Me.circleDiagram.BackgroundImage = CType(resources.GetObject("circleDiagram.BackgroundImage"), System.Drawing.Image)
         Me.circleDiagram.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.circleDiagram.Location = New System.Drawing.Point(12, 190)
+        Me.circleDiagram.Location = New System.Drawing.Point(12, 175)
         Me.circleDiagram.Margin = New System.Windows.Forms.Padding(0)
         Me.circleDiagram.Name = "circleDiagram"
         Me.circleDiagram.Size = New System.Drawing.Size(100, 100)
@@ -49,7 +51,7 @@ Partial Class HelpPi
         '
         Me.circleDiagramLabels.BackgroundImage = CType(resources.GetObject("circleDiagramLabels.BackgroundImage"), System.Drawing.Image)
         Me.circleDiagramLabels.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.circleDiagramLabels.Location = New System.Drawing.Point(112, 203)
+        Me.circleDiagramLabels.Location = New System.Drawing.Point(112, 188)
         Me.circleDiagramLabels.Margin = New System.Windows.Forms.Padding(0)
         Me.circleDiagramLabels.Name = "circleDiagramLabels"
         Me.circleDiagramLabels.Size = New System.Drawing.Size(150, 75)
@@ -70,7 +72,7 @@ Partial Class HelpPi
         '
         Me.piImage.BackgroundImage = CType(resources.GetObject("piImage.BackgroundImage"), System.Drawing.Image)
         Me.piImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.piImage.Location = New System.Drawing.Point(428, 288)
+        Me.piImage.Location = New System.Drawing.Point(488, 288)
         Me.piImage.Name = "piImage"
         Me.piImage.Size = New System.Drawing.Size(300, 150)
         Me.piImage.TabIndex = 3
@@ -78,12 +80,12 @@ Partial Class HelpPi
         '
         'infoBox
         '
-        Me.infoBox.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.infoBox.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.infoBox.Location = New System.Drawing.Point(12, 64)
         Me.infoBox.Name = "infoBox"
-        Me.infoBox.Size = New System.Drawing.Size(493, 126)
+        Me.infoBox.Size = New System.Drawing.Size(776, 73)
         Me.infoBox.TabIndex = 10
-        Me.infoBox.Text = "Pi is the ratio of a circle's Circumference and Diameter"
+        Me.infoBox.Text = resources.GetString("infoBox.Text")
         '
         'BackButton1
         '
@@ -95,11 +97,31 @@ Partial Class HelpPi
         Me.BackButton1.Size = New System.Drawing.Size(50, 50)
         Me.BackButton1.TabIndex = 11
         '
+        'infobox2infobox2
+        '
+        Me.infobox2infobox2.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.infobox2infobox2.Location = New System.Drawing.Point(265, 175)
+        Me.infobox2infobox2.Name = "infobox2infobox2"
+        Me.infobox2infobox2.Size = New System.Drawing.Size(523, 110)
+        Me.infobox2infobox2.TabIndex = 12
+        Me.infobox2infobox2.Text = resources.GetString("infobox2infobox2.Text")
+        '
+        'Label1
+        '
+        Me.Label1.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Location = New System.Drawing.Point(12, 288)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(470, 103)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = resources.GetString("Label1.Text")
+        '
         'HelpPi
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.infobox2infobox2)
         Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.infoBox)
         Me.Controls.Add(Me.piImage)
@@ -122,4 +144,6 @@ Partial Class HelpPi
     Friend WithEvents piImage As PictureBox
     Friend WithEvents infoBox As Label
     Friend WithEvents BackButton1 As BackButton
+    Friend WithEvents infobox2infobox2 As Label
+    Friend WithEvents Label1 As Label
 End Class

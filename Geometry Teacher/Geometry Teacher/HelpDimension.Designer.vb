@@ -76,7 +76,7 @@ Partial Class HelpDimension
         '
         'info2D
         '
-        Me.info2D.Font = New System.Drawing.Font("Rockwell", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.info2D.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.info2D.Location = New System.Drawing.Point(203, 80)
         Me.info2D.Name = "info2D"
         Me.info2D.Size = New System.Drawing.Size(434, 100)
@@ -86,7 +86,7 @@ Partial Class HelpDimension
         '
         'info3D
         '
-        Me.info3D.Font = New System.Drawing.Font("Rockwell", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.info3D.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.info3D.Location = New System.Drawing.Point(203, 275)
         Me.info3D.Name = "info3D"
         Me.info3D.Size = New System.Drawing.Size(434, 100)

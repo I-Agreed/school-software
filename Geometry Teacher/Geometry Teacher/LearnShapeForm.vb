@@ -19,7 +19,15 @@
         learnShape = Root.Shapes.getShape(shape)
 
         With shapeTextLocations
-            .Item("Square") = {New Point(170, 75), New Point(67, 167)}
+            .Item("Square") = {New Point(180, 85), New Point(77, 177)}
+            .Item("Circle") = {New Point(188, 72)}
+            .Item("Rectangle") = {New Point(73, 185), New Point(163, 79)}
+            .Item("Rhombus") = {New Point(75, 185), New Point(153, 83)}
+            .Item("Parallelogram") = {New Point(65, 185), New Point(183, 81)}
+            .Item("Triangle") = {New Point(180, 85), New Point(77, 177)}
+            .Item("Cube") = {New Point(63, 181), New Point(152, 159), New Point(181, 69)}
+            .Item("Rectangular Prism") = {New Point(152, 65), New Point(46, 177), New Point(125, 149)}
+            .Item("Sphere") = {New Point(181, 69)}
         End With
 
     End Sub
@@ -28,6 +36,7 @@
         argLabelBase.Hide()
         shapeTitle.Text = learnShape.name
         infoBox.Text = learnShape.info
+        formulaImage.BackgroundImage = Root.imgs(learnShape.name.ToLower() + "SizeIcon")
         Me.Text = learnShape.name
         If learnShape.type = "3D" Then
             formulaTitle.Text = "Volume formula:"
@@ -86,6 +95,7 @@
                 .Font = argLabelBase.Font
                 .Size = argLabelBase.Size
                 .TextAlign = argLabelBase.TextAlign
+                .BackColor = Color.Transparent
             End With
             Me.imagePanel.Controls.Add(lb)
             lb.BringToFront()

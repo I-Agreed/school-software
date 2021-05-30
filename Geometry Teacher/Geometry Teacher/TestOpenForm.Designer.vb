@@ -83,8 +83,9 @@ Partial Class TestOpenForm
         '
         'BackButton1
         '
+        Me.BackButton1.BackColor = System.Drawing.Color.Transparent
         Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BackButton1.Location = New System.Drawing.Point(50, 335)
+        Me.BackButton1.Location = New System.Drawing.Point(9, 391)
         Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
         Me.BackButton1.Name = "BackButton1"
         Me.BackButton1.Size = New System.Drawing.Size(50, 50)

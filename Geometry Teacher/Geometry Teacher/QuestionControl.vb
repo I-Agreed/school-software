@@ -4,8 +4,11 @@
     Property answer As Integer
     Property correct = False
     Property marked = False
-    Property valueLabels As List(Of Label) = New List(Of Label)
     Property test As TestForm
+    Property valueLabels As New List(Of Label)
+
+    Private shapeTextLocations As Dictionary(Of String, Point()) = New Dictionary(Of String, Point())
+    Private shapeArgLabels As New List(Of Label)
 
     Public Sub New(s As Shape, v As Integer(), t As TestForm)
 
@@ -18,10 +21,22 @@
         values = v
         answer = shape.calculate(values)
         test = t
+
+        With shapeTextLocations
+            .Item("Square") = {New Point(180, 85), New Point(77, 177)}
+            .Item("Circle") = {New Point(188, 72)}
+            .Item("Rectangle") = {New Point(73, 185), New Point(163, 79)}
+            .Item("Rhombus") = {New Point(75, 185), New Point(153, 83)}
+            .Item("Parallelogram") = {New Point(65, 185), New Point(183, 81)}
+            .Item("Triangle") = {New Point(180, 85), New Point(77, 177)}
+            .Item("Cube") = {New Point(63, 181), New Point(152, 159), New Point(181, 69)}
+            .Item("Rectangular Prism") = {New Point(152, 65), New Point(46, 177), New Point(125, 149)}
+            .Item("Sphere") = {New Point(181, 69)}
+        End With
     End Sub
 
     Private Sub QuestionControl_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        argLabelBase.Hide()
         markIcon.Hide()
         correctAnswer.Hide()
         correctFormula.Hide()
@@ -32,16 +47,6 @@
             formulaTitle.Hide()
             formulaDisplay.Hide()
         End If
-
-        Dim displays = {arg1Display, arg2Display, arg3Display}
-        For Each d As Label In displays
-            d.Hide()
-        Next
-
-        For i As Integer = 0 To shape.params.Length - 1
-            displays(i).Text = values(i)
-            displays(i).Show()
-        Next
 
         For i As Integer = 0 To shape.params.Count - 1
             Dim l = New Label
@@ -70,6 +75,22 @@
         correctFormula.Text = shape.value + " = " + shape.formula
 
         correctAnswer.Text = answer.ToString() + " " + Root.Shapes.getUnit(shape.type)
+
+        shapeDisplay.BackgroundImage = Root.imgs(shape.name.ToLower() + "SizeIcon")
+        For t As Integer = 0 To shapeTextLocations(shape.name).Length - 1
+            Dim lb As New Label()
+            With lb
+                .Location = shapeTextLocations(shape.name)(t)
+                .Text = "0"
+                .Font = argLabelBase.Font
+                .Size = argLabelBase.Size
+                .TextAlign = argLabelBase.TextAlign
+                .BackColor = Color.Transparent
+            End With
+            Me.picPanel.Controls.Add(lb)
+            lb.BringToFront()
+            shapeArgLabels.Add(lb)
+        Next
     End Sub
 
     Function mark() As Boolean

@@ -1,20 +1,24 @@
 ﻿Public Class ShapeData
-    Public shapes As New List(Of String)({"Square", "Rectangle", "Triangle", "Rhombus", "Circle", "Cube", "RectangularPrism"})
+    Public shapes As New List(Of String)({"Square", "Rectangle", "Parallelogram", "Rhombus", "Triangle", "Circle", "Cube", "RectangularPrism", "Sphere"})
     Public Property Square = New Shape("Square", "2D", "Length * Length", {"length"}, (Function(x As Integer()) x(0) * x(0)),
                                        "A square is a special rectangle where all the sides are the same length.")
-    Public Property Rectangle = New Shape("Rectangle", "2D", "Length * Height", {"length", "height"}, (Function(x As Integer()) x(1) * x(0)),
+    Public Property Rectangle = New Shape("Rectangle", "2D", "Width * Height", {"width", "height"}, (Function(x As Integer()) x(1) * x(0)),
                                           "A rectangle is a four sided shape with two sets of parallel sides at right angles.")
+    Public Property Parallelogram = New Shape("Parallelogram", "2D", "Width * Height", {"width", "height"}, (Function(x As Integer()) x(1) * x(0)),
+                                        "A parallelogram is a shape with 2 sets.")
+    Public Property Rhombus = New Shape("Rhombus", "2D", "Length * Height", {"length", "height"}, (Function(x As Integer()) x(1) * x(0)),
+                                        "A rhombus is a parallelogram with sides of equal length.")
     Public Property Triangle = New Shape("Triangle", "2D", "1/2 * Base * Height", {"base", "height"}, (Function(x As Integer()) Math.Floor(x(1) * x(0) * 0.5)),
                                          "A triangle is any shape with three straight sides.")
-    Public Property Rhombus = New Shape("Rhombus", "2D", "Length * Height", {"length", "height"}, (Function(x As Integer()) x(1) * x(0)),
-                                        "A rhombus is a parallelogram with equal sides.")
     Public Property Circle = New Shape("Circle", "2D", "Pi × Radius × Radius", {"radius"}, (Function(x As Integer()) 3 * x(0) * x(0)),
-                                       "A circle is a rounded shape, where every point on its edge is the same distance from its centre.")
+                                       "A circle is a rounded shape, where every point on its edge is the same distance from its centre. That distance is called the radius.")
 
     Public Property Cube = New Shape("Cube", "3D", "Length * Length * Length", {"length"}, (Function(x As Integer()) x(0) * x(0) * x(0)),
                                      "A cube is like a 3D form of a square. All of its sides are equal length, and every face is a square.")
-    Public Property RectangularPrism = New Shape("Rectangular Prism", "3D", "Length * Width * Height", {"length", "width", "height"}, (Function(x As Integer()) x(0) * x(1) * x(2)),
+    Public Property RectangularPrism = New Shape("Rectangular Prism", "3D", "Height * Width * Depth", {"height", "width", "depth"}, (Function(x As Integer()) x(0) * x(1) * x(2)),
                                                  "A rectangular prism is a 3D shape with 6 rectangular faces. Faces on opposite sides are the same size.")
+    Public Property Sphere = New Shape("Sphere", "3D", "4/3 * Pi * Radius * Radius * Radius", {"Radius"}, (Function(x As Integer()) Math.Floor((4 / 3) * 3 * x(0) * x(0) * x(0))),
+                                                 "A sphere is like a 3D circle. Every point on the surface is the sam distance from the centre. That distance is called the radius.")
 
     Default Public ReadOnly Property Item(ByVal name As String) As Shape
         Get

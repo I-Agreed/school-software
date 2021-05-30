@@ -44,7 +44,7 @@ Partial Class LearnShapeForm
         '
         Me.formulaImage.BackgroundImage = CType(resources.GetObject("formulaImage.BackgroundImage"), System.Drawing.Image)
         Me.formulaImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.formulaImage.Location = New System.Drawing.Point(15, 15)
+        Me.formulaImage.Location = New System.Drawing.Point(25, 25)
         Me.formulaImage.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.formulaImage.Name = "formulaImage"
         Me.formulaImage.Size = New System.Drawing.Size(175, 175)
@@ -125,7 +125,7 @@ Partial Class LearnShapeForm
         '
         'infoBox
         '
-        Me.infoBox.Font = New System.Drawing.Font("Rockwell", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.infoBox.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.infoBox.Location = New System.Drawing.Point(13, 63)
         Me.infoBox.Name = "infoBox"
         Me.infoBox.Size = New System.Drawing.Size(493, 126)
@@ -134,8 +134,9 @@ Partial Class LearnShapeForm
         '
         'argLabelBase
         '
+        Me.argLabelBase.BackColor = System.Drawing.Color.Transparent
         Me.argLabelBase.Font = New System.Drawing.Font("Rockwell", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.argLabelBase.Location = New System.Drawing.Point(168, 182)
+        Me.argLabelBase.Location = New System.Drawing.Point(181, 69)
         Me.argLabelBase.Name = "argLabelBase"
         Me.argLabelBase.Size = New System.Drawing.Size(37, 23)
         Me.argLabelBase.TabIndex = 10
@@ -152,11 +153,11 @@ Partial Class LearnShapeForm
         '
         'imagePanel
         '
-        Me.imagePanel.Controls.Add(Me.formulaImage)
         Me.imagePanel.Controls.Add(Me.argLabelBase)
+        Me.imagePanel.Controls.Add(Me.formulaImage)
         Me.imagePanel.Location = New System.Drawing.Point(150, 210)
         Me.imagePanel.Name = "imagePanel"
-        Me.imagePanel.Size = New System.Drawing.Size(205, 205)
+        Me.imagePanel.Size = New System.Drawing.Size(225, 225)
         Me.imagePanel.TabIndex = 12
         '
         'LearnShapeForm

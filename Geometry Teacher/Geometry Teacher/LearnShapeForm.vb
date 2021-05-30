@@ -19,7 +19,7 @@
         learnShape = Root.Shapes.getShape(shape)
 
         With shapeTextLocations
-            .Item("Square") = {New Point(168, 175), New Point(62, 270)}
+            .Item("Square") = {New Point(170, 75), New Point(67, 167)}
         End With
 
     End Sub
@@ -40,22 +40,24 @@
         For i As Integer = 0 To learnShape.params.Count - 1
             Dim l = New Label
             With l
-                .Location = New Point(0, 40 * i)
+                .Location = New Point(0, 50 * i)
                 .AutoSize = False
-                .Size = New Size(70, 25)
+                .Size = New Size(90, 30)
                 .Text = learnShape.params(i) + ":"
                 .TextAlign = ContentAlignment.MiddleRight
+                .Font = formulaTitle.Font
             End With
             Me.inputPanel.Controls.Add(l)
             inputLabels.Add(l)
 
             Dim b = New ValidatedTextBox
             With b
-                .Location = New Point(70, 40 * i)
-                .Size = New Size(30, 25)
+                .Location = New Point(90, 50 * i)
+                .Size = New Size(40, 30)
                 .AllowedText = "1234567890"
                 .Text = "0"
                 .MaxLength = 2
+                .Font = formulaTitle.Font
             End With
             Me.inputPanel.Controls.Add(b)
             inputBoxes.Add(b)
@@ -63,11 +65,12 @@
 
             Dim l2 = New Label
             With l2
-                .Location = New Point(100, 40 * i)
+                .Location = New Point(130, 50 * i)
                 .AutoSize = False
-                .Size = New Size(40, 25)
+                .Size = New Size(50, 30)
                 .Text = "cm"
                 .TextAlign = ContentAlignment.MiddleLeft
+                .Font = formulaTitle.Font
             End With
             Me.inputPanel.Controls.Add(l2)
             inputLabels.Add(l2)
@@ -75,24 +78,31 @@
 
         resultLabel.Text = learnShape.value + " = 0 " + Root.Shapes.getUnit(learnShape.type)
 
-        Dim t As Integer = 0
-        For i As Integer = 0 To shapeTextLocations(learnShape.name).Length - 1
+        For t As Integer = 0 To shapeTextLocations(learnShape.name).Length - 1
             Dim lb As New Label()
             With lb
-                .Location = shapeTextLocations(learnShape.name)(i)
-                .Text = learnShape.params(t)
+                .Location = shapeTextLocations(learnShape.name)(t)
+                .Text = "0"
                 .Font = argLabelBase.Font
                 .Size = argLabelBase.Size
                 .TextAlign = argLabelBase.TextAlign
             End With
-            If t < learnShape.params(t) Then
-                t += 1
-            End If
+            Me.imagePanel.Controls.Add(lb)
+            lb.BringToFront()
+            shapeArgLabels.Add(lb)
         Next
     End Sub
 
     Private Sub inputUpdate()
         resultLabel.Text = learnShape.value + " = " + learnShape.calculate(getArgs()).ToString() + " " + Root.Shapes.getUnit(learnShape.type)
+
+        Dim t As Integer = 0
+        For i As Integer = 0 To shapeArgLabels.Count - 1
+            shapeArgLabels(i).Text = inputBoxes(t).Text
+            If t < inputBoxes.Count - 1 Then
+                t += 1
+            End If
+        Next
     End Sub
 
     Function getArgs() As Integer()

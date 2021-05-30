@@ -9,6 +9,10 @@
     Public axis2DIcon As Image = Image.FromFile("../../../Resources/2D axis.png")
     Public axis3DIcon As Image = Image.FromFile("../../../Resources/3D axis.png")
     Public squareSizeIcon As Image = Image.FromFile("../../../Resources/square size.png")
+    Public rectangleSizeIcon As Image = Image.FromFile("../../../Resources/rectangle size.png")
+    Public rhombusSizeIcon As Image = Image.FromFile("../../../Resources/rhombus size.png")
+    Public triangleSizeIcon As Image = Image.FromFile("../../../Resources/triangle size.png")
+
 
     Public Sub New()
 

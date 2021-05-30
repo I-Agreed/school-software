@@ -1,7 +1,7 @@
 ﻿Public Class ShapeData
     Public shapes As New List(Of String)({"Square", "Rectangle", "Triangle", "Rhombus", "Circle", "Cube", "RectangularPrism"})
     Public Property Square = New Shape("Square", "2D", "Length * Length", {"length"}, (Function(x As Integer()) x(0) * x(0)),
-                                       "A square is a special rectangle with sets two parallel sides with equal length.")
+                                       "A square is a special rectangle where all the sides are the same length.")
     Public Property Rectangle = New Shape("Rectangle", "2D", "Length * Height", {"length", "height"}, (Function(x As Integer()) x(1) * x(0)),
                                           "A rectangle is a four sided shape with two sets of parallel sides at right angles.")
     Public Property Triangle = New Shape("Triangle", "2D", "1/2 * Base * Height", {"base", "height"}, (Function(x As Integer()) Math.Floor(x(1) * x(0) * 0.5)),

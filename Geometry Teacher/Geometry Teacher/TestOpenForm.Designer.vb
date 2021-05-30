@@ -108,9 +108,9 @@ Partial Class TestOpenForm
         Me.selectHints.Location = New System.Drawing.Point(444, 143)
         Me.selectHints.Margin = New System.Windows.Forms.Padding(2)
         Me.selectHints.Name = "selectHints"
-        Me.selectHints.Size = New System.Drawing.Size(86, 19)
+        Me.selectHints.Size = New System.Drawing.Size(102, 19)
         Me.selectHints.TabIndex = 6
-        Me.selectHints.Text = "Show Hints"
+        Me.selectHints.Text = "Show Formula"
         Me.selectHints.UseVisualStyleBackColor = True
         '
         'selectMultipleChoice

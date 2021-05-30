@@ -85,7 +85,7 @@
             questions(questionNumber).Hide()
         End If
         questionNumber = q
-        questionCounter.Text = (q + 1).ToString() + "/10"
+        questionCounter.Text = "Question " + (q + 1).ToString() + "/10"
     End Sub
 
     Sub nextQuestion()
@@ -93,8 +93,10 @@
             If questions(questionNumber).mark() Then
                 score += 1
             End If
+            nextButton.Text = "Next Question"
         ElseIf questionNumber <> questions.Count() - 1 Then
             showQuestion(questionNumber + 1)
+            nextButton.Text = "Mark Question"
         Else
             endTest()
         End If

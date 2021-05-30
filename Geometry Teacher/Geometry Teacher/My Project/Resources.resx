@@ -139,9 +139,6 @@
   <data name="3D axis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3D axis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rectangle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rectangle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cube size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cube size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,6 +151,12 @@
   <data name="circle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="circle diagram labels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle diagram labels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangular prism size1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangular prism size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="square size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\square size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,8 +166,17 @@
   <data name="parallelogram size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parallelogram size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rectangle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle diagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sphere size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sphere size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,7 +184,7 @@
   <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rectangular prism size1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rectangular prism size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pi diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pi diagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

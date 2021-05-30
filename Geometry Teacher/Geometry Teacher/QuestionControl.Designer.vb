@@ -60,18 +60,20 @@ Partial Class QuestionControl
         'formulaTitle
         '
         Me.formulaTitle.AutoSize = True
-        Me.formulaTitle.Location = New System.Drawing.Point(238, 49)
+        Me.formulaTitle.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.formulaTitle.Location = New System.Drawing.Point(238, 208)
         Me.formulaTitle.Name = "formulaTitle"
-        Me.formulaTitle.Size = New System.Drawing.Size(71, 15)
+        Me.formulaTitle.Size = New System.Drawing.Size(97, 19)
         Me.formulaTitle.TabIndex = 2
         Me.formulaTitle.Text = "formulaTitle"
         '
         'formulaDisplay
         '
         Me.formulaDisplay.AutoSize = True
-        Me.formulaDisplay.Location = New System.Drawing.Point(351, 49)
+        Me.formulaDisplay.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.formulaDisplay.Location = New System.Drawing.Point(341, 208)
         Me.formulaDisplay.Name = "formulaDisplay"
-        Me.formulaDisplay.Size = New System.Drawing.Size(49, 15)
+        Me.formulaDisplay.Size = New System.Drawing.Size(66, 19)
         Me.formulaDisplay.TabIndex = 3
         Me.formulaDisplay.Text = "formula"
         '
@@ -97,7 +99,7 @@ Partial Class QuestionControl
         '
         'argValuePanel
         '
-        Me.argValuePanel.Location = New System.Drawing.Point(238, 137)
+        Me.argValuePanel.Location = New System.Drawing.Point(238, 74)
         Me.argValuePanel.Name = "argValuePanel"
         Me.argValuePanel.Size = New System.Drawing.Size(142, 87)
         Me.argValuePanel.TabIndex = 15

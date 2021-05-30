@@ -22,6 +22,7 @@ Partial Class Calculator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Calculator))
         Me.mainDisplay = New Geometry_Teacher.ValidatedTextBox()
         Me.prevDisplay = New System.Windows.Forms.Label()
         Me.plusButton = New System.Windows.Forms.Button()
@@ -344,6 +345,7 @@ Partial Class Calculator
         Me.Controls.Add(Me.prevDisplay)
         Me.Controls.Add(Me.mainDisplay)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Calculator"
         Me.Text = "Calculator"
         Me.ResumeLayout(False)

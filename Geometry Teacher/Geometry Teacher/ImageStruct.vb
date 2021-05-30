@@ -21,6 +21,12 @@
     Public rectangularprismSizeIcon As Image = Image.FromFile("../../../Resources/rectangular prism size.png")
     Public sphereSizeIcon As Image = Image.FromFile("../../../Resources/sphere size.png")
 
+    Public circleDiagram As Image = Image.FromFile("../../../Resources/circle diagram.png")
+    Public circleDiagramLabels As Image = Image.FromFile("../../../Resources/circle diagram labels.png")
+    Public piIcon As Image = Image.FromFile("../../../Resources/pi.png")
+    Public windowIcon As Image = Image.FromFile("../../../Resources/window icon.png")
+    Public piDiagram As Image = Image.FromFile("../../../Resources/pi diagram.png")
+
 
     Public Sub New()
 

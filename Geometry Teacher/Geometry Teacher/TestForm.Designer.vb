@@ -29,16 +29,17 @@ Partial Class TestForm
         '
         'nextButton
         '
-        Me.nextButton.Location = New System.Drawing.Point(477, 401)
+        Me.nextButton.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.nextButton.Location = New System.Drawing.Point(651, 401)
         Me.nextButton.Name = "nextButton"
-        Me.nextButton.Size = New System.Drawing.Size(96, 23)
+        Me.nextButton.Size = New System.Drawing.Size(137, 37)
         Me.nextButton.TabIndex = 0
-        Me.nextButton.Text = "Next Question"
+        Me.nextButton.Text = "Mark Question"
         Me.nextButton.UseVisualStyleBackColor = True
         '
         'questionBox
         '
-        Me.questionBox.Location = New System.Drawing.Point(53, 21)
+        Me.questionBox.Location = New System.Drawing.Point(28, 9)
         Me.questionBox.Name = "questionBox"
         Me.questionBox.Size = New System.Drawing.Size(586, 358)
         Me.questionBox.TabIndex = 1
@@ -46,12 +47,12 @@ Partial Class TestForm
         'questionCounter
         '
         Me.questionCounter.AutoSize = True
-        Me.questionCounter.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.questionCounter.Location = New System.Drawing.Point(730, 9)
+        Me.questionCounter.Font = New System.Drawing.Font("Rockwell", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.questionCounter.Location = New System.Drawing.Point(620, 9)
         Me.questionCounter.Name = "questionCounter"
-        Me.questionCounter.Size = New System.Drawing.Size(58, 30)
+        Me.questionCounter.Size = New System.Drawing.Size(168, 27)
         Me.questionCounter.TabIndex = 2
-        Me.questionCounter.Text = "1/10"
+        Me.questionCounter.Text = "Question 1/10"
         '
         'TestForm
         '
@@ -63,7 +64,7 @@ Partial Class TestForm
         Me.Controls.Add(Me.nextButton)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "TestForm"
-        Me.Text = "Test"
+        Me.Text = "Quiz"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

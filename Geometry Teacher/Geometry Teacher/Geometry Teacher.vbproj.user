@@ -25,6 +25,9 @@
     <Compile Update="HelpDimension.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="HelpPi.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>

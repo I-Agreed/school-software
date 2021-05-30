@@ -36,6 +36,7 @@ Partial Class LearnShapeForm
         Me.argLabelBase = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.imagePanel = New System.Windows.Forms.Panel()
+        Me.HelpButton1 = New Geometry_Teacher.HelpButton()
         CType(Me.formulaImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.imagePanel.SuspendLayout()
         Me.SuspendLayout()
@@ -160,11 +161,24 @@ Partial Class LearnShapeForm
         Me.imagePanel.Size = New System.Drawing.Size(225, 225)
         Me.imagePanel.TabIndex = 12
         '
+        'HelpButton1
+        '
+        Me.HelpButton1.BackgroundImage = CType(resources.GetObject("HelpButton1.BackgroundImage"), System.Drawing.Image)
+        Me.HelpButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.HelpButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.HelpButton1.helpMessage = "What is Pi?"
+        Me.HelpButton1.helpPage = "P"
+        Me.HelpButton1.Location = New System.Drawing.Point(558, 239)
+        Me.HelpButton1.Name = "HelpButton1"
+        Me.HelpButton1.Size = New System.Drawing.Size(25, 25)
+        Me.HelpButton1.TabIndex = 13
+        '
         'LearnShapeForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.HelpButton1)
         Me.Controls.Add(Me.imagePanel)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.infoBox)
@@ -196,4 +210,5 @@ Partial Class LearnShapeForm
     Friend WithEvents argLabelBase As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents imagePanel As Panel
+    Friend WithEvents HelpButton1 As HelpButton
 End Class

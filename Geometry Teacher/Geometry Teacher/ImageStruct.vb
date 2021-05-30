@@ -30,6 +30,20 @@
     Public windowIcon As Image = Image.FromFile("../../../Resources/window icon.png")
     Public piDiagram As Image = Image.FromFile("../../../Resources/pi diagram.png")
 
+    Public Square As Image = Image.FromFile("../../../Resources/image_square.png")
+    Public Rectangle As Image = Image.FromFile("../../../Resources/image_rectangle.png")
+    Public Parallelogram As Image = Image.FromFile("../../../Resources/image_parallelogram.png")
+    Public Rhombus As Image = Image.FromFile("../../../Resources/image_rhombus.png")
+    Public Triangle As Image = Image.FromFile("../../../Resources/image_triangle.png")
+    Public Circle As Image = Image.FromFile("../../../Resources/image_circle.png")
+    Public Cube As Image = Image.FromFile("../../../Resources/image_cube.png")
+    Public RectangularPrism As Image = Image.FromFile("../../../Resources/image_rectangular prism.png")
+    Public SquarePyramid As Image = Image.FromFile("../../../Resources/image_square pyramid.png")
+    Public TriangularPrism As Image = Image.FromFile("../../../Resources/image_triangular prism.png")
+    Public Cylinder As Image = Image.FromFile("../../../Resources/image_cylinder.png")
+    Public Sphere As Image = Image.FromFile("../../../Resources/image_sphere.png")
+
+
 
     Public Sub New()
 

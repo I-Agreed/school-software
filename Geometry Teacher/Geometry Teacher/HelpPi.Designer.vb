@@ -83,7 +83,7 @@ Partial Class HelpPi
         Me.infoBox.Name = "infoBox"
         Me.infoBox.Size = New System.Drawing.Size(493, 126)
         Me.infoBox.TabIndex = 10
-        Me.infoBox.Text = resources.GetString("infoBox.Text")
+        Me.infoBox.Text = "Pi is the ratio of a circle's Circumference and Diameter"
         '
         'BackButton1
         '
@@ -107,7 +107,7 @@ Partial Class HelpPi
         Me.Controls.Add(Me.circleDiagramLabels)
         Me.Controls.Add(Me.circleDiagram)
         Me.Name = "HelpPi"
-        Me.Text = "Pi"
+        Me.Text = "What is Pi?"
         CType(Me.circleDiagram, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.circleDiagramLabels, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.piImage, System.ComponentModel.ISupportInitialize).EndInit()

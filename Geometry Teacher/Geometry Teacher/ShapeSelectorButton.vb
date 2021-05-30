@@ -22,14 +22,7 @@
     End Sub
     Private Sub ShapeSelectorButton_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ShapeLabel.Text = shape.name
-    End Sub
-
-    Private Sub ShapeLabel_Click(sender As Object, e As EventArgs) Handles ShapeLabel.Click
-        open()
-    End Sub
-
-    Private Sub ShapePicture_Click(sender As Object, e As EventArgs) Handles ShapePicture.Click
-        open()
+        ShapePicture.BackgroundImage = Root.imgs(shape.name)
     End Sub
 
     Function open()

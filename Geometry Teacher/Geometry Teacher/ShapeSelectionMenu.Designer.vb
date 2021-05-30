@@ -55,7 +55,8 @@ Partial Class ShapeSelectionMenu
         Me.HelpButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.HelpButton1.helpMessage = "What are 2D and 3D shape?"
         Me.HelpButton1.helpPage = "D"
-        Me.HelpButton1.Location = New System.Drawing.Point(171, 14)
+        Me.HelpButton1.Location = New System.Drawing.Point(165, 11)
+        Me.HelpButton1.Margin = New System.Windows.Forms.Padding(0, 3, 3, 3)
         Me.HelpButton1.Name = "HelpButton1"
         Me.HelpButton1.Size = New System.Drawing.Size(25, 25)
         Me.HelpButton1.TabIndex = 2
@@ -65,6 +66,7 @@ Partial Class ShapeSelectionMenu
         Me.title.AutoSize = True
         Me.title.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.title.Location = New System.Drawing.Point(13, 6)
+        Me.title.Margin = New System.Windows.Forms.Padding(3, 0, 0, 0)
         Me.title.Name = "title"
         Me.title.Size = New System.Drawing.Size(152, 33)
         Me.title.TabIndex = 3

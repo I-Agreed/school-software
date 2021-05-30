@@ -1,6 +1,6 @@
 ﻿Public Class ShapeSelectionMenu
     Private selectorButtons As New List(Of ShapeSelectorButton)
-    Private buttonColumns As Integer = 5
+    Private buttonColumns As Integer = 3
     Private type As String = "2D"
 
     Public Sub New(t As String)
@@ -17,8 +17,12 @@
         Select Case type
             Case "2D"
                 shapes = Root.Shapes.getShapes2D()
+                Me.Text = "Learn 2D Shapes"
+                title.Text = "2D Shapes"
             Case "3D"
                 shapes = Root.Shapes.getShapes3D()
+                Me.Text = "Learn 3D Shapes"
+                title.Text = "3D Shapes"
             Case Else
                 shapes = New List(Of String)
         End Select

@@ -11,6 +11,7 @@
         ' Add any initialization after the InitializeComponent() call.
         If Not Me.DesignMode Then
             helpForms("D") = New HelpDimension()
+            helpForms("P") = New HelpPi()
         End If
     End Sub
 

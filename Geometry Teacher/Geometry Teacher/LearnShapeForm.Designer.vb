@@ -32,22 +32,27 @@ Partial Class LearnShapeForm
         Me.resultLabel = New System.Windows.Forms.Label()
         Me.inputPanel = New System.Windows.Forms.Panel()
         Me.BackButton1 = New Geometry_Teacher.BackButton()
+        Me.infoBox = New System.Windows.Forms.Label()
+        Me.argLabelBase = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.formulaImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'formulaImage
         '
-        Me.formulaImage.Location = New System.Drawing.Point(620, 173)
+        Me.formulaImage.BackgroundImage = CType(resources.GetObject("formulaImage.BackgroundImage"), System.Drawing.Image)
+        Me.formulaImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.formulaImage.Location = New System.Drawing.Point(9, 118)
         Me.formulaImage.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.formulaImage.Name = "formulaImage"
-        Me.formulaImage.Size = New System.Drawing.Size(143, 83)
+        Me.formulaImage.Size = New System.Drawing.Size(175, 175)
         Me.formulaImage.TabIndex = 0
         Me.formulaImage.TabStop = False
         '
         'formulaTitle
         '
         Me.formulaTitle.AutoSize = True
-        Me.formulaTitle.Location = New System.Drawing.Point(404, 278)
+        Me.formulaTitle.Location = New System.Drawing.Point(245, 118)
         Me.formulaTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formulaTitle.Name = "formulaTitle"
         Me.formulaTitle.Size = New System.Drawing.Size(74, 15)
@@ -58,7 +63,7 @@ Partial Class LearnShapeForm
         '
         Me.formulaDisplay.AutoSize = True
         Me.formulaDisplay.BackColor = System.Drawing.SystemColors.Control
-        Me.formulaDisplay.Location = New System.Drawing.Point(504, 278)
+        Me.formulaDisplay.Location = New System.Drawing.Point(327, 118)
         Me.formulaDisplay.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formulaDisplay.Name = "formulaDisplay"
         Me.formulaDisplay.Size = New System.Drawing.Size(49, 15)
@@ -68,7 +73,7 @@ Partial Class LearnShapeForm
         'shapeTitle
         '
         Me.shapeTitle.AutoSize = True
-        Me.shapeTitle.Location = New System.Drawing.Point(404, 98)
+        Me.shapeTitle.Location = New System.Drawing.Point(13, 9)
         Me.shapeTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.shapeTitle.Name = "shapeTitle"
         Me.shapeTitle.Size = New System.Drawing.Size(64, 15)
@@ -87,16 +92,16 @@ Partial Class LearnShapeForm
         'resultLabel
         '
         Me.resultLabel.AutoSize = True
-        Me.resultLabel.Location = New System.Drawing.Point(404, 408)
+        Me.resultLabel.Location = New System.Drawing.Point(245, 248)
         Me.resultLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.resultLabel.Name = "resultLabel"
-        Me.resultLabel.Size = New System.Drawing.Size(13, 15)
+        Me.resultLabel.Size = New System.Drawing.Size(69, 15)
         Me.resultLabel.TabIndex = 6
-        Me.resultLabel.Text = "0"
+        Me.resultLabel.Text = "area = 0 cm"
         '
         'inputPanel
         '
-        Me.inputPanel.Location = New System.Drawing.Point(404, 298)
+        Me.inputPanel.Location = New System.Drawing.Point(245, 138)
         Me.inputPanel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.inputPanel.Name = "inputPanel"
         Me.inputPanel.Size = New System.Drawing.Size(210, 105)
@@ -104,18 +109,49 @@ Partial Class LearnShapeForm
         '
         'BackButton1
         '
+        Me.BackButton1.BackColor = System.Drawing.Color.Transparent
         Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BackButton1.Location = New System.Drawing.Point(106, 353)
+        Me.BackButton1.Location = New System.Drawing.Point(9, 391)
         Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
         Me.BackButton1.Name = "BackButton1"
         Me.BackButton1.Size = New System.Drawing.Size(50, 50)
         Me.BackButton1.TabIndex = 8
+        '
+        'infoBox
+        '
+        Me.infoBox.Font = New System.Drawing.Font("Rockwell", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.infoBox.Location = New System.Drawing.Point(559, 38)
+        Me.infoBox.Name = "infoBox"
+        Me.infoBox.Size = New System.Drawing.Size(209, 178)
+        Me.infoBox.TabIndex = 9
+        Me.infoBox.Text = resources.GetString("infoBox.Text")
+        '
+        'argLabelBase
+        '
+        Me.argLabelBase.Font = New System.Drawing.Font("Rockwell", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.argLabelBase.Location = New System.Drawing.Point(62, 270)
+        Me.argLabelBase.Name = "argLabelBase"
+        Me.argLabelBase.Size = New System.Drawing.Size(37, 23)
+        Me.argLabelBase.TabIndex = 10
+        Me.argLabelBase.Text = "10"
+        Me.argLabelBase.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(58, 278)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(0, 15)
+        Me.Label2.TabIndex = 11
         '
         'LearnShapeForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.argLabelBase)
+        Me.Controls.Add(Me.infoBox)
         Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.inputPanel)
         Me.Controls.Add(Me.resultLabel)
@@ -140,4 +176,7 @@ Partial Class LearnShapeForm
     Friend WithEvents resultLabel As Label
     Friend WithEvents inputPanel As Panel
     Friend WithEvents BackButton1 As BackButton
+    Friend WithEvents infoBox As Label
+    Friend WithEvents argLabelBase As Label
+    Friend WithEvents Label2 As Label
 End Class

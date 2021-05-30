@@ -19,6 +19,12 @@
     <Compile Update="ExitButton.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="HelpButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HelpDimension.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>

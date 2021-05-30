@@ -4,6 +4,7 @@
     Public Property formula As String
     Public Property params As String()
     Public Property formula_func As Func(Of Integer(), Integer)
+    Public Property info As String
     Public ReadOnly Property value As String
         Get
             If type = "3D" Then
@@ -14,13 +15,13 @@
         End Get
     End Property
 
-    Private Child As Shape
-    Public Sub New(n As String, t As String, f As String, p As String(), ff As Func(Of Integer(), Integer))
+    Public Sub New(n As String, t As String, f As String, p As String(), ff As Func(Of Integer(), Integer), i As String)
         name = n
         type = t
         formula = f
         params = p
         formula_func = ff
+        info = i.Replace("\n", Environment.NewLine)
     End Sub
 
     Public Function getForm() As Form

@@ -4,6 +4,11 @@
     Public inputLabels As New List(Of Label)
     Public inputBoxes As New List(Of ValidatedTextBox)
     Public inputUnits As New List(Of Label)
+
+    Private shapeTextLocations As Dictionary(Of String, Point()) = New Dictionary(Of String, Point())
+    Private shapeArgLabels As New List(Of Label)
+
+
     Public Sub New(shape As String)
 
         ' This call is required by the designer.
@@ -12,10 +17,17 @@
         ' Add any initialization after the InitializeComponent() call.
 
         learnShape = Root.Shapes.getShape(shape)
+
+        With shapeTextLocations
+            .Item("Square") = {New Point(168, 175), New Point(62, 270)}
+        End With
+
     End Sub
 
     Private Sub LearnShapeForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        argLabelBase.Hide()
         shapeTitle.Text = learnShape.name
+        infoBox.Text = learnShape.info
         Me.Text = learnShape.name
         If learnShape.type = "3D" Then
             formulaTitle.Text = "Volume formula:"
@@ -61,11 +73,26 @@
             inputLabels.Add(l2)
         Next
 
-        resultLabel.Text = "0 " + Root.Shapes.getUnit(learnShape.type)
+        resultLabel.Text = learnShape.value + " = 0 " + Root.Shapes.getUnit(learnShape.type)
+
+        Dim t As Integer = 0
+        For i As Integer = 0 To shapeTextLocations(learnShape.name).Length - 1
+            Dim lb As New Label()
+            With lb
+                .Location = shapeTextLocations(learnShape.name)(i)
+                .Text = learnShape.params(t)
+                .Font = argLabelBase.Font
+                .Size = argLabelBase.Size
+                .TextAlign = argLabelBase.TextAlign
+            End With
+            If t < learnShape.params(t) Then
+                t += 1
+            End If
+        Next
     End Sub
 
     Private Sub inputUpdate()
-        resultLabel.Text = learnShape.calculate(getArgs()).ToString() + " " + Root.Shapes.getUnit(learnShape.type)
+        resultLabel.Text = learnShape.value + " = " + learnShape.calculate(getArgs()).ToString() + " " + Root.Shapes.getUnit(learnShape.type)
     End Sub
 
     Function getArgs() As Integer()

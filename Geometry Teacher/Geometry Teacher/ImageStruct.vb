@@ -5,6 +5,10 @@
     Public calculatorIcon As Image = Image.FromFile("../../../Resources/calculator.png")
     Public closeCalculatorIcon As Image = Image.FromFile("../../../Resources/exit.png")
     Public backIcon As Image = Image.FromFile("../../../Resources/icons8-back-arrow-64.png")
+    Public helpIcon As Image = Image.FromFile("../../../Resources/help.png")
+    Public axis2DIcon As Image = Image.FromFile("../../../Resources/2D axis.png")
+    Public axis3DIcon As Image = Image.FromFile("../../../Resources/3D axis.png")
+    Public squareSizeIcon As Image = Image.FromFile("../../../Resources/square size.png")
 
     Public Sub New()
 

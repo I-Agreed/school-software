@@ -28,6 +28,9 @@
             .Item("Cube") = {New Point(63, 181), New Point(152, 159), New Point(181, 69)}
             .Item("Rectangular Prism") = {New Point(152, 65), New Point(46, 177), New Point(125, 149)}
             .Item("Sphere") = {New Point(181, 69)}
+            .Item("Square Pyramid") = {New Point(64, 177), New Point(181, 75)}
+            .Item("Triangular Prism") = {New Point(54, 177), New Point(181, 61), New Point(148, 147)}
+            .Item("Cylinder") = {New Point(89, 193), New Point(181, 75)}
         End With
 
     End Sub
@@ -49,7 +52,7 @@
         For i As Integer = 0 To learnShape.params.Count - 1
             Dim l = New Label
             With l
-                .Location = New Point(0, 50 * i)
+                .Location = New Point(0, 35 * i)
                 .AutoSize = False
                 .Size = New Size(90, 30)
                 .Text = learnShape.params(i) + ":"
@@ -61,7 +64,7 @@
 
             Dim b = New ValidatedTextBox
             With b
-                .Location = New Point(90, 50 * i)
+                .Location = New Point(90, 35 * i)
                 .Size = New Size(40, 30)
                 .AllowedText = "1234567890"
                 .Text = "0"
@@ -74,7 +77,7 @@
 
             Dim l2 = New Label
             With l2
-                .Location = New Point(130, 50 * i)
+                .Location = New Point(130, 35 * i)
                 .AutoSize = False
                 .Size = New Size(50, 30)
                 .Text = "cm"

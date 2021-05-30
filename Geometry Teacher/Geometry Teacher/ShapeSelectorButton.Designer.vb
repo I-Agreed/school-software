@@ -37,7 +37,7 @@ Partial Class ShapeSelectorButton
         '
         'ShapeLabel
         '
-        Me.ShapeLabel.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ShapeLabel.Font = New System.Drawing.Font("Rockwell", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ShapeLabel.Location = New System.Drawing.Point(0, 90)
         Me.ShapeLabel.Name = "ShapeLabel"
         Me.ShapeLabel.Size = New System.Drawing.Size(150, 23)

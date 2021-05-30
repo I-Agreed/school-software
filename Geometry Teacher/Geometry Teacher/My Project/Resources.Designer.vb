@@ -173,6 +173,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property cylinder_size() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cylinder size", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property help() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("help", resourceCulture)
@@ -273,6 +283,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property square_pyramid_size() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("square pyramid size", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property square_size() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("square size", resourceCulture)
@@ -286,6 +306,16 @@ Namespace My.Resources
         Friend ReadOnly Property triangle_size() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("triangle size", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property triangular_prism_size() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("triangular prism size", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

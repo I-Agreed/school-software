@@ -20,6 +20,9 @@
     Public cubeSizeIcon As Image = Image.FromFile("../../../Resources/cube size.png")
     Public rectangularprismSizeIcon As Image = Image.FromFile("../../../Resources/rectangular prism size.png")
     Public sphereSizeIcon As Image = Image.FromFile("../../../Resources/sphere size.png")
+    Public squarepyramidSizeIcon As Image = Image.FromFile("../../../Resources/square pyramid size.png")
+    Public triangularprismSizeIcon As Image = Image.FromFile("../../../Resources/triangular prism size.png")
+    Public cylinderSizeIcon As Image = Image.FromFile("../../../Resources/cylinder size.png")
 
     Public circleDiagram As Image = Image.FromFile("../../../Resources/circle diagram.png")
     Public circleDiagramLabels As Image = Image.FromFile("../../../Resources/circle diagram labels.png")

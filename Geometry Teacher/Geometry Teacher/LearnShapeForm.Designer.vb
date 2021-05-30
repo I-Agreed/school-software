@@ -136,7 +136,7 @@ Partial Class LearnShapeForm
         '
         Me.argLabelBase.BackColor = System.Drawing.Color.Transparent
         Me.argLabelBase.Font = New System.Drawing.Font("Rockwell", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.argLabelBase.Location = New System.Drawing.Point(181, 69)
+        Me.argLabelBase.Location = New System.Drawing.Point(163, 87)
         Me.argLabelBase.Name = "argLabelBase"
         Me.argLabelBase.Size = New System.Drawing.Size(37, 23)
         Me.argLabelBase.TabIndex = 10

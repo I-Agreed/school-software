@@ -40,7 +40,7 @@
         shapeTitle.Text = learnShape.name
         infoBox.Text = learnShape.info
         formulaImage.BackgroundImage = Root.imgs(learnShape.name.ToLower() + "SizeIcon")
-        Me.Text = learnShape.name
+        Me.Text = "Learn about " + learnShape.name + "!"
         If learnShape.type = "3D" Then
             formulaTitle.Text = "Volume formula:"
             formulaDisplay.Text = learnShape.formula

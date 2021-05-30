@@ -22,6 +22,7 @@ Partial Class TestForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TestForm))
         Me.nextButton = New System.Windows.Forms.Button()
         Me.questionBox = New System.Windows.Forms.Panel()
         Me.questionCounter = New System.Windows.Forms.Label()
@@ -30,7 +31,7 @@ Partial Class TestForm
         'nextButton
         '
         Me.nextButton.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.nextButton.Location = New System.Drawing.Point(651, 401)
+        Me.nextButton.Location = New System.Drawing.Point(568, 362)
         Me.nextButton.Name = "nextButton"
         Me.nextButton.Size = New System.Drawing.Size(137, 37)
         Me.nextButton.TabIndex = 0
@@ -39,16 +40,18 @@ Partial Class TestForm
         '
         'questionBox
         '
-        Me.questionBox.Location = New System.Drawing.Point(28, 9)
+        Me.questionBox.BackColor = System.Drawing.Color.Transparent
+        Me.questionBox.Location = New System.Drawing.Point(62, 41)
         Me.questionBox.Name = "questionBox"
-        Me.questionBox.Size = New System.Drawing.Size(586, 358)
+        Me.questionBox.Size = New System.Drawing.Size(500, 358)
         Me.questionBox.TabIndex = 1
         '
         'questionCounter
         '
         Me.questionCounter.AutoSize = True
+        Me.questionCounter.BackColor = System.Drawing.Color.Transparent
         Me.questionCounter.Font = New System.Drawing.Font("Rockwell", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.questionCounter.Location = New System.Drawing.Point(620, 9)
+        Me.questionCounter.Location = New System.Drawing.Point(568, 41)
         Me.questionCounter.Name = "questionCounter"
         Me.questionCounter.Size = New System.Drawing.Size(168, 27)
         Me.questionCounter.TabIndex = 2
@@ -58,10 +61,13 @@ Partial Class TestForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.questionCounter)
         Me.Controls.Add(Me.questionBox)
         Me.Controls.Add(Me.nextButton)
+        Me.DoubleBuffered = True
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "TestForm"
         Me.Text = "Quiz"

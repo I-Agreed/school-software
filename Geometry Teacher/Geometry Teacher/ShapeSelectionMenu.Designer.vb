@@ -22,11 +22,13 @@ Partial Class ShapeSelectionMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ShapeSelectionMenu))
         Me.SelectorButtonsPanel = New System.Windows.Forms.Panel()
         Me.BackButton1 = New Geometry_Teacher.BackButton()
         Me.HelpButton1 = New Geometry_Teacher.HelpButton()
         Me.title = New System.Windows.Forms.Label()
+        Me.selectShapeHelp = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'SelectorButtonsPanel
@@ -77,7 +79,8 @@ Partial Class ShapeSelectionMenu
         '
         'ShapeSelectionMenu
         '
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
@@ -98,4 +101,5 @@ Partial Class ShapeSelectionMenu
     Friend WithEvents BackButton1 As BackButton
     Friend WithEvents HelpButton1 As HelpButton
     Friend WithEvents title As Label
+    Friend WithEvents selectShapeHelp As ToolTip
 End Class

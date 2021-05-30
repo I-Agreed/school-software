@@ -37,8 +37,9 @@ Partial Class HelpDimension
         'title2D
         '
         Me.title2D.AutoSize = True
+        Me.title2D.BackColor = System.Drawing.Color.Transparent
         Me.title2D.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.title2D.Location = New System.Drawing.Point(70, 44)
+        Me.title2D.Location = New System.Drawing.Point(97, 47)
         Me.title2D.Name = "title2D"
         Me.title2D.Size = New System.Drawing.Size(62, 33)
         Me.title2D.TabIndex = 0
@@ -47,8 +48,9 @@ Partial Class HelpDimension
         'title3D
         '
         Me.title3D.AutoSize = True
+        Me.title3D.BackColor = System.Drawing.Color.Transparent
         Me.title3D.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.title3D.Location = New System.Drawing.Point(70, 239)
+        Me.title3D.Location = New System.Drawing.Point(97, 242)
         Me.title3D.Name = "title3D"
         Me.title3D.Size = New System.Drawing.Size(62, 33)
         Me.title3D.TabIndex = 1
@@ -56,9 +58,10 @@ Partial Class HelpDimension
         '
         'axis2DPicture
         '
+        Me.axis2DPicture.BackColor = System.Drawing.Color.Transparent
         Me.axis2DPicture.BackgroundImage = CType(resources.GetObject("axis2DPicture.BackgroundImage"), System.Drawing.Image)
         Me.axis2DPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.axis2DPicture.Location = New System.Drawing.Point(97, 80)
+        Me.axis2DPicture.Location = New System.Drawing.Point(124, 83)
         Me.axis2DPicture.Name = "axis2DPicture"
         Me.axis2DPicture.Size = New System.Drawing.Size(100, 100)
         Me.axis2DPicture.TabIndex = 2
@@ -66,9 +69,10 @@ Partial Class HelpDimension
         '
         'axis3DPicture
         '
+        Me.axis3DPicture.BackColor = System.Drawing.Color.Transparent
         Me.axis3DPicture.BackgroundImage = CType(resources.GetObject("axis3DPicture.BackgroundImage"), System.Drawing.Image)
         Me.axis3DPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.axis3DPicture.Location = New System.Drawing.Point(97, 275)
+        Me.axis3DPicture.Location = New System.Drawing.Point(124, 278)
         Me.axis3DPicture.Name = "axis3DPicture"
         Me.axis3DPicture.Size = New System.Drawing.Size(100, 100)
         Me.axis3DPicture.TabIndex = 3
@@ -76,8 +80,9 @@ Partial Class HelpDimension
         '
         'info2D
         '
+        Me.info2D.BackColor = System.Drawing.Color.Transparent
         Me.info2D.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.info2D.Location = New System.Drawing.Point(203, 80)
+        Me.info2D.Location = New System.Drawing.Point(230, 83)
         Me.info2D.Name = "info2D"
         Me.info2D.Size = New System.Drawing.Size(434, 100)
         Me.info2D.TabIndex = 10
@@ -86,8 +91,9 @@ Partial Class HelpDimension
         '
         'info3D
         '
+        Me.info3D.BackColor = System.Drawing.Color.Transparent
         Me.info3D.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.info3D.Location = New System.Drawing.Point(203, 275)
+        Me.info3D.Location = New System.Drawing.Point(230, 278)
         Me.info3D.Name = "info3D"
         Me.info3D.Size = New System.Drawing.Size(434, 100)
         Me.info3D.TabIndex = 11
@@ -107,6 +113,8 @@ Partial Class HelpDimension
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.info3D)
@@ -115,6 +123,7 @@ Partial Class HelpDimension
         Me.Controls.Add(Me.axis2DPicture)
         Me.Controls.Add(Me.title3D)
         Me.Controls.Add(Me.title2D)
+        Me.DoubleBuffered = True
         Me.Name = "HelpDimension"
         Me.Text = "2D and 3D help"
         CType(Me.axis2DPicture, System.ComponentModel.ISupportInitialize).EndInit()

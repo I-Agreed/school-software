@@ -26,9 +26,8 @@
 
         hints = selectHints.Checked()
         calculator = selectCalculator.Checked()
-        multipleChoice = selectMultipleChoice.Checked()
-
-        Dim test As New TestForm(D3, D2, hints, calculator, multipleChoice, True)
+        Dim small As Boolean = smallNums.Checked()
+        Dim test As New TestForm(D3, D2, hints, calculator, False, small)
         Root.openForm(Me, test)
     End Sub
 

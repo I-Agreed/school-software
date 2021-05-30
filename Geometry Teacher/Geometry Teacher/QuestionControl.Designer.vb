@@ -50,10 +50,11 @@ Partial Class QuestionControl
         'answerInput
         '
         Me.answerInput.AllowedText = "1234567890"
-        Me.answerInput.Location = New System.Drawing.Point(238, 230)
+        Me.answerInput.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.answerInput.Location = New System.Drawing.Point(306, 213)
         Me.answerInput.MaxLength = 3
         Me.answerInput.Name = "answerInput"
-        Me.answerInput.Size = New System.Drawing.Size(100, 23)
+        Me.answerInput.Size = New System.Drawing.Size(100, 25)
         Me.answerInput.TabIndex = 1
         Me.answerInput.whitelist = True
         '
@@ -61,7 +62,7 @@ Partial Class QuestionControl
         '
         Me.formulaTitle.AutoSize = True
         Me.formulaTitle.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.formulaTitle.Location = New System.Drawing.Point(238, 208)
+        Me.formulaTitle.Location = New System.Drawing.Point(306, 191)
         Me.formulaTitle.Name = "formulaTitle"
         Me.formulaTitle.Size = New System.Drawing.Size(97, 19)
         Me.formulaTitle.TabIndex = 2
@@ -71,7 +72,7 @@ Partial Class QuestionControl
         '
         Me.formulaDisplay.AutoSize = True
         Me.formulaDisplay.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.formulaDisplay.Location = New System.Drawing.Point(341, 208)
+        Me.formulaDisplay.Location = New System.Drawing.Point(409, 191)
         Me.formulaDisplay.Name = "formulaDisplay"
         Me.formulaDisplay.Size = New System.Drawing.Size(66, 19)
         Me.formulaDisplay.TabIndex = 3
@@ -80,7 +81,7 @@ Partial Class QuestionControl
         'markIcon
         '
         Me.markIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.markIcon.Location = New System.Drawing.Point(242, 259)
+        Me.markIcon.Location = New System.Drawing.Point(306, 244)
         Me.markIcon.Name = "markIcon"
         Me.markIcon.Size = New System.Drawing.Size(48, 48)
         Me.markIcon.TabIndex = 13
@@ -89,17 +90,17 @@ Partial Class QuestionControl
         'correctAnswer
         '
         Me.correctAnswer.AutoSize = True
-        Me.correctAnswer.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.correctAnswer.Font = New System.Drawing.Font("Rockwell", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.correctAnswer.ForeColor = System.Drawing.Color.Red
-        Me.correctAnswer.Location = New System.Drawing.Point(296, 283)
+        Me.correctAnswer.Location = New System.Drawing.Point(360, 268)
         Me.correctAnswer.Name = "correctAnswer"
-        Me.correctAnswer.Size = New System.Drawing.Size(90, 15)
+        Me.correctAnswer.Size = New System.Drawing.Size(93, 14)
         Me.correctAnswer.TabIndex = 14
         Me.correctAnswer.Text = "correctAnswer"
         '
         'argValuePanel
         '
-        Me.argValuePanel.Location = New System.Drawing.Point(238, 74)
+        Me.argValuePanel.Location = New System.Drawing.Point(302, 59)
         Me.argValuePanel.Name = "argValuePanel"
         Me.argValuePanel.Size = New System.Drawing.Size(142, 87)
         Me.argValuePanel.TabIndex = 15
@@ -107,11 +108,11 @@ Partial Class QuestionControl
         'correctFormula
         '
         Me.correctFormula.AutoSize = True
-        Me.correctFormula.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.correctFormula.Font = New System.Drawing.Font("Rockwell", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.correctFormula.ForeColor = System.Drawing.Color.Red
-        Me.correctFormula.Location = New System.Drawing.Point(296, 268)
+        Me.correctFormula.Location = New System.Drawing.Point(360, 253)
         Me.correctFormula.Name = "correctFormula"
-        Me.correctFormula.Size = New System.Drawing.Size(54, 15)
+        Me.correctFormula.Size = New System.Drawing.Size(57, 14)
         Me.correctFormula.TabIndex = 16
         Me.correctFormula.Text = "a = b + c"
         '
@@ -119,7 +120,7 @@ Partial Class QuestionControl
         '
         Me.picPanel.Controls.Add(Me.argLabelBase)
         Me.picPanel.Controls.Add(Me.shapeDisplay)
-        Me.picPanel.Location = New System.Drawing.Point(7, 49)
+        Me.picPanel.Location = New System.Drawing.Point(31, 57)
         Me.picPanel.Name = "picPanel"
         Me.picPanel.Size = New System.Drawing.Size(225, 225)
         Me.picPanel.TabIndex = 17
@@ -139,6 +140,7 @@ Partial Class QuestionControl
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.BackColor = System.Drawing.Color.Transparent
         Me.Controls.Add(Me.picPanel)
         Me.Controls.Add(Me.correctFormula)
         Me.Controls.Add(Me.argValuePanel)
@@ -149,7 +151,7 @@ Partial Class QuestionControl
         Me.Controls.Add(Me.answerInput)
         Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "QuestionControl"
-        Me.Size = New System.Drawing.Size(586, 358)
+        Me.Size = New System.Drawing.Size(500, 358)
         CType(Me.shapeDisplay, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.markIcon, System.ComponentModel.ISupportInitialize).EndInit()
         Me.picPanel.ResumeLayout(False)

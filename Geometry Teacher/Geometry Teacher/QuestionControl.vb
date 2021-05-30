@@ -50,26 +50,29 @@
             formulaTitle.Hide()
             formulaDisplay.Hide()
         End If
+        Dim font As New Font("Rockwell", 11)
 
         For i As Integer = 0 To shape.params.Count - 1
             Dim l = New Label
             With l
-                .Location = New Point(0, 30 * i)
                 .AutoSize = False
+                .Location = New Point(0, 30 * i)
                 .Size = New Size(70, 25)
                 .Text = shape.params(i) + ":"
                 .TextAlign = ContentAlignment.MiddleRight
+                .Font = font
             End With
             Me.argValuePanel.Controls.Add(l)
             valueLabels.Add(l)
 
             Dim l2 = New Label
             With l2
-                .Location = New Point(70, 30 * i)
                 .AutoSize = False
+                .Location = New Point(70, 30 * i + 4)
                 .Size = New Size(40, 25)
                 .Text = values(i).ToString() + " cm"
                 .TextAlign = ContentAlignment.MiddleLeft
+                .Font = font
             End With
             Me.argValuePanel.Controls.Add(l2)
             valueLabels.Add(l2)

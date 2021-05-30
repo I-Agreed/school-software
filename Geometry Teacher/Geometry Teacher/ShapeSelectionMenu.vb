@@ -32,6 +32,7 @@
                 .Location = New Point(.Width * (selectorButtons.Count Mod buttonColumns), .Height * (selectorButtons.Count \ buttonColumns))
                 .Visible = True
             End With
+            selectShapeHelp.SetToolTip(button, "Learn about " + s)
             selectorButtons.Add(button)
             SelectorButtonsPanel.Controls.Add(button)
         Next

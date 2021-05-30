@@ -110,4 +110,8 @@
         Root.calcLocked = False
         Root.toggleCalc.Show()
     End Sub
+
+    Private Sub questionCounter_Click(sender As Object, e As EventArgs) Handles questionCounter.Click
+
+    End Sub
 End Class

@@ -52,4 +52,8 @@
         End If
         displayedQuestion = index
     End Sub
+
+    Private Sub scoreDisplay_Click(sender As Object, e As EventArgs) Handles scoreDisplay.Click
+
+    End Sub
 End Class

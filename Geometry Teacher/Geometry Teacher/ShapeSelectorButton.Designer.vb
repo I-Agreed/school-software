@@ -49,7 +49,7 @@ Partial Class ShapeSelectorButton
         'ShapeSelectorButton
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.Transparent
         Me.Controls.Add(Me.ShapeLabel)
         Me.Controls.Add(Me.ShapePicture)

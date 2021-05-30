@@ -118,50 +118,44 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="close calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="square pyramid size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\square pyramid size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2D axis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2D axis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rhombus size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rhombus size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="visual_planet 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_planet 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="triangle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\triangle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="parallelogram size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parallelogram size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3D axis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3D axis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cube size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cube size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rectangular prism size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rectangular prism size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="visual_planet button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_planet button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="circle diagram labels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circle diagram labels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rectangular prism size1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rectangular prism size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="visual_background with sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_background with sun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visual_rocket button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_rocket button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cube size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cube size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pi diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pi diagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,31 +163,73 @@
   <data name="icons8-back-arrow-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-back-arrow-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="parallelogram size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parallelogram size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="visual_planet 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_planet 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rectangle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rectangle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circle diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle diagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="circle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sphere size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sphere size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="square size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rectangular prism size1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangular prism size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visual_planet 1 button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_planet 1 button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="triangular prism size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\triangular prism size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="visual-41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual-41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D axis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3D axis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle diagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D axis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2D axis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cylinder size" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cylinder size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visual_planet 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_planet 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rhombus size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rhombus size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visual_rocket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_rocket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triangle size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triangle size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculator1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangular prism size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangular prism size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visual_background with sun cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visual_background with sun cropped.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plate background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plate background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

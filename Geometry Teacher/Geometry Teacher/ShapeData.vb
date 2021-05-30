@@ -13,7 +13,7 @@
                                         "A rhombus is a parallelogram with sides of equal length.")
 
     Public Property Triangle = New Shape("Triangle", "2D", "1/2 × Base × Height", {"base", "height"}, (Function(x As Integer()) Math.Ceiling(x(1) * x(0) * 0.5)),
-                                         "A triangle is any shape with three straight sides.")
+                                         "A triangle is any shape with three straight sides. There are three main types of triangles: Equilateral, with 3 equal sides, Isosceles, with 2 equal sides, and Scalene, with no equal sides.")
 
     Public Property Circle = New Shape("Circle", "2D", "Pi × Radius × Radius", {"radius"}, (Function(x As Integer()) 3 * x(0) * x(0)),
                                        "A circle is a rounded shape, where every point on its edge is the same distance from its centre. That distance is called the radius.")

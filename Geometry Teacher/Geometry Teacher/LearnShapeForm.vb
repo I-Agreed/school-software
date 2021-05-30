@@ -49,6 +49,13 @@
             formulaDisplay.Text = learnShape.formula
         End If
 
+        If learnShape.formula.Contains("Pi") Then
+            piHelp.Show()
+            piHelp.Location = New Point(formulaDisplay.Location.X + formulaDisplay.Width + 6, piHelp.Location.Y)
+        Else
+            piHelp.Hide()
+        End If
+
         For i As Integer = 0 To learnShape.params.Count - 1
             Dim l = New Label
             With l

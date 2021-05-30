@@ -19,6 +19,7 @@
         Me.Controls.Add(child)
         child.Show()
         Me.Text = child.Text
+        Me.BackgroundImage = child.BackgroundImage
         If parent IsNot Me Then
             parent.Hide()
             AddHandler child.TextChanged, Sub()
@@ -31,6 +32,7 @@
                                          If Not bindExit Then
                                              parent.Show()
                                              Me.Text = parent.Text
+                                             Me.BackgroundImage = parent.BackgroundImage
                                              child.Hide()
                                          Else
                                              parent.Close()

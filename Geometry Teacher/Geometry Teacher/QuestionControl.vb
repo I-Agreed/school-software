@@ -32,6 +32,9 @@
             .Item("Cube") = {New Point(63, 181), New Point(152, 159), New Point(181, 69)}
             .Item("Rectangular Prism") = {New Point(152, 65), New Point(46, 177), New Point(125, 149)}
             .Item("Sphere") = {New Point(181, 69)}
+            .Item("Square Pyramid") = {New Point(64, 177), New Point(181, 75)}
+            .Item("Triangular Prism") = {New Point(54, 177), New Point(181, 61), New Point(148, 147)}
+            .Item("Cylinder") = {New Point(89, 193), New Point(181, 75)}
         End With
     End Sub
 

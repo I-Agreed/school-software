@@ -31,11 +31,11 @@ Partial Class ShapeSelectionMenu
         '
         'SelectorButtonsPanel
         '
-        Me.SelectorButtonsPanel.BackColor = System.Drawing.SystemColors.Control
-        Me.SelectorButtonsPanel.Location = New System.Drawing.Point(13, 44)
+        Me.SelectorButtonsPanel.BackColor = System.Drawing.Color.Transparent
+        Me.SelectorButtonsPanel.Location = New System.Drawing.Point(77, 83)
         Me.SelectorButtonsPanel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.SelectorButtonsPanel.Name = "SelectorButtonsPanel"
-        Me.SelectorButtonsPanel.Size = New System.Drawing.Size(774, 345)
+        Me.SelectorButtonsPanel.Size = New System.Drawing.Size(638, 334)
         Me.SelectorButtonsPanel.TabIndex = 0
         '
         'BackButton1
@@ -50,12 +50,14 @@ Partial Class ShapeSelectionMenu
         '
         'HelpButton1
         '
+        Me.HelpButton1.BackColor = System.Drawing.Color.Transparent
         Me.HelpButton1.BackgroundImage = CType(resources.GetObject("HelpButton1.BackgroundImage"), System.Drawing.Image)
         Me.HelpButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.HelpButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.HelpButton1.helpForms = CType(resources.GetObject("HelpButton1.helpForms"), System.Collections.Generic.Dictionary(Of String, System.Windows.Forms.Form))
         Me.HelpButton1.helpMessage = "What are 2D and 3D shape?"
         Me.HelpButton1.helpPage = "D"
-        Me.HelpButton1.Location = New System.Drawing.Point(165, 11)
+        Me.HelpButton1.Location = New System.Drawing.Point(242, 50)
         Me.HelpButton1.Margin = New System.Windows.Forms.Padding(0, 3, 3, 3)
         Me.HelpButton1.Name = "HelpButton1"
         Me.HelpButton1.Size = New System.Drawing.Size(25, 25)
@@ -64,8 +66,9 @@ Partial Class ShapeSelectionMenu
         'title
         '
         Me.title.AutoSize = True
+        Me.title.BackColor = System.Drawing.Color.Transparent
         Me.title.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.title.Location = New System.Drawing.Point(13, 6)
+        Me.title.Location = New System.Drawing.Point(90, 45)
         Me.title.Margin = New System.Windows.Forms.Padding(3, 0, 0, 0)
         Me.title.Name = "title"
         Me.title.Size = New System.Drawing.Size(152, 33)
@@ -75,11 +78,14 @@ Partial Class ShapeSelectionMenu
         'ShapeSelectionMenu
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.title)
         Me.Controls.Add(Me.HelpButton1)
         Me.Controls.Add(Me.BackButton1)
         Me.Controls.Add(Me.SelectorButtonsPanel)
+        Me.DoubleBuffered = True
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "ShapeSelectionMenu"
         Me.Text = "ShapeSelectionMenu"

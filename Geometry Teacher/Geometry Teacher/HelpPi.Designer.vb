@@ -38,10 +38,11 @@ Partial Class HelpPi
         '
         'circleDiagram
         '
+        Me.circleDiagram.BackColor = System.Drawing.Color.Transparent
         Me.circleDiagram.BackgroundImage = CType(resources.GetObject("circleDiagram.BackgroundImage"), System.Drawing.Image)
         Me.circleDiagram.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.circleDiagram.Location = New System.Drawing.Point(12, 175)
-        Me.circleDiagram.Margin = New System.Windows.Forms.Padding(0)
+        Me.circleDiagram.Location = New System.Drawing.Point(47, 158)
+        Me.circleDiagram.Margin = New System.Windows.Forms.Padding(0, 0, 0, 3)
         Me.circleDiagram.Name = "circleDiagram"
         Me.circleDiagram.Size = New System.Drawing.Size(100, 100)
         Me.circleDiagram.TabIndex = 0
@@ -49,9 +50,10 @@ Partial Class HelpPi
         '
         'circleDiagramLabels
         '
+        Me.circleDiagramLabels.BackColor = System.Drawing.Color.Transparent
         Me.circleDiagramLabels.BackgroundImage = CType(resources.GetObject("circleDiagramLabels.BackgroundImage"), System.Drawing.Image)
         Me.circleDiagramLabels.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.circleDiagramLabels.Location = New System.Drawing.Point(112, 188)
+        Me.circleDiagramLabels.Location = New System.Drawing.Point(147, 174)
         Me.circleDiagramLabels.Margin = New System.Windows.Forms.Padding(0)
         Me.circleDiagramLabels.Name = "circleDiagramLabels"
         Me.circleDiagramLabels.Size = New System.Drawing.Size(150, 75)
@@ -61,8 +63,9 @@ Partial Class HelpPi
         'Title
         '
         Me.Title.AutoSize = True
+        Me.Title.BackColor = System.Drawing.Color.Transparent
         Me.Title.Font = New System.Drawing.Font("Rockwell", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Title.Location = New System.Drawing.Point(12, 9)
+        Me.Title.Location = New System.Drawing.Point(94, 52)
         Me.Title.Name = "Title"
         Me.Title.Size = New System.Drawing.Size(53, 33)
         Me.Title.TabIndex = 2
@@ -70,20 +73,22 @@ Partial Class HelpPi
         '
         'piImage
         '
+        Me.piImage.BackColor = System.Drawing.Color.Transparent
         Me.piImage.BackgroundImage = CType(resources.GetObject("piImage.BackgroundImage"), System.Drawing.Image)
         Me.piImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.piImage.Location = New System.Drawing.Point(488, 288)
+        Me.piImage.Location = New System.Drawing.Point(460, 233)
         Me.piImage.Name = "piImage"
-        Me.piImage.Size = New System.Drawing.Size(300, 150)
+        Me.piImage.Size = New System.Drawing.Size(293, 141)
         Me.piImage.TabIndex = 3
         Me.piImage.TabStop = False
         '
         'infoBox
         '
+        Me.infoBox.BackColor = System.Drawing.Color.Transparent
         Me.infoBox.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.infoBox.Location = New System.Drawing.Point(12, 64)
+        Me.infoBox.Location = New System.Drawing.Point(94, 85)
         Me.infoBox.Name = "infoBox"
-        Me.infoBox.Size = New System.Drawing.Size(776, 73)
+        Me.infoBox.Size = New System.Drawing.Size(615, 73)
         Me.infoBox.TabIndex = 10
         Me.infoBox.Text = resources.GetString("infoBox.Text")
         '
@@ -99,19 +104,21 @@ Partial Class HelpPi
         '
         'infobox2infobox2
         '
+        Me.infobox2infobox2.BackColor = System.Drawing.Color.Transparent
         Me.infobox2infobox2.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.infobox2infobox2.Location = New System.Drawing.Point(265, 175)
+        Me.infobox2infobox2.Location = New System.Drawing.Point(300, 158)
         Me.infobox2infobox2.Name = "infobox2infobox2"
-        Me.infobox2infobox2.Size = New System.Drawing.Size(523, 110)
+        Me.infobox2infobox2.Size = New System.Drawing.Size(453, 100)
         Me.infobox2infobox2.TabIndex = 12
         Me.infobox2infobox2.Text = resources.GetString("infobox2infobox2.Text")
         '
         'Label1
         '
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(12, 288)
+        Me.Label1.Location = New System.Drawing.Point(47, 261)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(470, 103)
+        Me.Label1.Size = New System.Drawing.Size(413, 113)
         Me.Label1.TabIndex = 13
         Me.Label1.Text = resources.GetString("Label1.Text")
         '
@@ -119,6 +126,8 @@ Partial Class HelpPi
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.infobox2infobox2)
@@ -128,6 +137,7 @@ Partial Class HelpPi
         Me.Controls.Add(Me.Title)
         Me.Controls.Add(Me.circleDiagramLabels)
         Me.Controls.Add(Me.circleDiagram)
+        Me.DoubleBuffered = True
         Me.Name = "HelpPi"
         Me.Text = "What is Pi?"
         CType(Me.circleDiagram, System.ComponentModel.ISupportInitialize).EndInit()

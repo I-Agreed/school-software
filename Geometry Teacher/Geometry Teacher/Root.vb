@@ -3,10 +3,20 @@
     Public random As Random = New Random()
     Public calc As Calculator = New Calculator()
     Public calcLocked = False
-    Public imgs As ImageStruct = New ImageStruct()
+    Public imgs As ImageStruct
+
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+        imgs = New ImageStruct()
+    End Sub
 
     Private Sub Root_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        openForm(Me, New MainMenu())
+        Dim m = New MainMenu()
+        openForm(Me, m)
         calc.TopMost = True
     End Sub
 

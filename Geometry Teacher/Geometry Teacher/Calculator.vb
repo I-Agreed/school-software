@@ -1,10 +1,10 @@
 ﻿Public Class Calculator
-    Property prev As Integer = 0
-    Public add As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) x + y
-    Public subtract As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) y - x
-    Public multiply As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) x * y
-    Public divide As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) y / x
-    Public empty As Func(Of Integer, Integer, Integer) = Function(x As Integer, y As Integer) 0
+    Property prev As Integer
+    Public add As Func(Of Integer, Integer, Integer)
+    Public subtract As Func(Of Integer, Integer, Integer)
+    Public multiply As Func(Of Integer, Integer, Integer)
+    Public divide As Func(Of Integer, Integer, Integer)
+    Public empty As Func(Of Integer, Integer, Integer)
     Property op As Func(Of Integer, Integer, Integer)
 
     Public Sub New()
@@ -14,6 +14,12 @@
 
         ' Add any initialization after the InitializeComponent() call.
         op = empty
+        prev = 0
+        add = Function(x As Integer, y As Integer) x + y
+        subtract = Function(x As Integer, y As Integer) y - x
+        multiply = Function(x As Integer, y As Integer) x * y
+        divide = Function(x As Integer, y As Integer) y / x
+        empty = Function(x As Integer, y As Integer) 0
     End Sub
 
     Private Sub Calculator_Load(sender As Object, e As EventArgs) Handles MyBase.Load

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MainMenu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class MainMenu
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
@@ -41,6 +41,7 @@ Partial Class MainMenu
         Me.ExitButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ExitButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ExitButton1.Location = New System.Drawing.Point(12, 388)
+        Me.ExitButton1.Margin = New System.Windows.Forms.Padding(41, 19, 41, 19)
         Me.ExitButton1.Name = "ExitButton1"
         Me.ExitButton1.Size = New System.Drawing.Size(50, 50)
         Me.ExitButton1.TabIndex = 6
@@ -56,7 +57,6 @@ Partial Class MainMenu
         Me.open3D.Size = New System.Drawing.Size(218, 133)
         Me.open3D.TabIndex = 7
         Me.open3D.TabStop = False
-        Me.mainMenuHelp.SetToolTip(Me.open3D, "Learn about 3D shapes!")
         '
         'open2D
         '
@@ -69,7 +69,6 @@ Partial Class MainMenu
         Me.open2D.Size = New System.Drawing.Size(155, 155)
         Me.open2D.TabIndex = 8
         Me.open2D.TabStop = False
-        Me.mainMenuHelp.SetToolTip(Me.open2D, "Learn about 2D shapes!")
         '
         'openTests
         '
@@ -82,7 +81,6 @@ Partial Class MainMenu
         Me.openTests.Size = New System.Drawing.Size(125, 125)
         Me.openTests.TabIndex = 9
         Me.openTests.TabStop = False
-        Me.mainMenuHelp.SetToolTip(Me.openTests, "Take a quiz!")
         '
         'MainMenu
         '
@@ -105,6 +103,7 @@ Partial Class MainMenu
         Me.ResumeLayout(False)
 
     End Sub
+
     Friend WithEvents ExitButton1 As ExitButton
     Friend WithEvents open3D As PictureBox
     Friend WithEvents open2D As PictureBox

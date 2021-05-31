@@ -1,9 +1,9 @@
 ﻿Public Class MainMenu
 
-    Function openSelection(type As String)
+    Sub openSelection(type As String)
         Dim menu As New ShapeSelectionMenu(type)
         Root.openForm(Me, menu)
-    End Function
+    End Sub
 
     Function openTest()
         Dim test As New TestOpenForm()

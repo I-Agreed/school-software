@@ -57,7 +57,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
   <data name="ExitButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -134,7 +134,7 @@
   <data name="open3D.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABgAAAAPoCAYAAAAYwTUjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAABC
-        agAAQmoBfJKESwAA/7JJREFUeF7s3QucXVV99/9VH+2jfVqNVvv4tFXSq71YG221VVFjW/tXam361Fbb
+        bAAAQmwB/JHA0AAA/7JJREFUeF7s3QucXVV99/9VH+2jfVqNVvv4tFXSq71YG221VVFjW/tXam361Fbb
         Po9GHrAoikEQRSiJKAJCx5AYrpNkAiQhECTAEAghMLmQ+2XI7Uzukwvknkzu18P6rzWTE07OfJPM5Zy9
         19r74+v1PhlXyJy19z6Xvb577d8y1loAAAAAAAAAAJAxshEAAAAAAAAAAMRNNgIAAAAAAAAAgLjJRgAA
         AAAAAAAAEDfZCAAAAAAAAAAA4iYbAQAAAAAAAABA3GQjAAAAAAAAAACIm2wEAAAAAAAAAABxk40AAAAA
@@ -1296,7 +1296,7 @@
   <data name="open2D.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABgAAAAYACAYAAACw7oNrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAABC
-        awAAQmsBrtVmrwAA/7JJREFUeF7s3Xm8nlV1KP5XxdKKpSm99He5vYQgKchNm5sLbSRkPFNIHLG2xWpr
+        bQAAQm0BLtYiNAAA/7JJREFUeF7s3Xm8nlV1KP5XxdKKpSm99He5vYQgKchNm5sLbSRkPFNIHLG2xWpr
         sQ5VKTaCIAWxEY1gFAlJhGASjUEDaJAEZBYJg4DKEFHRWtpSJ2wdwCkMAZ7fs09IOCdZSc7wDs/w/eP7
         ufeui4Gc877P3mvt/azVyLIMAAAAAAComDAIAAAAAACUWxgEAAAAAADKLQwCAAAAAADlFgYBAAAAAIBy
         C4MAAAAAAEC5hUEAAAAAAKDcwiAAAAAAAFBuYRAAAAAAACi3MAgAAAAAAJRbGAQAAAAAAMotDAIAAAAA
@@ -3098,7 +3098,7 @@
   <data name="openTests.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABgAAAAYACAYAAACw7oNrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAABC
-        awAAQmsBrtVmrwAA3RVJREFUeF7s/Xu4XNd1GHjOTLo7nu5vejhJd6fT6Qfm6+RL5zEdTk8nk/m6e8KO
+        bQAAQm0BLtYiNAAA3RVJREFUeF7s/Xu4XNd1GHjOTLo7nu5vejhJd6fT6Qfm6+RL5zEdTk8nk/m6e8KO
         p6/tK4UiaVu0adFGKKclho4EkVIcmTQNi6QjM1TIJIYsWg4EU7agULynCiCeBB8X4AsAARCkBQICSfCK
         EACi+AJJ8P2oORvkpS4Lq4BbF1Wn9qn6/fEjwIVXnVXnVO299jlr/x/a7TYAAAAAADBiwiAAAAAAAFBv
         YRAAAAAAAKi3MAgAAAAAANRbGAQAAAAAAOotDAIAAAAAAPUWBgEAAAAAgHoLgwAAAAAAQL2FQQAAAAAA

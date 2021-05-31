@@ -147,6 +147,7 @@ Partial Class TestOpenForm
         Me.startButton.Size = New System.Drawing.Size(98, 44)
         Me.startButton.TabIndex = 8
         Me.startButton.Text = "Start!"
+        Me.testHelp.SetToolTip(Me.startButton, "Start the quiz")
         Me.startButton.UseVisualStyleBackColor = False
         '
         'smallNums

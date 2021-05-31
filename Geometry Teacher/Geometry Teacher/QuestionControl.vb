@@ -83,11 +83,12 @@
         correctAnswer.Text = answer.ToString() + " " + Root.Shapes.getUnit(shape.type)
 
         shapeDisplay.BackgroundImage = Root.imgs(shape.name.ToLower() + "SizeIcon")
+        Dim i2 As Integer
         For t As Integer = 0 To shapeTextLocations(shape.name).Length - 1
             Dim lb As New Label()
             With lb
                 .Location = shapeTextLocations(shape.name)(t)
-                .Text = "0"
+                .Text = values(i2)
                 .Font = argLabelBase.Font
                 .Size = argLabelBase.Size
                 .TextAlign = argLabelBase.TextAlign
@@ -96,6 +97,9 @@
             Me.picPanel.Controls.Add(lb)
             lb.BringToFront()
             shapeArgLabels.Add(lb)
+            If i2 < shape.params.Count - 1 Then
+                i2 += 1
+            End If
         Next
     End Sub
 
@@ -109,9 +113,9 @@
             Else
                 correctFormula.Show()
                 markIcon.BackgroundImage = Root.imgs.crossIcon
+                correctAnswer.Show()
             End If
             markIcon.Show()
-            correctAnswer.Show()
         End If
         Return correct
     End Function

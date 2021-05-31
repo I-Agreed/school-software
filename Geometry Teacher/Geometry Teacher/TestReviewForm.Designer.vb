@@ -54,7 +54,6 @@ Partial Class TestReviewForm
         'questionDisplayPanel
         '
         Me.questionDisplayPanel.BackColor = System.Drawing.Color.Transparent
-        Me.questionDisplayPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.questionDisplayPanel.Location = New System.Drawing.Point(228, 61)
         Me.questionDisplayPanel.Name = "questionDisplayPanel"
         Me.questionDisplayPanel.Size = New System.Drawing.Size(500, 358)

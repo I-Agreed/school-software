@@ -14,7 +14,7 @@
     End Sub
 
     Private Sub TestReviewForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        scoreDisplay.Text = score.ToString + "/" + questions.Count.ToString()
+        scoreDisplay.Text = "You scored: " + score.ToString + "/" + questions.Count.ToString()
         For i As Integer = 0 To questions.Count() - 1
             Dim d As New TestReviewItem(i + 1, questions(i).correct, Me)
             questionsPanel.Controls.Add(d)

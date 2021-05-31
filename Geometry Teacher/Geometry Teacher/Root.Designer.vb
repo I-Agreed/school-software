@@ -45,8 +45,11 @@ Partial Class Root
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.toggleCalc)
         Me.DoubleBuffered = True
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MaximumSize = New System.Drawing.Size(816, 489)
+        Me.MinimumSize = New System.Drawing.Size(816, 489)
         Me.Name = "Root"
         Me.Text = "Space Geometry!"
         Me.ResumeLayout(False)

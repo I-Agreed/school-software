@@ -137,3 +137,13 @@ C:\Users\444019361\source\repos\school-software\Geometry Teacher\Geometry Teache
 C:\Users\444019361\source\repos\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\ref\Geometry Teacher.dll
 C:\Users\444019361\source\repos\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.pdb
 C:\Users\444019361\source\repos\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry Teacher.genruntimeconfig.cache
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Calculator.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.CalculatorButton.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.ExitButton.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.HelpButton.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.HelpDimension.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.HelpPi.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.Resources.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.QuestionControl.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestReviewForm.resources
+\\SR8137CF01-FS02\StudentUsers\2022\444019361\Desktop\school-software\Geometry Teacher\Geometry Teacher\obj\Debug\net5.0-windows\Geometry_Teacher.TestReviewItem.resources

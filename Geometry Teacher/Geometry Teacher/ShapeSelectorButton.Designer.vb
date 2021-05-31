@@ -32,29 +32,30 @@ Partial Class ShapeSelectorButton
         Me.ShapePicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ShapePicture.Location = New System.Drawing.Point(0, 0)
         Me.ShapePicture.Name = "ShapePicture"
-        Me.ShapePicture.Size = New System.Drawing.Size(125, 125)
+        Me.ShapePicture.Size = New System.Drawing.Size(125, 94)
         Me.ShapePicture.TabIndex = 0
         Me.ShapePicture.TabStop = False
         '
         'ShapeLabel
         '
         Me.ShapeLabel.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ShapeLabel.Location = New System.Drawing.Point(0, 128)
+        Me.ShapeLabel.Location = New System.Drawing.Point(0, 100)
+        Me.ShapeLabel.Margin = New System.Windows.Forms.Padding(3)
         Me.ShapeLabel.Name = "ShapeLabel"
-        Me.ShapeLabel.Size = New System.Drawing.Size(125, 47)
+        Me.ShapeLabel.Size = New System.Drawing.Size(125, 50)
         Me.ShapeLabel.TabIndex = 1
         Me.ShapeLabel.Text = "ShapeName"
         Me.ShapeLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'ShapeSelectorButton
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.Transparent
         Me.Controls.Add(Me.ShapeLabel)
         Me.Controls.Add(Me.ShapePicture)
         Me.Name = "ShapeSelectorButton"
-        Me.Size = New System.Drawing.Size(125, 175)
+        Me.Size = New System.Drawing.Size(125, 150)
         CType(Me.ShapePicture, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

@@ -24,39 +24,27 @@ Partial Class MainMenu
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
-        Me.ExitButton1 = New Geometry_Teacher.ExitButton()
-        Me.open3D = New System.Windows.Forms.PictureBox()
-        Me.open2D = New System.Windows.Forms.PictureBox()
-        Me.openTests = New System.Windows.Forms.PictureBox()
         Me.mainMenuHelp = New System.Windows.Forms.ToolTip(Me.components)
-        CType(Me.open3D, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.open2D, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.openTests = New System.Windows.Forms.PictureBox()
+        Me.open2D = New System.Windows.Forms.PictureBox()
+        Me.open3D = New System.Windows.Forms.PictureBox()
+        Me.ExitButton1 = New Geometry_Teacher.ExitButton()
         CType(Me.openTests, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.open2D, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.open3D, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'ExitButton1
+        'openTests
         '
-        Me.ExitButton1.BackColor = System.Drawing.Color.Transparent
-        Me.ExitButton1.BackgroundImage = CType(resources.GetObject("ExitButton1.BackgroundImage"), System.Drawing.Image)
-        Me.ExitButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ExitButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ExitButton1.Location = New System.Drawing.Point(12, 388)
-        Me.ExitButton1.Margin = New System.Windows.Forms.Padding(41, 19, 41, 19)
-        Me.ExitButton1.Name = "ExitButton1"
-        Me.ExitButton1.Size = New System.Drawing.Size(50, 50)
-        Me.ExitButton1.TabIndex = 6
-        '
-        'open3D
-        '
-        Me.open3D.BackColor = System.Drawing.Color.Transparent
-        Me.open3D.BackgroundImage = CType(resources.GetObject("open3D.BackgroundImage"), System.Drawing.Image)
-        Me.open3D.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.open3D.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.open3D.Location = New System.Drawing.Point(224, 171)
-        Me.open3D.Name = "open3D"
-        Me.open3D.Size = New System.Drawing.Size(218, 133)
-        Me.open3D.TabIndex = 7
-        Me.open3D.TabStop = False
+        Me.openTests.BackColor = System.Drawing.Color.Transparent
+        Me.openTests.BackgroundImage = CType(resources.GetObject("openTests.BackgroundImage"), System.Drawing.Image)
+        Me.openTests.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.openTests.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.openTests.Location = New System.Drawing.Point(477, 269)
+        Me.openTests.Name = "openTests"
+        Me.openTests.Size = New System.Drawing.Size(125, 125)
+        Me.openTests.TabIndex = 9
+        Me.openTests.TabStop = False
         '
         'open2D
         '
@@ -70,17 +58,29 @@ Partial Class MainMenu
         Me.open2D.TabIndex = 8
         Me.open2D.TabStop = False
         '
-        'openTests
+        'open3D
         '
-        Me.openTests.BackColor = System.Drawing.Color.Transparent
-        Me.openTests.BackgroundImage = CType(resources.GetObject("openTests.BackgroundImage"), System.Drawing.Image)
-        Me.openTests.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.openTests.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.openTests.Location = New System.Drawing.Point(477, 269)
-        Me.openTests.Name = "openTests"
-        Me.openTests.Size = New System.Drawing.Size(125, 125)
-        Me.openTests.TabIndex = 9
-        Me.openTests.TabStop = False
+        Me.open3D.BackColor = System.Drawing.Color.Transparent
+        Me.open3D.BackgroundImage = CType(resources.GetObject("open3D.BackgroundImage"), System.Drawing.Image)
+        Me.open3D.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.open3D.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.open3D.Location = New System.Drawing.Point(224, 171)
+        Me.open3D.Name = "open3D"
+        Me.open3D.Size = New System.Drawing.Size(218, 133)
+        Me.open3D.TabIndex = 7
+        Me.open3D.TabStop = False
+        '
+        'ExitButton1
+        '
+        Me.ExitButton1.BackColor = System.Drawing.Color.Transparent
+        Me.ExitButton1.BackgroundImage = CType(resources.GetObject("ExitButton1.BackgroundImage"), System.Drawing.Image)
+        Me.ExitButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.ExitButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ExitButton1.Location = New System.Drawing.Point(12, 388)
+        Me.ExitButton1.Margin = New System.Windows.Forms.Padding(41, 19, 41, 19)
+        Me.ExitButton1.Name = "ExitButton1"
+        Me.ExitButton1.Size = New System.Drawing.Size(50, 50)
+        Me.ExitButton1.TabIndex = 6
         '
         'MainMenu
         '
@@ -97,16 +97,16 @@ Partial Class MainMenu
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MainMenu"
         Me.Text = "Space Geometry!"
-        CType(Me.open3D, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.open2D, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.openTests, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.open2D, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.open3D, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents ExitButton1 As ExitButton
-    Friend WithEvents open3D As PictureBox
-    Friend WithEvents open2D As PictureBox
-    Friend WithEvents openTests As PictureBox
     Friend WithEvents mainMenuHelp As ToolTip
+    Friend WithEvents openTests As PictureBox
+    Friend WithEvents open2D As PictureBox
+    Friend WithEvents open3D As PictureBox
+    Friend WithEvents ExitButton1 As ExitButton
 End Class

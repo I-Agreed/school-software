@@ -15,7 +15,7 @@
     End Sub
 
     Private Sub Root_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim m = New MainMenu()
+        Dim m As MainMenu = New MainMenu()
         openForm(Me, m)
         calc.TopMost = True
     End Sub

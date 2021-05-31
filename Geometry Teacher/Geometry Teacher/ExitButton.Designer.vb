@@ -23,19 +23,18 @@ Partial Class ExitButton
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ExitButton))
         Me.exitHelp = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'ExitButton
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.Transparent
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.DoubleBuffered = True
+        Me.Margin = New System.Windows.Forms.Padding(41, 19, 41, 19)
         Me.Name = "ExitButton"
         Me.Size = New System.Drawing.Size(50, 50)
         Me.exitHelp.SetToolTip(Me, "Exit the application")

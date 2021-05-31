@@ -1,7 +1,7 @@
 ﻿Public Class MainMenu
 
     Sub openSelection(type As String)
-        Dim menu As New ShapeSelectionMenu(type)
+        Dim menu As ShapeSelectionMenu = New ShapeSelectionMenu(type)
         Root.openForm(Me, menu)
     End Sub
 

@@ -43,7 +43,6 @@ Partial Class LearnShapeForm
         '
         'formulaImage
         '
-        Me.formulaImage.BackgroundImage = CType(resources.GetObject("formulaImage.BackgroundImage"), System.Drawing.Image)
         Me.formulaImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.formulaImage.Location = New System.Drawing.Point(25, 25)
         Me.formulaImage.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)

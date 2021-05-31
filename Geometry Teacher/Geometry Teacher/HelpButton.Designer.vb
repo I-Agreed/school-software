@@ -23,7 +23,6 @@ Partial Class HelpButton
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(HelpButton))
         Me.helpHelp = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
@@ -32,7 +31,6 @@ Partial Class HelpButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.Transparent
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.DoubleBuffered = True

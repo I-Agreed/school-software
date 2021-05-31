@@ -23,7 +23,6 @@ Partial Class TestReviewItem
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TestReviewItem))
         Me.Title = New System.Windows.Forms.Label()
         Me.correctIcon = New System.Windows.Forms.PictureBox()
         Me.reviewItemHelp = New System.Windows.Forms.ToolTip(Me.components)
@@ -44,7 +43,6 @@ Partial Class TestReviewItem
         'correctIcon
         '
         Me.correctIcon.BackColor = System.Drawing.Color.Transparent
-        Me.correctIcon.BackgroundImage = CType(resources.GetObject("correctIcon.BackgroundImage"), System.Drawing.Image)
         Me.correctIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.correctIcon.Location = New System.Drawing.Point(120, 1)
         Me.correctIcon.Margin = New System.Windows.Forms.Padding(0)

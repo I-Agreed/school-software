@@ -32,9 +32,10 @@ Partial Class TestReviewItem
         'Title
         '
         Me.Title.Font = New System.Drawing.Font("Segoe UI", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Title.Location = New System.Drawing.Point(0, -1)
+        Me.Title.Location = New System.Drawing.Point(0, -2)
+        Me.Title.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Title.Name = "Title"
-        Me.Title.Size = New System.Drawing.Size(115, 30)
+        Me.Title.Size = New System.Drawing.Size(172, 45)
         Me.Title.TabIndex = 0
         Me.Title.Text = "Question 10:"
         Me.Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -44,24 +45,25 @@ Partial Class TestReviewItem
         '
         Me.correctIcon.BackColor = System.Drawing.Color.Transparent
         Me.correctIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.correctIcon.Location = New System.Drawing.Point(120, 1)
+        Me.correctIcon.Location = New System.Drawing.Point(180, 2)
         Me.correctIcon.Margin = New System.Windows.Forms.Padding(0)
         Me.correctIcon.Name = "correctIcon"
-        Me.correctIcon.Size = New System.Drawing.Size(27, 27)
+        Me.correctIcon.Size = New System.Drawing.Size(40, 40)
         Me.correctIcon.TabIndex = 1
         Me.correctIcon.TabStop = False
         Me.reviewItemHelp.SetToolTip(Me.correctIcon, "Click to show question")
         '
         'TestReviewItem
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.BackColor = System.Drawing.Color.Gainsboro
         Me.Controls.Add(Me.correctIcon)
         Me.Controls.Add(Me.Title)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "TestReviewItem"
-        Me.Size = New System.Drawing.Size(154, 30)
+        Me.Size = New System.Drawing.Size(231, 45)
         Me.reviewItemHelp.SetToolTip(Me, "Click to show question")
         CType(Me.correctIcon, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

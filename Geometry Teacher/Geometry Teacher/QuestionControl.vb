@@ -56,8 +56,8 @@
             Dim l = New Label
             With l
                 .AutoSize = False
-                .Location = New Point(0, 30 * i)
-                .Size = New Size(70, 25)
+                .Location = New Point(0, 30 * i * Root.scale)
+                .Size = New Size(100, 25)
                 .Text = shape.params(i) + ":"
                 .TextAlign = ContentAlignment.MiddleRight
                 .Font = font
@@ -67,10 +67,10 @@
 
             Dim l2 = New Label
             With l2
-                .AutoSize = False
-                .Location = New Point(70, 30 * i + 4)
-                .Size = New Size(40, 25)
                 .Text = values(i).ToString() + " cm"
+                .AutoSize = False
+                .Location = New Point(l.Location.X + l.Width, 30 * i * Root.scale + 2)
+                .Size = New Size(40, 25)
                 .TextAlign = ContentAlignment.MiddleLeft
                 .Font = font
             End With
@@ -87,7 +87,7 @@
         For t As Integer = 0 To shapeTextLocations(shape.name).Length - 1
             Dim lb As New Label()
             With lb
-                .Location = shapeTextLocations(shape.name)(t)
+                .Location = New Point(shapeTextLocations(shape.name)(t).X * Root.scale, shapeTextLocations(shape.name)(t).Y * Root.scale)
                 .Text = values(i2)
                 .Font = argLabelBase.Font
                 .Size = argLabelBase.Size

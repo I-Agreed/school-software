@@ -2,9 +2,9 @@
     Property number As Integer
     Property correct As Boolean
     Property testReviewWindow As TestReviewForm
-    Property selectedColour = Color.FromArgb(255, 0, 0)
-    Property hoverColour = Color.FromArgb(0, 255, 0)
-    Property defaultColor As Color
+    Property selectedColour = Color.Gray
+    Property hoverColour = Color.Silver
+    Property defaultColor As Color = Color.Gainsboro
     Property selected = False
 
     Public Sub New(n As Integer, c As Boolean, t As TestReviewForm)
@@ -16,7 +16,6 @@
         number = n
         correct = c
         testReviewWindow = t
-        defaultColor = BackColor
     End Sub
 
     Private Sub TestReviewItem_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -65,6 +64,6 @@
 
     Private Sub TestReviewItem_Paint(sender As Object, e As PaintEventArgs) Handles MyBase.Paint
         Dim g = e.Graphics
-        g.DrawLine(New Pen(Brushes.Black), New Point(0, 29), New Point(153, 29))
+        g.DrawLine(New Pen(Brushes.Black), New Point(0, 29 * Root.scale), New Point(153 * Root.scale, 29 * Root.scale))
     End Sub
 End Class

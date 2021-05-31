@@ -59,7 +59,7 @@
         For i As Integer = 0 To learnShape.params.Count - 1
             Dim l = New Label
             With l
-                .Location = New Point(0, 35 * i)
+                .Location = New Point(0, 35 * i * Root.scale)
                 .AutoSize = False
                 .Size = New Size(90, 30)
                 .Text = learnShape.params(i) + ":"
@@ -71,10 +71,10 @@
 
             Dim b = New ValidatedTextBox
             With b
-                .Location = New Point(90, 35 * i)
+                .Location = New Point(90, 35 * i * Root.scale)
                 .Size = New Size(40, 30)
                 .AllowedText = "1234567890"
-                .Text = "0"
+                .Text = "1"
                 .MaxLength = 2
                 .Font = formulaTitle.Font
             End With
@@ -84,7 +84,7 @@
 
             Dim l2 = New Label
             With l2
-                .Location = New Point(130, 35 * i)
+                .Location = New Point(130, 35 * i * Root.scale)
                 .AutoSize = False
                 .Size = New Size(50, 30)
                 .Text = "cm"
@@ -100,7 +100,7 @@
         For t As Integer = 0 To shapeTextLocations(learnShape.name).Length - 1
             Dim lb As New Label()
             With lb
-                .Location = New Point(shapeTextLocations(learnShape.name)(t).X * (262 / 175), shapeTextLocations(learnShape.name)(t).Y * (262 / 175))
+                .Location = New Point(shapeTextLocations(learnShape.name)(t).X * Root.scale, shapeTextLocations(learnShape.name)(t).Y * Root.scale)
                 .Text = "0"
                 .Font = argLabelBase.Font
                 .Size = argLabelBase.Size
@@ -112,6 +112,7 @@
             lb.BringToFront()
             shapeArgLabels.Add(lb)
         Next
+        inputUpdate()
     End Sub
 
     Private Sub inputUpdate()

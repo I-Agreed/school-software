@@ -1,4 +1,5 @@
 ﻿Public Class Root
+    Public scale As Double = (262 / 175)
     Public Shapes As New ShapeData()
     Public random As Random = New Random()
     Public calc As Calculator = New Calculator()

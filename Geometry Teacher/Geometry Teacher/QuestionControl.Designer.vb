@@ -40,10 +40,10 @@ Partial Class QuestionControl
         'shapeDisplay
         '
         Me.shapeDisplay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.shapeDisplay.Location = New System.Drawing.Point(25, 25)
-        Me.shapeDisplay.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.shapeDisplay.Location = New System.Drawing.Point(38, 38)
+        Me.shapeDisplay.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.shapeDisplay.Name = "shapeDisplay"
-        Me.shapeDisplay.Size = New System.Drawing.Size(175, 175)
+        Me.shapeDisplay.Size = New System.Drawing.Size(262, 262)
         Me.shapeDisplay.TabIndex = 0
         Me.shapeDisplay.TabStop = False
         '
@@ -51,10 +51,11 @@ Partial Class QuestionControl
         '
         Me.answerInput.AllowedText = "1234567890"
         Me.answerInput.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.answerInput.Location = New System.Drawing.Point(306, 213)
+        Me.answerInput.Location = New System.Drawing.Point(459, 320)
+        Me.answerInput.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.answerInput.MaxLength = 3
         Me.answerInput.Name = "answerInput"
-        Me.answerInput.Size = New System.Drawing.Size(100, 25)
+        Me.answerInput.Size = New System.Drawing.Size(148, 34)
         Me.answerInput.TabIndex = 1
         Me.answerInput.whitelist = True
         '
@@ -62,9 +63,10 @@ Partial Class QuestionControl
         '
         Me.formulaTitle.AutoSize = True
         Me.formulaTitle.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.formulaTitle.Location = New System.Drawing.Point(306, 191)
+        Me.formulaTitle.Location = New System.Drawing.Point(459, 286)
+        Me.formulaTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formulaTitle.Name = "formulaTitle"
-        Me.formulaTitle.Size = New System.Drawing.Size(97, 19)
+        Me.formulaTitle.Size = New System.Drawing.Size(147, 27)
         Me.formulaTitle.TabIndex = 2
         Me.formulaTitle.Text = "formulaTitle"
         '
@@ -72,18 +74,20 @@ Partial Class QuestionControl
         '
         Me.formulaDisplay.AutoSize = True
         Me.formulaDisplay.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.formulaDisplay.Location = New System.Drawing.Point(409, 191)
+        Me.formulaDisplay.Location = New System.Drawing.Point(614, 286)
+        Me.formulaDisplay.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formulaDisplay.Name = "formulaDisplay"
-        Me.formulaDisplay.Size = New System.Drawing.Size(66, 19)
+        Me.formulaDisplay.Size = New System.Drawing.Size(98, 27)
         Me.formulaDisplay.TabIndex = 3
         Me.formulaDisplay.Text = "formula"
         '
         'markIcon
         '
         Me.markIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.markIcon.Location = New System.Drawing.Point(306, 244)
+        Me.markIcon.Location = New System.Drawing.Point(459, 366)
+        Me.markIcon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.markIcon.Name = "markIcon"
-        Me.markIcon.Size = New System.Drawing.Size(48, 48)
+        Me.markIcon.Size = New System.Drawing.Size(72, 72)
         Me.markIcon.TabIndex = 13
         Me.markIcon.TabStop = False
         '
@@ -92,17 +96,19 @@ Partial Class QuestionControl
         Me.correctAnswer.AutoSize = True
         Me.correctAnswer.Font = New System.Drawing.Font("Rockwell", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.correctAnswer.ForeColor = System.Drawing.Color.Red
-        Me.correctAnswer.Location = New System.Drawing.Point(360, 268)
+        Me.correctAnswer.Location = New System.Drawing.Point(540, 402)
+        Me.correctAnswer.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.correctAnswer.Name = "correctAnswer"
-        Me.correctAnswer.Size = New System.Drawing.Size(93, 14)
+        Me.correctAnswer.Size = New System.Drawing.Size(138, 22)
         Me.correctAnswer.TabIndex = 14
         Me.correctAnswer.Text = "correctAnswer"
         '
         'argValuePanel
         '
-        Me.argValuePanel.Location = New System.Drawing.Point(302, 59)
+        Me.argValuePanel.Location = New System.Drawing.Point(459, 152)
+        Me.argValuePanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.argValuePanel.Name = "argValuePanel"
-        Me.argValuePanel.Size = New System.Drawing.Size(142, 87)
+        Me.argValuePanel.Size = New System.Drawing.Size(213, 130)
         Me.argValuePanel.TabIndex = 15
         '
         'correctFormula
@@ -110,9 +116,10 @@ Partial Class QuestionControl
         Me.correctFormula.AutoSize = True
         Me.correctFormula.Font = New System.Drawing.Font("Rockwell", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.correctFormula.ForeColor = System.Drawing.Color.Red
-        Me.correctFormula.Location = New System.Drawing.Point(360, 253)
+        Me.correctFormula.Location = New System.Drawing.Point(540, 380)
+        Me.correctFormula.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.correctFormula.Name = "correctFormula"
-        Me.correctFormula.Size = New System.Drawing.Size(57, 14)
+        Me.correctFormula.Size = New System.Drawing.Size(86, 22)
         Me.correctFormula.TabIndex = 16
         Me.correctFormula.Text = "a = b + c"
         '
@@ -120,25 +127,27 @@ Partial Class QuestionControl
         '
         Me.picPanel.Controls.Add(Me.argLabelBase)
         Me.picPanel.Controls.Add(Me.shapeDisplay)
-        Me.picPanel.Location = New System.Drawing.Point(31, 57)
+        Me.picPanel.Location = New System.Drawing.Point(46, 86)
+        Me.picPanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picPanel.Name = "picPanel"
-        Me.picPanel.Size = New System.Drawing.Size(225, 225)
+        Me.picPanel.Size = New System.Drawing.Size(338, 338)
         Me.picPanel.TabIndex = 17
         '
         'argLabelBase
         '
         Me.argLabelBase.BackColor = System.Drawing.Color.Transparent
         Me.argLabelBase.Font = New System.Drawing.Font("Rockwell", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.argLabelBase.Location = New System.Drawing.Point(179, 53)
+        Me.argLabelBase.Location = New System.Drawing.Point(268, 80)
+        Me.argLabelBase.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.argLabelBase.Name = "argLabelBase"
-        Me.argLabelBase.Size = New System.Drawing.Size(37, 23)
+        Me.argLabelBase.Size = New System.Drawing.Size(56, 34)
         Me.argLabelBase.TabIndex = 18
         Me.argLabelBase.Text = "10"
         Me.argLabelBase.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'QuestionControl
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.Transparent
         Me.Controls.Add(Me.picPanel)
@@ -151,7 +160,7 @@ Partial Class QuestionControl
         Me.Controls.Add(Me.answerInput)
         Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "QuestionControl"
-        Me.Size = New System.Drawing.Size(500, 358)
+        Me.Size = New System.Drawing.Size(750, 537)
         CType(Me.shapeDisplay, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.markIcon, System.ComponentModel.ISupportInitialize).EndInit()
         Me.picPanel.ResumeLayout(False)

@@ -40,7 +40,7 @@
         shapeTitle.Text = learnShape.name
         infoBox.Text = learnShape.info
         formulaImage.BackgroundImage = Root.imgs(learnShape.name.ToLower() + "SizeIcon")
-        Me.Text = "Learn about " + learnShape.name + "!"
+        Me.Text = "Learn about the " + learnShape.name + "!"
         If learnShape.type = "3D" Then
             formulaTitle.Text = "Volume formula:"
             formulaDisplay.Text = learnShape.formula
@@ -100,13 +100,14 @@
         For t As Integer = 0 To shapeTextLocations(learnShape.name).Length - 1
             Dim lb As New Label()
             With lb
-                .Location = shapeTextLocations(learnShape.name)(t)
+                .Location = New Point(shapeTextLocations(learnShape.name)(t).X * (262 / 175), shapeTextLocations(learnShape.name)(t).Y * (262 / 175))
                 .Text = "0"
                 .Font = argLabelBase.Font
                 .Size = argLabelBase.Size
                 .TextAlign = argLabelBase.TextAlign
                 .BackColor = Color.Transparent
             End With
+
             Me.imagePanel.Controls.Add(lb)
             lb.BringToFront()
             shapeArgLabels.Add(lb)

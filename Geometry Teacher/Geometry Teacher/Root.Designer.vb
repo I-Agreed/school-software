@@ -30,26 +30,27 @@ Partial Class Root
         '
         Me.toggleCalc.BackColor = System.Drawing.Color.Transparent
         Me.toggleCalc.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.toggleCalc.Location = New System.Drawing.Point(738, 388)
+        Me.toggleCalc.Location = New System.Drawing.Point(1107, 582)
+        Me.toggleCalc.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.toggleCalc.Name = "toggleCalc"
-        Me.toggleCalc.Size = New System.Drawing.Size(50, 50)
+        Me.toggleCalc.Size = New System.Drawing.Size(75, 75)
         Me.toggleCalc.TabIndex = 0
         Me.toggleCalc.tooltip = "Open Calculator"
         '
         'Root
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1200, 675)
         Me.Controls.Add(Me.toggleCalc)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.MaximumSize = New System.Drawing.Size(816, 489)
-        Me.MinimumSize = New System.Drawing.Size(816, 489)
+        Me.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.MaximumSize = New System.Drawing.Size(1222, 731)
+        Me.MinimumSize = New System.Drawing.Size(1222, 731)
         Me.Name = "Root"
         Me.Text = "Space Geometry!"
         Me.ResumeLayout(False)

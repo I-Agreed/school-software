@@ -44,10 +44,10 @@ Partial Class LearnShapeForm
         'formulaImage
         '
         Me.formulaImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.formulaImage.Location = New System.Drawing.Point(25, 25)
-        Me.formulaImage.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.formulaImage.Location = New System.Drawing.Point(38, 38)
+        Me.formulaImage.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.formulaImage.Name = "formulaImage"
-        Me.formulaImage.Size = New System.Drawing.Size(175, 175)
+        Me.formulaImage.Size = New System.Drawing.Size(262, 262)
         Me.formulaImage.TabIndex = 0
         Me.formulaImage.TabStop = False
         '
@@ -56,10 +56,10 @@ Partial Class LearnShapeForm
         Me.formulaTitle.AutoSize = True
         Me.formulaTitle.BackColor = System.Drawing.Color.Transparent
         Me.formulaTitle.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.formulaTitle.Location = New System.Drawing.Point(318, 217)
-        Me.formulaTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.formulaTitle.Location = New System.Drawing.Point(477, 326)
+        Me.formulaTitle.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.formulaTitle.Name = "formulaTitle"
-        Me.formulaTitle.Size = New System.Drawing.Size(131, 19)
+        Me.formulaTitle.Size = New System.Drawing.Size(198, 27)
         Me.formulaTitle.TabIndex = 1
         Me.formulaTitle.Text = "Volume formula:"
         '
@@ -68,10 +68,10 @@ Partial Class LearnShapeForm
         Me.formulaDisplay.AutoSize = True
         Me.formulaDisplay.BackColor = System.Drawing.Color.Transparent
         Me.formulaDisplay.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.formulaDisplay.Location = New System.Drawing.Point(457, 217)
-        Me.formulaDisplay.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.formulaDisplay.Location = New System.Drawing.Point(686, 326)
+        Me.formulaDisplay.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.formulaDisplay.Name = "formulaDisplay"
-        Me.formulaDisplay.Size = New System.Drawing.Size(66, 19)
+        Me.formulaDisplay.Size = New System.Drawing.Size(98, 27)
         Me.formulaDisplay.TabIndex = 2
         Me.formulaDisplay.Text = "formula"
         '
@@ -80,10 +80,10 @@ Partial Class LearnShapeForm
         Me.shapeTitle.AutoSize = True
         Me.shapeTitle.BackColor = System.Drawing.Color.Transparent
         Me.shapeTitle.Font = New System.Drawing.Font("Rockwell", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.shapeTitle.Location = New System.Drawing.Point(109, 24)
-        Me.shapeTitle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.shapeTitle.Location = New System.Drawing.Point(164, 36)
+        Me.shapeTitle.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.shapeTitle.Name = "shapeTitle"
-        Me.shapeTitle.Size = New System.Drawing.Size(192, 39)
+        Me.shapeTitle.Size = New System.Drawing.Size(289, 59)
         Me.shapeTitle.TabIndex = 3
         Me.shapeTitle.Text = "Shape Title"
         '
@@ -101,39 +101,40 @@ Partial Class LearnShapeForm
         Me.resultLabel.AutoSize = True
         Me.resultLabel.BackColor = System.Drawing.Color.Transparent
         Me.resultLabel.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.resultLabel.Location = New System.Drawing.Point(318, 357)
-        Me.resultLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.resultLabel.Location = New System.Drawing.Point(477, 536)
+        Me.resultLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.resultLabel.Name = "resultLabel"
-        Me.resultLabel.Size = New System.Drawing.Size(97, 19)
+        Me.resultLabel.Size = New System.Drawing.Size(143, 27)
         Me.resultLabel.TabIndex = 6
         Me.resultLabel.Text = "area = 0 cm"
         '
         'inputPanel
         '
         Me.inputPanel.BackColor = System.Drawing.Color.Transparent
-        Me.inputPanel.Location = New System.Drawing.Point(318, 247)
-        Me.inputPanel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.inputPanel.Location = New System.Drawing.Point(477, 370)
+        Me.inputPanel.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.inputPanel.Name = "inputPanel"
-        Me.inputPanel.Size = New System.Drawing.Size(210, 105)
+        Me.inputPanel.Size = New System.Drawing.Size(315, 158)
         Me.inputPanel.TabIndex = 7
         '
         'BackButton1
         '
         Me.BackButton1.BackColor = System.Drawing.Color.Transparent
         Me.BackButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BackButton1.Location = New System.Drawing.Point(9, 391)
+        Me.BackButton1.Location = New System.Drawing.Point(14, 586)
         Me.BackButton1.Margin = New System.Windows.Forms.Padding(0)
         Me.BackButton1.Name = "BackButton1"
-        Me.BackButton1.Size = New System.Drawing.Size(50, 50)
+        Me.BackButton1.Size = New System.Drawing.Size(75, 75)
         Me.BackButton1.TabIndex = 8
         '
         'infoBox
         '
         Me.infoBox.BackColor = System.Drawing.Color.Transparent
         Me.infoBox.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.infoBox.Location = New System.Drawing.Point(109, 63)
+        Me.infoBox.Location = New System.Drawing.Point(164, 94)
+        Me.infoBox.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.infoBox.Name = "infoBox"
-        Me.infoBox.Size = New System.Drawing.Size(493, 126)
+        Me.infoBox.Size = New System.Drawing.Size(740, 189)
         Me.infoBox.TabIndex = 9
         Me.infoBox.Text = resources.GetString("infoBox.Text")
         '
@@ -141,9 +142,10 @@ Partial Class LearnShapeForm
         '
         Me.argLabelBase.BackColor = System.Drawing.Color.Transparent
         Me.argLabelBase.Font = New System.Drawing.Font("Rockwell", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.argLabelBase.Location = New System.Drawing.Point(163, 87)
+        Me.argLabelBase.Location = New System.Drawing.Point(244, 130)
+        Me.argLabelBase.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.argLabelBase.Name = "argLabelBase"
-        Me.argLabelBase.Size = New System.Drawing.Size(37, 23)
+        Me.argLabelBase.Size = New System.Drawing.Size(56, 34)
         Me.argLabelBase.TabIndex = 10
         Me.argLabelBase.Text = "10"
         Me.argLabelBase.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -151,9 +153,10 @@ Partial Class LearnShapeForm
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(200, 279)
+        Me.Label2.Location = New System.Drawing.Point(300, 418)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(0, 15)
+        Me.Label2.Size = New System.Drawing.Size(0, 25)
         Me.Label2.TabIndex = 11
         '
         'imagePanel
@@ -161,9 +164,10 @@ Partial Class LearnShapeForm
         Me.imagePanel.BackColor = System.Drawing.Color.Transparent
         Me.imagePanel.Controls.Add(Me.argLabelBase)
         Me.imagePanel.Controls.Add(Me.formulaImage)
-        Me.imagePanel.Location = New System.Drawing.Point(86, 192)
+        Me.imagePanel.Location = New System.Drawing.Point(129, 288)
+        Me.imagePanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.imagePanel.Name = "imagePanel"
-        Me.imagePanel.Size = New System.Drawing.Size(225, 225)
+        Me.imagePanel.Size = New System.Drawing.Size(338, 338)
         Me.imagePanel.TabIndex = 12
         '
         'piHelp
@@ -175,18 +179,19 @@ Partial Class LearnShapeForm
         Me.piHelp.helpForms = CType(resources.GetObject("piHelp.helpForms"), System.Collections.Generic.Dictionary(Of String, System.Windows.Forms.Form))
         Me.piHelp.helpMessage = "What is Pi?"
         Me.piHelp.helpPage = "P"
-        Me.piHelp.Location = New System.Drawing.Point(530, 214)
+        Me.piHelp.Location = New System.Drawing.Point(795, 321)
+        Me.piHelp.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.piHelp.Name = "piHelp"
-        Me.piHelp.Size = New System.Drawing.Size(25, 25)
+        Me.piHelp.Size = New System.Drawing.Size(38, 38)
         Me.piHelp.TabIndex = 13
         '
         'LearnShapeForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1200, 675)
         Me.Controls.Add(Me.piHelp)
         Me.Controls.Add(Me.imagePanel)
         Me.Controls.Add(Me.Label2)
@@ -198,7 +203,7 @@ Partial Class LearnShapeForm
         Me.Controls.Add(Me.formulaDisplay)
         Me.Controls.Add(Me.formulaTitle)
         Me.DoubleBuffered = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.Name = "LearnShapeForm"
         Me.Text = "LearnShapeForm"
         CType(Me.formulaImage, System.ComponentModel.ISupportInitialize).EndInit()

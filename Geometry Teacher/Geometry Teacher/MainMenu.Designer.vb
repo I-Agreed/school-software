@@ -29,6 +29,8 @@ Partial Class MainMenu
         Me.open2D = New System.Windows.Forms.PictureBox()
         Me.open3D = New System.Windows.Forms.PictureBox()
         Me.ExitButton1 = New Geometry_Teacher.ExitButton()
+        Me.title = New System.Windows.Forms.Label()
+        Me.frameTimer = New System.Windows.Forms.Timer(Me.components)
         CType(Me.openTests, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.open2D, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.open3D, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -40,9 +42,10 @@ Partial Class MainMenu
         Me.openTests.BackgroundImage = CType(resources.GetObject("openTests.BackgroundImage"), System.Drawing.Image)
         Me.openTests.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.openTests.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.openTests.Location = New System.Drawing.Point(477, 269)
+        Me.openTests.Location = New System.Drawing.Point(716, 404)
+        Me.openTests.Margin = New System.Windows.Forms.Padding(4)
         Me.openTests.Name = "openTests"
-        Me.openTests.Size = New System.Drawing.Size(125, 125)
+        Me.openTests.Size = New System.Drawing.Size(188, 188)
         Me.openTests.TabIndex = 9
         Me.openTests.TabStop = False
         '
@@ -52,9 +55,10 @@ Partial Class MainMenu
         Me.open2D.BackgroundImage = CType(resources.GetObject("open2D.BackgroundImage"), System.Drawing.Image)
         Me.open2D.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.open2D.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.open2D.Location = New System.Drawing.Point(36, 48)
+        Me.open2D.Location = New System.Drawing.Point(54, 72)
+        Me.open2D.Margin = New System.Windows.Forms.Padding(4)
         Me.open2D.Name = "open2D"
-        Me.open2D.Size = New System.Drawing.Size(155, 155)
+        Me.open2D.Size = New System.Drawing.Size(232, 232)
         Me.open2D.TabIndex = 8
         Me.open2D.TabStop = False
         '
@@ -64,9 +68,10 @@ Partial Class MainMenu
         Me.open3D.BackgroundImage = CType(resources.GetObject("open3D.BackgroundImage"), System.Drawing.Image)
         Me.open3D.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.open3D.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.open3D.Location = New System.Drawing.Point(224, 171)
+        Me.open3D.Location = New System.Drawing.Point(336, 256)
+        Me.open3D.Margin = New System.Windows.Forms.Padding(4)
         Me.open3D.Name = "open3D"
-        Me.open3D.Size = New System.Drawing.Size(218, 133)
+        Me.open3D.Size = New System.Drawing.Size(327, 200)
         Me.open3D.TabIndex = 7
         Me.open3D.TabStop = False
         '
@@ -76,31 +81,49 @@ Partial Class MainMenu
         Me.ExitButton1.BackgroundImage = CType(resources.GetObject("ExitButton1.BackgroundImage"), System.Drawing.Image)
         Me.ExitButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ExitButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ExitButton1.Location = New System.Drawing.Point(12, 388)
-        Me.ExitButton1.Margin = New System.Windows.Forms.Padding(41, 19, 41, 19)
+        Me.ExitButton1.Location = New System.Drawing.Point(18, 582)
+        Me.ExitButton1.Margin = New System.Windows.Forms.Padding(62, 28, 62, 28)
         Me.ExitButton1.Name = "ExitButton1"
-        Me.ExitButton1.Size = New System.Drawing.Size(50, 50)
+        Me.ExitButton1.Size = New System.Drawing.Size(75, 75)
         Me.ExitButton1.TabIndex = 6
+        '
+        'title
+        '
+        Me.title.AutoSize = True
+        Me.title.BackColor = System.Drawing.Color.Transparent
+        Me.title.Font = New System.Drawing.Font("Magneto", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.title.ForeColor = System.Drawing.Color.DarkGray
+        Me.title.Location = New System.Drawing.Point(336, 101)
+        Me.title.Name = "title"
+        Me.title.Size = New System.Drawing.Size(723, 86)
+        Me.title.TabIndex = 10
+        Me.title.Text = "Space Geometry!"
+        '
+        'frameTimer
+        '
+        Me.frameTimer.Enabled = True
+        Me.frameTimer.Interval = 10
         '
         'MainMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1200, 675)
+        Me.Controls.Add(Me.title)
         Me.Controls.Add(Me.openTests)
         Me.Controls.Add(Me.open2D)
         Me.Controls.Add(Me.open3D)
         Me.Controls.Add(Me.ExitButton1)
         Me.DoubleBuffered = True
-        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MainMenu"
         Me.Text = "Space Geometry!"
         CType(Me.openTests, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.open2D, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.open3D, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -109,4 +132,6 @@ Partial Class MainMenu
     Friend WithEvents open2D As PictureBox
     Friend WithEvents open3D As PictureBox
     Friend WithEvents ExitButton1 As ExitButton
+    Friend WithEvents title As Label
+    Friend WithEvents frameTimer As Timer
 End Class

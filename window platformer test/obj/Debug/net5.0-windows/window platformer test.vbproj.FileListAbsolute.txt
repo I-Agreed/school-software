@@ -1,0 +1,18 @@
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\bin\Debug\net5.0-windows\window platformer test.exe
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\bin\Debug\net5.0-windows\window platformer test.deps.json
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\bin\Debug\net5.0-windows\window platformer test.runtimeconfig.json
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\bin\Debug\net5.0-windows\window platformer test.runtimeconfig.dev.json
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\bin\Debug\net5.0-windows\window platformer test.dll
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\bin\Debug\net5.0-windows\ref\window platformer test.dll
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\bin\Debug\net5.0-windows\window platformer test.pdb
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.vbprojAssemblyReference.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window_platformer_test.Form1.resources
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.vbproj.GenerateResource.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.AssemblyInfoInputs.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.AssemblyInfo.vb
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.vbproj.CoreCompileInputs.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.dll
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\ref\window platformer test.dll
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.pdb
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.genruntimeconfig.cache

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Player
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,27 +22,18 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Me.frame = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
-        'frame
-        '
-        Me.frame.Enabled = True
-        Me.frame.Interval = 17
-        '
-        'Form1
+        'Player
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.DoubleBuffered = True
+        Me.BackColor = System.Drawing.Color.OliveDrab
+        Me.ClientSize = New System.Drawing.Size(100, 100)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Player"
+        Me.Text = "Player"
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents frame As Timer
 End Class

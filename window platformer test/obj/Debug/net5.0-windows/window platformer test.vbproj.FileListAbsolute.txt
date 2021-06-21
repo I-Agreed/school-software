@@ -16,3 +16,4 @@ C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window plat
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\ref\window platformer test.dll
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.pdb
 C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window platformer test.genruntimeconfig.cache
+C:\Users\Brend\OneDrive\Desktop\school\2021\software\school-software\window platformer test\obj\Debug\net5.0-windows\window_platformer_test.Player.resources
